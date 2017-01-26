@@ -10,6 +10,12 @@ bgg
 	scrape the fuck out of bgg
 	build the bare bones app
 	write articles for seo
+		- dominion strategy principles
+		- one night ultimate werewolf strategy
+		- personal top games lists
+		- gen-con roundup
+		- 2017 games to be excited for
+		- 2016 spiel de jahre recap
 
 recommender
 	- input a game you like

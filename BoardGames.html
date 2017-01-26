@@ -186,67 +186,35 @@
       }
       start();
 
-      // const submitButton = document.querySelector('.submit-button'),
-      //       inputField = document.querySelector('.input'),
-      //       input = inputField.value;
-      // submitButton.onclick = submitRecommendationSeed;
 
-      class Game {
-        constructor (props) {
-          if (props.hasOwnProperty('name')) {
-            this.name = props.name;
-          }
-          if (props.hasOwnProperty('category')) {
-            this.category = props.category;
-          }
-          if (props.hasOwnProperty('rating')) {
-            this.rating = props.rating;
-          }
+      let games = [
+        {
+          name: "Puerto Rico",
+          category: "euro",
+          rating: 8.1,
+        },
+        {
+          name: "San Juan",
+          category: "euro",
+          rating: 7.3,
+        },
+        {
+          name: "Cards Against Humanity",
+          category: "party",
+          rating: 6.2,
+        },
+        {
+          name: "Agricola",
+          category: "euro",
+          rating: 8.1,
+        },
+        {
+          name: "Dominion",
+          // TODO: Should be strategy
+          category: "euro",
+          rating: 7.7,
         }
-      }
-
-      const PuertoRico = new Game({
-        name: "Puerto Rico",
-        category: "euro",
-        rating: 8.1,
-      });
-
-      const SanJuan = new Game({
-        name: "San Juan",
-        category: "euro",
-        rating: 7.3,
-      });
-
-      const CardsAgainstHumanity = new Game({
-        name: "Cards Against Humanity",
-        category: "party",
-        rating: 6.2,
-      });
-
-      const Agricola = new Game({
-        name: "Agricola",
-        category: "euro",
-        rating: 8.1,
-      });
-
-      const Dominion = new Game({
-        name: "Dominion",
-        // TODO: Should be strategy
-        category: "euro",
-        rating: 7.7,
-      });
-
-      let games = [];
-
-      function init() {
-        games = [];
-        games.push(PuertoRico);
-        games.push(SanJuan);
-        games.push(CardsAgainstHumanity);
-        games.push(Agricola);
-        games.push(Dominion);
-      }
-      init();
+      ];
 
     </script>
   </body>
