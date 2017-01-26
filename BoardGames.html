@@ -15,6 +15,7 @@
         text-align: center;
         border: 1px black dashed;
         font-family: Georgia;
+        padding: 5px;
       }
 
       .submit-button {
@@ -66,13 +67,39 @@
     <script type='text/babel'>
 
       const Recommendation = (props) => {
+        const findGame = (name) => {
+          let result = games.find(function(element, index, arr) {
+            return element.name.toLowerCase().replace(/\s/g, '') === name.toLowerCase().replace(/\s/g, '');
+          });
+          if (result) {
+            return result;
+          }
+          else {
+            // TODO: throw Exception
+            alert("Does not match any game in our system.");
+            return null;
+          }
+        };
+
+        const submitRecommendationSeed = () => {
+          const inputField = document.querySelector('.input-field');
+          const game = findGame(inputField.value);
+          if (game) {
+            ReactDOM.render(
+              <RecommendationResultsController
+                seedGame={game}
+                games={games} />,
+              document.querySelector('.crate'));
+          }
+        };
+
         // TODO: the input should have placeholder="Enter your favorite game here"
         return (
           <div className="recommendation">
             <h1>Recommendations</h1>
             <p>The 4th best online board game recommender.</p>
-            <input className="input" type="input" value="puerto rico"/>
-            <button className="submit-button">Submit</button>
+            <input className="input-field" type="input" value="puerto rico"/>
+            <button className="submit-button" onClick={submitRecommendationSeed}>Submit</button>
           </div>
         );
       }
@@ -102,6 +129,7 @@
           }
           else {
             alert("No more recs.");
+            start();
           }
         }
 
@@ -110,15 +138,24 @@
             <div className="recommendation-results">
               <GamesSimilarTo name={this.props.seedGame.name} />
               <RecommendationResult game={this.state.games[this.state.counter]} />
-              <NextButton onChange={this.getNextGame} />
+              <ControlPanel next={this.getNextGame} />
             </div>
           );
         }
       }
 
-      const NextButton = (props) => {
+      const ControlPanel = (props) => {
         return (
-          <button className="next-button" onClick={props.onChange}>Next</button>
+          <div className="control-panel">
+            <ControlButton name="Back" action={start} />
+            <ControlButton name="Next" action={props.next} />
+          </div>
+        );
+      }
+
+      const ControlButton = (props) => {
+        return (
+          <button className="control-button" onClick={props.action}>{props.name}</button>
         );
       }
 
@@ -144,37 +181,15 @@
         );
       }
 
-      ReactDOM.render(<Recommendation />, document.querySelector('.crate'));
-      const submitButton = document.querySelector('.submit-button'),
-            inputField = document.querySelector('.input'),
-            input = inputField.value;
-
-      submitButton.onclick = submitRecommendationSeed;
-
-      function submitRecommendationSeed() {
-        let game = findGame(inputField.value);
-        if (game) {
-          ReactDOM.render(
-            <RecommendationResultsController
-              seedGame={game}
-              games={games} />,
-            document.querySelector('.crate'));
-        }
+      function start() {
+        ReactDOM.render(<Recommendation />, document.querySelector('.crate'));
       }
+      start();
 
-      function findGame(name) {
-        let result = games.find(function(element, index, arr) {
-          return element.name.toLowerCase().replace(/\s/g, '') === name.toLowerCase().replace(/\s/g, '');
-        });
-        if (result) {
-          return result;
-        }
-        else {
-          // TODO: throw Exception
-          alert("Does not match any game in our system.");
-          return null;
-        }
-      }
+      // const submitButton = document.querySelector('.submit-button'),
+      //       inputField = document.querySelector('.input'),
+      //       input = inputField.value;
+      // submitButton.onclick = submitRecommendationSeed;
 
       class Game {
         constructor (props) {
