@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>React app</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/react/0.14.1/react.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/react/0.14.1/react-dom.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/babel-core/5.8.23/browser.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+
+    <style>
+      .crate {
+        width: 80%;
+        height: 80%;
+        margin: auto;
+        text-align: center;
+        border: 1px black dashed;
+        font-family: Georgia;
+      }
+
+      .submit-button {
+        margin: 10px auto;
+        display: block;
+      }
+
+      .recommendation-results .games-similar-to {
+        text-align: left;
+      }
+
+      .recommendation-results .games-similar-to span.game-name {
+        font-weight: bold;
+      }
+
+      .recommendation-result {
+        margin: 0 auto;
+        display: inline-block;
+      }
+
+      .game-title {
+        text-align: center;
+      }
+
+      .game-picture {
+        width: 200px;
+        height: 200px;
+        background-color: red;
+        border: 1px solid black;
+      }
+
+      .game-rating {
+        font-size: 20px;
+        font-weight: bold;
+        padding: 5px;
+      }
+
+      .next-button {
+        width: 50px;
+        height: 50px;
+        background-color: teal;
+      }
+
+    </style>
+
+  </head>
+  <body>
+    <div class="crate"></div>
+    <script type='text/babel'>
+
+      const Recommendation = (props) => {
+        // TODO: the input should have placeholder="Enter your favorite game here"
+        return (
+          <div className="recommendation">
+            <h1>Recommendations</h1>
+            <p>The 4th best online board game recommender.</p>
+            <input className="input" type="input" value="puerto rico"/>
+            <button className="submit-button">Submit</button>
+          </div>
+        );
+      }
+
+      class RecommendationResultsController extends React.Component {
+        constructor(props) {
+          super(props);
+          this.state = {
+            counter: 0,
+            games: props.games
+                    .filter(function(element, index, arr) {
+                      return element !== props.seedGame
+                        && element.category === props.seedGame.category;
+                    })
+                    .sort(function(a, b) {
+                      return a.rating > b.rating;
+                    }),
+          }
+          this.getNextGame = this.getNextGame.bind(this);
+        }
+
+        getNextGame() {
+          if (this.state.counter + 1 < this.state.games.length) {
+            this.setState({
+              counter: this.state.counter + 1
+            });
+          }
+          else {
+            alert("No more recs.");
+          }
+        }
+
+        render() {
+          return (
+            <div className="recommendation-results">
+              <GamesSimilarTo name={this.props.seedGame.name} />
+              <RecommendationResult game={this.state.games[this.state.counter]} />
+              <NextButton onChange={this.getNextGame} />
+            </div>
+          );
+        }
+      }
+
+      const NextButton = (props) => {
+        return (
+          <button className="next-button" onClick={props.onChange}>Next</button>
+        );
+      }
+
+      const GamesSimilarTo = (props) => {
+        return (
+          <p className="games-similar-to">
+            Results for games that are similar to <span className="game-name">{props.name}</span>.
+          </p>
+        );
+      }
+
+      const GameName = (props) => {
+        return <p className="game-name"></p>;
+      }
+
+      const RecommendationResult = (props) => {
+        return (
+          <div className="recommendation-result">
+            <h1 className="game-title">{props.game.name}</h1>
+            <div className="game-picture"></div>
+            <div className="game-rating">{props.game.rating}</div>
+          </div>
+        );
+      }
+
+      ReactDOM.render(<Recommendation />, document.querySelector('.crate'));
+      const submitButton = document.querySelector('.submit-button'),
+            inputField = document.querySelector('.input'),
+            input = inputField.value;
+
+      submitButton.onclick = submitRecommendationSeed;
+
+      function submitRecommendationSeed() {
+        let game = findGame(inputField.value);
+        if (game) {
+          ReactDOM.render(
+            <RecommendationResultsController
+              seedGame={game}
+              games={games} />,
+            document.querySelector('.crate'));
+        }
+      }
+
+      function findGame(name) {
+        let result = games.find(function(element, index, arr) {
+          return element.name.toLowerCase().replace(/\s/g, '') === name.toLowerCase().replace(/\s/g, '');
+        });
+        if (result) {
+          return result;
+        }
+        else {
+          // TODO: throw Exception
+          alert("Does not match any game in our system.");
+          return null;
+        }
+      }
+
+      class Game {
+        constructor (props) {
+          if (props.hasOwnProperty('name')) {
+            this.name = props.name;
+          }
+          if (props.hasOwnProperty('category')) {
+            this.category = props.category;
+          }
+          if (props.hasOwnProperty('rating')) {
+            this.rating = props.rating;
+          }
+        }
+      }
+
+      const PuertoRico = new Game({
+        name: "Puerto Rico",
+        category: "euro",
+        rating: 8.1,
+      });
+
+      const SanJuan = new Game({
+        name: "San Juan",
+        category: "euro",
+        rating: 7.3,
+      });
+
+      const CardsAgainstHumanity = new Game({
+        name: "Cards Against Humanity",
+        category: "party",
+        rating: 6.2,
+      });
+
+      const Agricola = new Game({
+        name: "Agricola",
+        category: "euro",
+        rating: 8.1,
+      });
+
+      const Dominion = new Game({
+        name: "Dominion",
+        // TODO: Should be strategy
+        category: "euro",
+        rating: 7.7,
+      });
+
+      let games = [];
+
+      function init() {
+        games = [];
+        games.push(PuertoRico);
+        games.push(SanJuan);
+        games.push(CardsAgainstHumanity);
+        games.push(Agricola);
+        games.push(Dominion);
+      }
+      init();
+
+    </script>
+  </body>
+</html>
