@@ -1,0 +1,205 @@
+{
+  "@objectid": "161936",
+  "yearpublished": "2015",
+  "minplayers": "2",
+  "maxplayers": "4",
+  "playingtime": "60",
+  "minplaytime": "60",
+  "maxplaytime": "60",
+  "age": "13",
+  "name": "Pandemic Legacy: Season 1",
+  "description": "Pandemic Legacy is a co-operative campaign game, with an overarching story-arc played through 12-24 sessions, depending on how well your group does at the game. At the beginning, the game starts very similar to basic Pandemic, in which your team of disease-fighting specialists races against the clock to travel around the world, treating disease hotspots while researching cures for each of four plagues before they get out of hand.<br/><br/>During a player's turn, they have four actions available, with which they may travel around in the world in various ways (sometimes needing to discard a card), build structures like research stations, treat diseases (removing one cube from the board; if all cubes of a color have been removed, the disease has been eradicated), trade cards with other players, or find a cure for a disease (requiring five cards of the same color to be discarded while at a research station). Each player has a unique role with special abilities to help them at these actions.<br/><br/>After a player has taken their actions, they draw two cards. These cards can include epidemic cards, which will place new disease cubes on the board, and can lead to an outbreak, spreading disease cubes even further. Outbreaks additionally increase the panic level of a city, making that city more expensive to travel to.<br/><br/>Each month in the game, you have two chances to achieve that month's objectives. If you succeed, you win and immediately move on to the next month. If you fail, you have a second chance, with more funding for beneficial event cards.<br/><br/>During the campaign, new rules and components will be introduced. These will sometimes require you to permanently alter the components of the game; this includes writing on cards, ripping up cards, and placing permanent stickers on components. Your characters can gain new skills, or detrimental effects. A character can even be lost entirely, at which point it's no longer available for play.<br/><br/>",
+  "thumbnail": "//cf.geekdo-images.com/images/pic2452831_t.png",
+  "image": "//cf.geekdo-images.com/images/pic2452831.png",
+  "boardgamepublisher": [
+    {
+      "@objectid": "538",
+      "#text": "Z-Man Games"
+    },
+    {
+      "@objectid": "15889",
+      "#text": "Asterion Press"
+    },
+    {
+      "@objectid": "2366",
+      "#text": "Devir"
+    },
+    {
+      "@objectid": "5657",
+      "#text": "Filosofia \u00c9ditions"
+    },
+    {
+      "@objectid": "8820",
+      "#text": "G\u00e9m Klub Kft."
+    },
+    {
+      "@objectid": "1391",
+      "#text": "Hobby Japan"
+    },
+    {
+      "@objectid": "15983",
+      "#text": "Jolly Thinkers"
+    },
+    {
+      "@objectid": "5812",
+      "#text": "Lacerta"
+    },
+    {
+      "@objectid": "9325",
+      "#text": "Lifestyle Boardgames Ltd"
+    },
+    {
+      "@objectid": "7992",
+      "#text": "MINDOK"
+    }
+  ],
+  "boardgamehonor": [
+    {
+      "@objectid": "34506",
+      "#text": "2015 Golden Geek Best Innovative Board Game Nominee"
+    },
+    {
+      "@objectid": "34781",
+      "#text": "2015 Golden Geek Best Innovative Board Game Winner"
+    },
+    {
+      "@objectid": "34510",
+      "#text": "2015 Golden Geek Best Strategy Board Game Nominee"
+    },
+    {
+      "@objectid": "34785",
+      "#text": "2015 Golden Geek Best Strategy Board Game Winner"
+    },
+    {
+      "@objectid": "34511",
+      "#text": "2015 Golden Geek Best Thematic Board Game Nominee"
+    },
+    {
+      "@objectid": "34786",
+      "#text": "2015 Golden Geek Best Thematic Board Game Winner"
+    },
+    {
+      "@objectid": "34500",
+      "#text": "2015 Golden Geek Board Game of the Year Nominee"
+    },
+    {
+      "@objectid": "34775",
+      "#text": "2015 Golden Geek Board Game of the Year Winner"
+    },
+    {
+      "@objectid": "37315",
+      "#text": "2015 Meeples' Choice Nominee"
+    },
+    {
+      "@objectid": "35436",
+      "#text": "2016 As d'Or - Jeu de l'Ann\u00e9e Expert Nominee"
+    },
+    {
+      "@objectid": "35437",
+      "#text": "2016 As d'Or - Jeu de l'Ann\u00e9e Expert Winner"
+    },
+    {
+      "@objectid": "36910",
+      "#text": "2016 Diana Jones Award for Excellence in Gaming Nominee"
+    },
+    {
+      "@objectid": "34820",
+      "#text": "2016 Goblin Magnifico Nominee"
+    },
+    {
+      "@objectid": "37769",
+      "#text": "2016 International Gamers Award - General Strategy: Multi-player Nominee"
+    },
+    {
+      "@objectid": "35994",
+      "#text": "2016 Kennerspiel des Jahres Nominee"
+    },
+    {
+      "@objectid": "36040",
+      "#text": "2016 SXSW Tabletop Game of the Year Winner"
+    }
+  ],
+  "boardgamemechanic": [
+    {
+      "@objectid": "2001",
+      "#text": "Action Point Allowance System"
+    },
+    {
+      "@objectid": "2023",
+      "#text": "Co-operative Play"
+    },
+    {
+      "@objectid": "2040",
+      "#text": "Hand Management"
+    },
+    {
+      "@objectid": "2078",
+      "#text": "Point to Point Movement"
+    },
+    {
+      "@objectid": "2004",
+      "#text": "Set Collection"
+    },
+    {
+      "@objectid": "2008",
+      "#text": "Trading"
+    },
+    {
+      "@objectid": "2015",
+      "#text": "Variable Player Powers"
+    }
+  ],
+  "boardgamefamily": [
+    {
+      "@objectid": "24281",
+      "#text": "Campaign Games"
+    },
+    {
+      "@objectid": "25404",
+      "#text": "Legacy"
+    },
+    {
+      "@objectid": "3430",
+      "#text": "Pandemic"
+    }
+  ],
+  "boardgamedesigner": [
+    {
+      "@objectid": "442",
+      "#text": "Rob Daviau"
+    },
+    {
+      "@objectid": "378",
+      "#text": "Matt Leacock"
+    }
+  ],
+  "boardgamecategory": [
+    {
+      "@objectid": "1084",
+      "#text": "Environmental"
+    },
+    {
+      "@objectid": "2145",
+      "#text": "Medical"
+    }
+  ],
+  "boardgameartist": {
+    "@objectid": "14057",
+    "#text": "Chris Quilliams"
+  },
+  "boardgamesubdomain": [
+    {
+      "@objectid": "5497",
+      "#text": "Strategy Games"
+    },
+    {
+      "@objectid": "5496",
+      "#text": "Thematic Games"
+    }
+  ],
+  "boardgameimplementation": {
+    "@objectid": "30549",
+    "@inbound": "true",
+    "#text": "Pandemic"
+  }
+}

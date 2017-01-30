@@ -16,6 +16,8 @@ bgg
 		- gen-con roundup
 		- 2017 games to be excited for
 		- 2016 spiel de jahre recap
+		- captain sonar rules addition
+		- tips for good first time captain sonar
 
 recommender
 	- input a game you like
@@ -76,3 +78,40 @@ OTHER FEATURES TO COME
   send mail to users to notify them of deals, games they might like (based on their collection and liked games), articles, events, local game stores
 
 	video presence -- game reviews, game playthroughs, dethrone Tabletop; events coverage
+
+
+
+REFERENCES
+http://stackoverflow.com/questions/31126596/saving-response-from-requests-to-file
+https://pythonadventures.wordpress.com/2014/12/29/xml-to-dict-xml-to-json/
+
+
+const nameToId = {
+	pandemic legacy: 161936
+}
+
+
+SCRAPER
+import requests
+import xmltodict
+import json
+
+page = requests.get('https://boardgamegeek.com/xmlapi/boardgame/161936')
+poop = json.dumps(xmltodict.parse(page.text), indent=2, separators=(',', ': '))
+butt = xmltodict.parse(page.text)
+
+# preprocess
+pee = butt['boardgames']['boardgame']
+pee.pop('boardgamepodcastepisode', None)
+pee.pop('boardgameversion', None)
+pee.pop('rpgpodcastepisode', None)
+pee.pop('poll', None)
+for i in range(len(pee['name'])):
+    if '@primary' in pee['name'][i]:
+		    pee['name'] = pee['name'][i]['#text']
+
+
+poop = json.dumps(pee, indent=2, separators=(',', ': '))
+file = open("out.json", "w")
+file.write(poop)
+file.close();
