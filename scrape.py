@@ -2,6 +2,10 @@ import requests
 import xmltodict
 import json
 
+### Given a list of gameIds, which is BGG's only way to access the full stats
+### of a game in its API, scrapes the XML data for the game and turns it into json.
+### REQUIRES PYTHON 3
+
 API_URL = "https://boardgamegeek.com/xmlapi/boardgame/";
 
 gameIds = [
@@ -33,13 +37,13 @@ for gameId in gameIds:
             break
     ## The following methods move the fields around so the JSON is better readable;
     ## Slight error right now using python 2.7.13: AttributeError: 'OrderedDict' object has no attribute 'move_to_end'
-    # pee.move_to_end('name',last=False)
-    # pee.move_to_end('boardgamemechanic')
-    # pee.move_to_end('boardgamepublisher')
-    # pee.move_to_end('boardgamehonor')
+    pee.move_to_end('name',last=False)
+    pee.move_to_end('boardgamemechanic')
+    pee.move_to_end('boardgamepublisher')
+    pee.move_to_end('boardgamehonor')
     ## Debated right now, description is pretty important but moving to end is a good way to delineate one entry from another
-    # pee.move_to_end('description')
-    # pee.move_to_end('@objectid', last=False)
+    pee.move_to_end('description')
+    pee.move_to_end('@objectid', last=False)
     objectToJson["gameList"].append(pee);
 
 poop = json.dumps(objectToJson, indent=2, separators=(',', ': '))

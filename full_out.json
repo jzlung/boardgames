@@ -1,0 +1,1203 @@
+{
+  "gameList": [
+    {
+      "@objectid": "161936",
+      "name": "Pandemic Legacy: Season 1",
+      "yearpublished": "2015",
+      "minplayers": "2",
+      "maxplayers": "4",
+      "playingtime": "60",
+      "minplaytime": "60",
+      "maxplaytime": "60",
+      "age": "13",
+      "thumbnail": "//cf.geekdo-images.com/images/pic2452831_t.png",
+      "image": "//cf.geekdo-images.com/images/pic2452831.png",
+      "boardgamefamily": [
+        {
+          "@objectid": "24281",
+          "#text": "Campaign Games"
+        },
+        {
+          "@objectid": "25404",
+          "#text": "Legacy"
+        },
+        {
+          "@objectid": "3430",
+          "#text": "Pandemic"
+        }
+      ],
+      "boardgamedesigner": [
+        {
+          "@objectid": "442",
+          "#text": "Rob Daviau"
+        },
+        {
+          "@objectid": "378",
+          "#text": "Matt Leacock"
+        }
+      ],
+      "boardgamecategory": [
+        {
+          "@objectid": "1084",
+          "#text": "Environmental"
+        },
+        {
+          "@objectid": "2145",
+          "#text": "Medical"
+        }
+      ],
+      "boardgameartist": {
+        "@objectid": "14057",
+        "#text": "Chris Quilliams"
+      },
+      "boardgamesubdomain": [
+        {
+          "@objectid": "5497",
+          "#text": "Strategy Games"
+        },
+        {
+          "@objectid": "5496",
+          "#text": "Thematic Games"
+        }
+      ],
+      "boardgameimplementation": {
+        "@objectid": "30549",
+        "@inbound": "true",
+        "#text": "Pandemic"
+      },
+      "boardgamemechanic": [
+        {
+          "@objectid": "2001",
+          "#text": "Action Point Allowance System"
+        },
+        {
+          "@objectid": "2023",
+          "#text": "Co-operative Play"
+        },
+        {
+          "@objectid": "2040",
+          "#text": "Hand Management"
+        },
+        {
+          "@objectid": "2078",
+          "#text": "Point to Point Movement"
+        },
+        {
+          "@objectid": "2004",
+          "#text": "Set Collection"
+        },
+        {
+          "@objectid": "2008",
+          "#text": "Trading"
+        },
+        {
+          "@objectid": "2015",
+          "#text": "Variable Player Powers"
+        }
+      ],
+      "boardgamepublisher": [
+        {
+          "@objectid": "538",
+          "#text": "Z-Man Games"
+        },
+        {
+          "@objectid": "15889",
+          "#text": "Asterion Press"
+        },
+        {
+          "@objectid": "2366",
+          "#text": "Devir"
+        },
+        {
+          "@objectid": "5657",
+          "#text": "Filosofia \u00c9ditions"
+        },
+        {
+          "@objectid": "8820",
+          "#text": "G\u00e9m Klub Kft."
+        },
+        {
+          "@objectid": "1391",
+          "#text": "Hobby Japan"
+        },
+        {
+          "@objectid": "15983",
+          "#text": "Jolly Thinkers"
+        },
+        {
+          "@objectid": "5812",
+          "#text": "Lacerta"
+        },
+        {
+          "@objectid": "9325",
+          "#text": "Lifestyle Boardgames Ltd"
+        },
+        {
+          "@objectid": "7992",
+          "#text": "MINDOK"
+        }
+      ],
+      "boardgamehonor": [
+        {
+          "@objectid": "34506",
+          "#text": "2015 Golden Geek Best Innovative Board Game Nominee"
+        },
+        {
+          "@objectid": "34781",
+          "#text": "2015 Golden Geek Best Innovative Board Game Winner"
+        },
+        {
+          "@objectid": "34510",
+          "#text": "2015 Golden Geek Best Strategy Board Game Nominee"
+        },
+        {
+          "@objectid": "34785",
+          "#text": "2015 Golden Geek Best Strategy Board Game Winner"
+        },
+        {
+          "@objectid": "34511",
+          "#text": "2015 Golden Geek Best Thematic Board Game Nominee"
+        },
+        {
+          "@objectid": "34786",
+          "#text": "2015 Golden Geek Best Thematic Board Game Winner"
+        },
+        {
+          "@objectid": "34500",
+          "#text": "2015 Golden Geek Board Game of the Year Nominee"
+        },
+        {
+          "@objectid": "34775",
+          "#text": "2015 Golden Geek Board Game of the Year Winner"
+        },
+        {
+          "@objectid": "37315",
+          "#text": "2015 Meeples' Choice Nominee"
+        },
+        {
+          "@objectid": "35436",
+          "#text": "2016 As d'Or - Jeu de l'Ann\u00e9e Expert Nominee"
+        },
+        {
+          "@objectid": "35437",
+          "#text": "2016 As d'Or - Jeu de l'Ann\u00e9e Expert Winner"
+        },
+        {
+          "@objectid": "36910",
+          "#text": "2016 Diana Jones Award for Excellence in Gaming Nominee"
+        },
+        {
+          "@objectid": "34820",
+          "#text": "2016 Goblin Magnifico Nominee"
+        },
+        {
+          "@objectid": "37769",
+          "#text": "2016 International Gamers Award - General Strategy: Multi-player Nominee"
+        },
+        {
+          "@objectid": "35994",
+          "#text": "2016 Kennerspiel des Jahres Nominee"
+        },
+        {
+          "@objectid": "36040",
+          "#text": "2016 SXSW Tabletop Game of the Year Winner"
+        }
+      ],
+      "description": "Pandemic Legacy is a co-operative campaign game, with an overarching story-arc played through 12-24 sessions, depending on how well your group does at the game. At the beginning, the game starts very similar to basic Pandemic, in which your team of disease-fighting specialists races against the clock to travel around the world, treating disease hotspots while researching cures for each of four plagues before they get out of hand.<br/><br/>During a player's turn, they have four actions available, with which they may travel around in the world in various ways (sometimes needing to discard a card), build structures like research stations, treat diseases (removing one cube from the board; if all cubes of a color have been removed, the disease has been eradicated), trade cards with other players, or find a cure for a disease (requiring five cards of the same color to be discarded while at a research station). Each player has a unique role with special abilities to help them at these actions.<br/><br/>After a player has taken their actions, they draw two cards. These cards can include epidemic cards, which will place new disease cubes on the board, and can lead to an outbreak, spreading disease cubes even further. Outbreaks additionally increase the panic level of a city, making that city more expensive to travel to.<br/><br/>Each month in the game, you have two chances to achieve that month's objectives. If you succeed, you win and immediately move on to the next month. If you fail, you have a second chance, with more funding for beneficial event cards.<br/><br/>During the campaign, new rules and components will be introduced. These will sometimes require you to permanently alter the components of the game; this includes writing on cards, ripping up cards, and placing permanent stickers on components. Your characters can gain new skills, or detrimental effects. A character can even be lost entirely, at which point it's no longer available for play.<br/><br/>"
+    },
+    {
+      "@objectid": "120677",
+      "name": "Terra Mystica",
+      "yearpublished": "2012",
+      "minplayers": "2",
+      "maxplayers": "5",
+      "playingtime": "150",
+      "minplaytime": "60",
+      "maxplaytime": "150",
+      "age": "12",
+      "thumbnail": "//cf.geekdo-images.com/images/pic1356616_t.jpg",
+      "image": "//cf.geekdo-images.com/images/pic1356616.jpg",
+      "boardgamecategory": [
+        {
+          "@objectid": "1015",
+          "#text": "Civilization"
+        },
+        {
+          "@objectid": "1021",
+          "#text": "Economic"
+        },
+        {
+          "@objectid": "1010",
+          "#text": "Fantasy"
+        },
+        {
+          "@objectid": "1086",
+          "#text": "Territory Building"
+        }
+      ],
+      "boardgamedesigner": [
+        {
+          "@objectid": "4300",
+          "#text": "Jens Dr\u00f6gem\u00fcller"
+        },
+        {
+          "@objectid": "4407",
+          "#text": "Helge Ostertag"
+        }
+      ],
+      "boardgameartist": {
+        "@objectid": "12484",
+        "#text": "Dennis Lohausen"
+      },
+      "boardgamesubdomain": {
+        "@objectid": "5497",
+        "#text": "Strategy Games"
+      },
+      "boardgamefamily": {
+        "@objectid": "26098",
+        "#text": "Terra Mystica"
+      },
+      "boardgameexpansion": [
+        {
+          "@objectid": "149890",
+          "#text": "Terra Mystica: 4 Town Tiles"
+        },
+        {
+          "@objectid": "150740",
+          "#text": "Terra Mystica: Bonus Card Shipping Value"
+        },
+        {
+          "@objectid": "184895",
+          "#text": "Terra Mystica: Erweiterungsbogen"
+        },
+        {
+          "@objectid": "161317",
+          "#text": "Terra Mystica: Fire & Ice"
+        }
+      ],
+      "boardgameaccessory": [
+        {
+          "@objectid": "151293",
+          "#text": "Terra Mystica: Acrylic Overlay Set"
+        },
+        {
+          "@objectid": "180724",
+          "#text": "Terra Mystica: Acrylic Overlay Set version 2"
+        },
+        {
+          "@objectid": "179551",
+          "#text": "Terra Mystica: e-Raptor organizer"
+        }
+      ],
+      "boardgamecompilation": {
+        "@objectid": "181289",
+        "#text": "Terra Mystica: Big Box"
+      },
+      "boardgamemechanic": [
+        {
+          "@objectid": "2081",
+          "#text": "Route/Network Building"
+        },
+        {
+          "@objectid": "2079",
+          "#text": "Variable Phase Order"
+        },
+        {
+          "@objectid": "2015",
+          "#text": "Variable Player Powers"
+        }
+      ],
+      "boardgamepublisher": [
+        {
+          "@objectid": "22380",
+          "#text": "Feuerland Spiele"
+        },
+        {
+          "@objectid": "9074",
+          "#text": "Bard Centrum Gier"
+        },
+        {
+          "@objectid": "10768",
+          "#text": "Cranio Creations"
+        },
+        {
+          "@objectid": "2366",
+          "#text": "Devir"
+        },
+        {
+          "@objectid": "5657",
+          "#text": "Filosofia \u00c9ditions"
+        },
+        {
+          "@objectid": "24298",
+          "#text": "FunBox Jogos"
+        },
+        {
+          "@objectid": "6275",
+          "#text": "HomoLudicus"
+        },
+        {
+          "@objectid": "7992",
+          "#text": "MINDOK"
+        },
+        {
+          "@objectid": "9234",
+          "#text": "Swan Panasia Co., Ltd."
+        },
+        {
+          "@objectid": "22609",
+          "#text": "\u30c6\u30f3\u30c7\u30a4\u30ba\u30b2\u30fc\u30e0\u30ba (Ten Days Games)"
+        },
+        {
+          "@objectid": "4932",
+          "#text": "White Goblin Games"
+        },
+        {
+          "@objectid": "538",
+          "#text": "Z-Man Games"
+        },
+        {
+          "@objectid": "1466",
+          "#text": "Zvezda"
+        }
+      ],
+      "boardgamehonor": [
+        {
+          "@objectid": "22903",
+          "#text": "2012 Jogo do Ano Nominee"
+        },
+        {
+          "@objectid": "22750",
+          "#text": "2012 Meeples' Choice Nominee"
+        },
+        {
+          "@objectid": "22803",
+          "#text": "2012 Meeples' Choice Winner"
+        },
+        {
+          "@objectid": "23486",
+          "#text": "2013 Deutscher Spiele Preis Best Family/Adult Game Winner"
+        },
+        {
+          "@objectid": "24512",
+          "#text": "2013 Golden Geek Best Board Game Artwork/Presentation Nominee"
+        },
+        {
+          "@objectid": "24517",
+          "#text": "2013 Golden Geek Best Innovative Board Game Nominee"
+        },
+        {
+          "@objectid": "24655",
+          "#text": "2013 Golden Geek Best Strategy Board Game Winner"
+        },
+        {
+          "@objectid": "24647",
+          "#text": "2013 Golden Geek Board Game of the Year Winner"
+        },
+        {
+          "@objectid": "24057",
+          "#text": "2013 Gouden Ludo Nominee"
+        },
+        {
+          "@objectid": "27158",
+          "#text": "2013 Gouden Ludo Winner"
+        },
+        {
+          "@objectid": "24498",
+          "#text": "2013 Hra roku Nominee"
+        },
+        {
+          "@objectid": "24497",
+          "#text": "2013 Hra roku Winner"
+        },
+        {
+          "@objectid": "23124",
+          "#text": "2013 International Gamers Award - General Strategy: Multi-player Nominee"
+        },
+        {
+          "@objectid": "25789",
+          "#text": "2013 International Gamers Award - General Strategy: Multi-player Winner"
+        },
+        {
+          "@objectid": "25028",
+          "#text": "2013 JUG Game of the Year Winner"
+        },
+        {
+          "@objectid": "24023",
+          "#text": "2013 Le Lys Passion\u00e9 Finalist"
+        },
+        {
+          "@objectid": "22256",
+          "#text": "2013 Nederlandse Spellenprijs Best Expert Game Nominee"
+        },
+        {
+          "@objectid": "22755",
+          "#text": "2013 Nederlandse Spellenprijs Best Expert Game Winner"
+        },
+        {
+          "@objectid": "22573",
+          "#text": "2013 Spiel des Jahres Kennerspiel des Jahres Recommended"
+        },
+        {
+          "@objectid": "24635",
+          "#text": "2013 Tric Trac d'Or Winner"
+        },
+        {
+          "@objectid": "24634",
+          "#text": "2013 Tric Trac Finalist"
+        },
+        {
+          "@objectid": "34951",
+          "#text": "2014 Diana Jones Award for Excellence in Gaming Nominee"
+        }
+      ],
+      "description": "In the land of Terra Mystica dwell 14 different peoples in seven landscapes, and each group is bound to its own home environment, so to develop and grow, they must terraform neighboring landscapes into their home environments in competition with the other groups.<br/><br/>Terra Mystica is a game with very little luck that rewards strategic planning. Each player governs one of the 14 groups. With subtlety and craft, the player must attempt to rule as great an area as possible and to develop that group's skills. There are also four religious cults in which you can progress. To do all that, each group has special skills and abilities.<br/><br/>Taking turns, the players execute their actions on the resources they have at their disposal. Different buildings allow players to develop different resources. Dwellings allow for more workers. Trading houses allow players to make money. Strongholds unlock a group's special ability, and temples allow you to develop religion and your terraforming and seafaring skills. Buildings can be upgraded: Dwellings can be developed into trading houses; trading houses can be developed into strongholds or temples; one temple can be upgraded to become a sanctuary. Each group must also develop its terraforming skill and its skill with boats to use the rivers. The groups in question, along with their home landscape, are:<br/><br/><br/>    Desert (Fakirs, Nomads)<br/>    Plains (Halflings, Cultists)<br/>    Swamp (Alchemists, Darklings)<br/>    Lake (Mermaids, Swarmlings)<br/>    Forest (Witches, Auren)<br/>    Mountain (Dwarves, Engineers)<br/>    Wasteland (Giants, Chaos Magicians)<br/><br/><br/>Proximity to other groups is a double-edged sword in Terra Mystica. Being close to other groups gives you extra power, but it also means that expanding is more difficult...<br/><br/>"
+    },
+    {
+      "@objectid": "173346",
+      "name": "7 Wonders Duel",
+      "yearpublished": "2015",
+      "minplayers": "2",
+      "maxplayers": "2",
+      "playingtime": "30",
+      "minplaytime": "30",
+      "maxplaytime": "30",
+      "age": "10",
+      "thumbnail": "//cf.geekdo-images.com/images/pic3376065_t.jpg",
+      "image": "//cf.geekdo-images.com/images/pic3376065.jpg",
+      "boardgamefamily": [
+        {
+          "@objectid": "17552",
+          "#text": "7 Wonders"
+        },
+        {
+          "@objectid": "39540",
+          "#text": "7 Wonders Duel"
+        },
+        {
+          "@objectid": "27646",
+          "#text": "Tableau Building"
+        }
+      ],
+      "boardgameaccessory": [
+        {
+          "@objectid": "186070",
+          "#text": "7 Wonders Duel:  Metal Conflict Pawn"
+        },
+        {
+          "@objectid": "196929",
+          "#text": "7 Wonders: Metal Coins"
+        }
+      ],
+      "boardgameexpansion": [
+        {
+          "@objectid": "202976",
+          "#text": "7 Wonders Duel: Pantheon"
+        },
+        {
+          "@objectid": "196339",
+          "#text": "7 Wonders Duel: Statue of Liberty"
+        },
+        {
+          "@objectid": "186069",
+          "#text": "7 Wonders Duel: The Messe Essen"
+        }
+      ],
+      "boardgamecategory": [
+        {
+          "@objectid": "1050",
+          "#text": "Ancient"
+        },
+        {
+          "@objectid": "1002",
+          "#text": "Card Game"
+        },
+        {
+          "@objectid": "1029",
+          "#text": "City Building"
+        },
+        {
+          "@objectid": "1015",
+          "#text": "Civilization"
+        }
+      ],
+      "boardgamedesigner": [
+        {
+          "@objectid": "9714",
+          "#text": "Antoine Bauza"
+        },
+        {
+          "@objectid": "1727",
+          "#text": "Bruno Cathala"
+        }
+      ],
+      "boardgameartist": {
+        "@objectid": "12016",
+        "#text": "Miguel Coimbra"
+      },
+      "boardgamesubdomain": {
+        "@objectid": "5497",
+        "#text": "Strategy Games"
+      },
+      "boardgameimplementation": {
+        "@objectid": "68448",
+        "@inbound": "true",
+        "#text": "7 Wonders"
+      },
+      "boardgamemechanic": [
+        {
+          "@objectid": "2041",
+          "#text": "Card Drafting"
+        },
+        {
+          "@objectid": "2004",
+          "#text": "Set Collection"
+        }
+      ],
+      "boardgamepublisher": [
+        {
+          "@objectid": "4384",
+          "#text": "Repos Production"
+        },
+        {
+          "@objectid": "23043",
+          "#text": "ADC Blackfire Entertainment"
+        },
+        {
+          "@objectid": "15889",
+          "#text": "Asterion Press"
+        },
+        {
+          "@objectid": "8820",
+          "#text": "G\u00e9m Klub Kft."
+        },
+        {
+          "@objectid": "6214",
+          "#text": "Kaissa Chess & Games"
+        },
+        {
+          "@objectid": "3218",
+          "#text": "Lautapelit.fi"
+        },
+        {
+          "@objectid": "9325",
+          "#text": "Lifestyle Boardgames Ltd"
+        },
+        {
+          "@objectid": "30399",
+          "#text": "Ludicus"
+        },
+        {
+          "@objectid": "7466",
+          "#text": "REBEL.pl"
+        }
+      ],
+      "boardgamehonor": [
+        {
+          "@objectid": "34501",
+          "#text": "2015 Golden Geek Best 2-Player Board Game Nominee"
+        },
+        {
+          "@objectid": "34776",
+          "#text": "2015 Golden Geek Best 2-Player Board Game Winner"
+        },
+        {
+          "@objectid": "34503",
+          "#text": "2015 Golden Geek Best Card Game Nominee"
+        },
+        {
+          "@objectid": "34778",
+          "#text": "2015 Golden Geek Best Card Game Winner"
+        },
+        {
+          "@objectid": "34510",
+          "#text": "2015 Golden Geek Best Strategy Board Game Nominee"
+        },
+        {
+          "@objectid": "34500",
+          "#text": "2015 Golden Geek Board Game of the Year Nominee"
+        },
+        {
+          "@objectid": "38070",
+          "#text": "2015 Jocul Anului \u00een Rom\u00e2nia Beginners Finalist"
+        },
+        {
+          "@objectid": "37315",
+          "#text": "2015 Meeples' Choice Nominee"
+        },
+        {
+          "@objectid": "34948",
+          "#text": "2015 Swiss Gamers Award Winner"
+        },
+        {
+          "@objectid": "35458",
+          "#text": "2015 Tric Trac d'Or Winner"
+        },
+        {
+          "@objectid": "35457",
+          "#text": "2015 Tric Trac Nominee"
+        },
+        {
+          "@objectid": "35436",
+          "#text": "2016 As d'Or - Jeu de l'Ann\u00e9e Expert Nominee"
+        },
+        {
+          "@objectid": "37770",
+          "#text": "2016 International Gamers Award - General Strategy: Two-players Nominee"
+        },
+        {
+          "@objectid": "37772",
+          "#text": "2016 International Gamers Award - General Strategy: Two-players Winner"
+        },
+        {
+          "@objectid": "35995",
+          "#text": "2016 Kennerspiel des Jahres Recommended"
+        }
+      ],
+      "description": "In many ways 7 Wonders Duel resembles its parent game 7 Wonders as over three ages players acquire cards that provide resources or advance their military or scientific development in order to develop a civilization and complete wonders.<br/><br/>What's different about 7 Wonders Duel is that, as the title suggests, the game is solely for two players, with the players not drafting cards simultaneously from hands of cards, but from a display of face-down and face-up cards arranged at the start of a round. A player can take a card only if it's not covered by any others, so timing comes into play as well as bonus moves that allow you to take a second card immediately. As in the original game, each card that you acquire can be built, discarded for coins, or used to construct a wonder.<br/><br/>Each player starts with four wonder cards, and the construction of a wonder provides its owner with a special ability. Only seven wonders can be built, though, so one player will end up short.<br/><br/>Players can purchase resources at any time from the bank, or they can gain cards during the game that provide them with resources for future building; as you acquire resources, the cost for those particular resources increases for your opponent, representing your dominance in this area.<br/><br/>A player can win 7 Wonders Duel in one of three ways: each time you acquire a military card, you advance the military marker toward your opponent's capital, giving you a bonus at certain positions; if you reach the opponent's capital, you win the game immediately; similarly, if you acquire any six of seven different scientific symbols, you achieve scientific dominance and win immediately; if none of these situations occurs, then the player with the most points at the end of the game wins.<br/><br/>"
+    },
+    {
+      "@objectid": "84876",
+      "name": "The Castles of Burgundy",
+      "yearpublished": "2011",
+      "minplayers": "2",
+      "maxplayers": "4",
+      "playingtime": "90",
+      "minplaytime": "30",
+      "maxplaytime": "90",
+      "age": "12",
+      "thumbnail": "//cf.geekdo-images.com/images/pic1176894_t.jpg",
+      "image": "//cf.geekdo-images.com/images/pic1176894.jpg",
+      "boardgamefamily": [
+        {
+          "@objectid": "58",
+          "#text": "Alea Big Box"
+        },
+        {
+          "@objectid": "11006",
+          "#text": "Country: France"
+        }
+      ],
+      "boardgameexpansion": [
+        {
+          "@objectid": "178656",
+          "#text": "Brettspiel Adventskalender 2015"
+        },
+        {
+          "@objectid": "110926",
+          "#text": "The Castles of Burgundy: 1st Expansion \u2013 New Player Boards"
+        },
+        {
+          "@objectid": "132477",
+          "#text": "The Castles of Burgundy: 2nd Expansion \u2013 New Hex Tiles"
+        },
+        {
+          "@objectid": "139160",
+          "#text": "The Castles of Burgundy: 3rd Expansion \u2013 German Board Game Championship Board 2013"
+        },
+        {
+          "@objectid": "150083",
+          "#text": "The Castles of Burgundy: 4th Expansion \u2013 Monastery Boards"
+        },
+        {
+          "@objectid": "166589",
+          "#text": "The Castles of Burgundy: 5th Expansion \u2013 Pleasure Garden"
+        },
+        {
+          "@objectid": "190225",
+          "#text": "The Castles of Burgundy: 6th Expansion - The Cloisters"
+        },
+        {
+          "@objectid": "193585",
+          "#text": "The Castles of Burgundy: 7th Expansion \u2013 German Board Game Championship Board 2016"
+        },
+        {
+          "@objectid": "214005",
+          "#text": "The Castles of Burgundy: Trade Routes"
+        },
+        {
+          "@objectid": "179205",
+          "#text": "Stadt Land Spielt Limitierter Sonderdruck Tag des Gesellschaftsspiels"
+        }
+      ],
+      "boardgameimplementation": {
+        "@objectid": "191977",
+        "#text": "The Castles of Burgundy: The Card Game"
+      },
+      "boardgameartist": [
+        {
+          "@objectid": "11886",
+          "#text": "Julien Delval"
+        },
+        {
+          "@objectid": "4959",
+          "#text": "Harald Lieske"
+        }
+      ],
+      "boardgamecategory": [
+        {
+          "@objectid": "1017",
+          "#text": "Dice"
+        },
+        {
+          "@objectid": "1035",
+          "#text": "Medieval"
+        },
+        {
+          "@objectid": "1086",
+          "#text": "Territory Building"
+        }
+      ],
+      "boardgamedesigner": {
+        "@objectid": "4958",
+        "#text": "Stefan Feld"
+      },
+      "boardgamesubdomain": {
+        "@objectid": "5497",
+        "#text": "Strategy Games"
+      },
+      "boardgamemechanic": [
+        {
+          "@objectid": "2072",
+          "#text": "Dice Rolling"
+        },
+        {
+          "@objectid": "2004",
+          "#text": "Set Collection"
+        },
+        {
+          "@objectid": "2020",
+          "#text": "Simultaneous Action Selection"
+        },
+        {
+          "@objectid": "2002",
+          "#text": "Tile Placement"
+        },
+        {
+          "@objectid": "2079",
+          "#text": "Variable Phase Order"
+        }
+      ],
+      "boardgamepublisher": [
+        {
+          "@objectid": "9",
+          "#text": "alea"
+        },
+        {
+          "@objectid": "34",
+          "#text": "Ravensburger Spieleverlag GmbH"
+        },
+        {
+          "@objectid": "9068",
+          "#text": "Broadway Toys LTD"
+        },
+        {
+          "@objectid": "18852",
+          "#text": "Hobby World"
+        }
+      ],
+      "boardgamehonor": [
+        {
+          "@objectid": "19681",
+          "#text": "2011 Deutscher Spiele Preis Best Family/Adult Game 2nd Place"
+        },
+        {
+          "@objectid": "13904",
+          "#text": "2011 Golden Geek Best Strategy Board Game Nominee"
+        },
+        {
+          "@objectid": "12828",
+          "#text": "2011 International Gamers Award - General Strategy; Multi-player Nominee"
+        },
+        {
+          "@objectid": "21413",
+          "#text": "2011 Meeples' Choice Award"
+        },
+        {
+          "@objectid": "10978",
+          "#text": "2011 Spiel des Jahres Recommended"
+        },
+        {
+          "@objectid": "18758",
+          "#text": "2011 Tric Trac de Bronze"
+        },
+        {
+          "@objectid": "18760",
+          "#text": "2011 Tric Trac Nominee"
+        },
+        {
+          "@objectid": "20145",
+          "#text": "2012 As d'Or - Jeu de l'Ann\u00e9e Nominee"
+        },
+        {
+          "@objectid": "19992",
+          "#text": "2012 Games Magazine Best New Advanced Strategy Game Winner"
+        },
+        {
+          "@objectid": "20126",
+          "#text": "2012 Golden Geek Best Strategy Board Game Nominee"
+        }
+      ],
+      "description": "The game is set in the Burgundy region of High Medieval France. Each player takes on the role of an aristocrat, originally controlling a small princedom. While playing they aim to build settlements and powerful castles, practice trade along the river, exploit silver mines, and use the knowledge of travelers.<br/><br/>The game is about players taking settlement tiles from the game board and placing them into their princedom which is represented by the player board. Every tile has a function that starts when the tile is placed in the princedom. The princedom itself consists of several regions, each of which demands its own type of settlement tile.<br/><br/>The game is played in five phases, each consisting of five rounds.  Each phase begins with the game board stocked with settlement tiles and goods tiles.  At the beginning of each round all players roll their two dice, and the player who is currently first in turn order rolls a goods placement die.  A goods tile is made available on the game board according to the roll of the goods die.  During each round players take their turns in the current turn order.  During his turn, a player may perform any two of the four possible types of actions: 1) take a settlement tile from the numbered depot on the game board corresponding to one of his dice and place it in the staging area on his player board, 2) take a settlement tile from the staging area of his player board to a space on his player board with a number matching one of his dice in the corresponding region for the type of tile and adjacent to a previously placed settlement tile, 3) deliver goods with a number matching one of his dice, or 4) take worker tokens which allow the player to adjust the roll of his dice.  In addition to these actions a player may buy a settlement tile from the central depot on the game board and place it in the staging area on his player board.  If an action triggers the award of victory points, those points are immediately recorded.  Each settlement tile offers a benefit, additional actions, additional money, advancement on the turn order track, more goods tiles, die roll adjustment or victory points.  Bonus victory points are awarded for filling a region with settlement tiles.<br/><br/>The game ends when the last player finishes his turn of the fifth round of the fifth phase.  Victory points are awarded for unused money and workers, and undelivered goods.  Bonus victory points from certain settlement tiles are awarded at the end of the game.<br/><br/>The player with the most victory points wins.<br/><br/>The rules include basic and advanced versions.<br/><br/>This game is #14 in the Alea big box series.<br/><br/>"
+    },
+    {
+      "@objectid": "2651",
+      "name": "Power Grid",
+      "yearpublished": "2004",
+      "minplayers": "2",
+      "maxplayers": "6",
+      "playingtime": "120",
+      "minplaytime": "120",
+      "maxplaytime": "120",
+      "age": "12",
+      "thumbnail": "//cf.geekdo-images.com/images/pic173153_t.jpg",
+      "image": "//cf.geekdo-images.com/images/pic173153.jpg",
+      "boardgameexpansion": [
+        {
+          "@objectid": "22355",
+          "#text": "Atolla Modulis (fan expansion for Funkenschlag)"
+        },
+        {
+          "@objectid": "178656",
+          "#text": "Brettspiel Adventskalender 2015"
+        },
+        {
+          "@objectid": "95670",
+          "#text": "Funkenschlag: Speicherkraftwerk"
+        },
+        {
+          "@objectid": "102696",
+          "#text": "Hoogspanning: Het Verre Oosten"
+        },
+        {
+          "@objectid": "75259",
+          "#text": "Hoogspanning: Uitbreiding Benelux"
+        },
+        {
+          "@objectid": "198280",
+          "#text": "Morphogea: a modular hex map for Power Grid (Fan expansion to Power Grid)"
+        },
+        {
+          "@objectid": "69179",
+          "#text": "New Plants (fan expansion for Power Grid)"
+        },
+        {
+          "@objectid": "147580",
+          "#text": "Power Grid: Australia & Indian Subcontinent"
+        },
+        {
+          "@objectid": "25031",
+          "#text": "Power Grid: Benelux/Central Europe"
+        },
+        {
+          "@objectid": "88491",
+          "#text": "Power Grid: BGG Promo Card Set"
+        },
+        {
+          "@objectid": "58708",
+          "#text": "Power Grid: Brazil/Spain & Portugal"
+        },
+        {
+          "@objectid": "37397",
+          "#text": "Power Grid: China/Korea"
+        },
+        {
+          "@objectid": "38997",
+          "#text": "Power Grid: Flux Generator"
+        },
+        {
+          "@objectid": "19319",
+          "#text": "Power Grid: France/Italy"
+        },
+        {
+          "@objectid": "190505",
+          "#text": "Power Grid: High-Voltage DC Transmission Passage C"
+        },
+        {
+          "@objectid": "131184",
+          "#text": "Power Grid: Northern Europe/United Kingdom & Ireland"
+        },
+        {
+          "@objectid": "131458",
+          "#text": "Power Grid: Oracle & Industrial Espionage"
+        },
+        {
+          "@objectid": "123122",
+          "#text": "Power Grid: Qu\u00e9bec/Baden-W\u00fcrttemberg"
+        },
+        {
+          "@objectid": "78727",
+          "#text": "Power Grid: Russia & Japan"
+        },
+        {
+          "@objectid": "108668",
+          "#text": "Power Grid: Supply Contract"
+        },
+        {
+          "@objectid": "147932",
+          "#text": "Power Grid: Taxes"
+        },
+        {
+          "@objectid": "29416",
+          "#text": "Power Grid: The New Power Plant Cards"
+        },
+        {
+          "@objectid": "108667",
+          "#text": "Power Grid: The Robots"
+        },
+        {
+          "@objectid": "181971",
+          "#text": "Power Grid: The Stock Companies"
+        },
+        {
+          "@objectid": "111144",
+          "#text": "Power Grid: Theme Park"
+        },
+        {
+          "@objectid": "55201",
+          "#text": "Power Grid: Transformer Station"
+        },
+        {
+          "@objectid": "84462",
+          "#text": "Power Grid: Warehouse"
+        }
+      ],
+      "boardgamefamily": [
+        {
+          "@objectid": "10643",
+          "#text": "Country: Germany"
+        },
+        {
+          "@objectid": "14835",
+          "#text": "Country: USA"
+        },
+        {
+          "@objectid": "150",
+          "#text": "Power Grid"
+        }
+      ],
+      "boardgameartist": [
+        {
+          "@objectid": "6206",
+          "#text": "Antonio Dessi"
+        },
+        {
+          "@objectid": "11827",
+          "#text": "Lars-Arne \"Maura\" Kalusky"
+        },
+        {
+          "@objectid": "4959",
+          "#text": "Harald Lieske"
+        }
+      ],
+      "boardgamecategory": [
+        {
+          "@objectid": "1021",
+          "#text": "Economic"
+        },
+        {
+          "@objectid": "1088",
+          "#text": "Industry / Manufacturing"
+        }
+      ],
+      "boardgamedesigner": {
+        "@objectid": "141",
+        "#text": "Friedemann Friese"
+      },
+      "boardgameimplementation": [
+        {
+          "@objectid": "33434",
+          "#text": "Funkenschlag: EnBW"
+        },
+        {
+          "@objectid": "39336",
+          "#text": "M\u00e9gawatts"
+        },
+        {
+          "@objectid": "155873",
+          "#text": "Power Grid deluxe: Europe/North America"
+        },
+        {
+          "@objectid": "203780",
+          "#text": "Power Grid: The Card Game"
+        },
+        {
+          "@objectid": "106662",
+          "#text": "Power Grid: The First Sparks"
+        },
+        {
+          "@objectid": "12166",
+          "@inbound": "true",
+          "#text": "Funkenschlag"
+        }
+      ],
+      "boardgamesubdomain": {
+        "@objectid": "5497",
+        "#text": "Strategy Games"
+      },
+      "boardgamemechanic": [
+        {
+          "@objectid": "2012",
+          "#text": "Auction/Bidding"
+        },
+        {
+          "@objectid": "2081",
+          "#text": "Route/Network Building"
+        }
+      ],
+      "boardgamepublisher": [
+        {
+          "@objectid": "58",
+          "#text": "2F-Spiele"
+        },
+        {
+          "@objectid": "267",
+          "#text": "999 Games"
+        },
+        {
+          "@objectid": "4304",
+          "#text": "Albi"
+        },
+        {
+          "@objectid": "3475",
+          "#text": "Arclight"
+        },
+        {
+          "@objectid": "7162",
+          "#text": "Brain Games"
+        },
+        {
+          "@objectid": "2973",
+          "#text": "Edge Entertainment"
+        },
+        {
+          "@objectid": "15605",
+          "#text": "Gal\u00e1pagos Jogos"
+        },
+        {
+          "@objectid": "8820",
+          "#text": "G\u00e9m Klub Kft."
+        },
+        {
+          "@objectid": "5530",
+          "#text": "Giochi Uniti"
+        },
+        {
+          "@objectid": "18852",
+          "#text": "Hobby World"
+        },
+        {
+          "@objectid": "8822",
+          "#text": "Ideal Board Games"
+        },
+        {
+          "@objectid": "6214",
+          "#text": "Kaissa Chess & Games"
+        },
+        {
+          "@objectid": "8291",
+          "#text": "Korea Boardgames co., Ltd."
+        },
+        {
+          "@objectid": "5812",
+          "#text": "Lacerta"
+        },
+        {
+          "@objectid": "3218",
+          "#text": "Lautapelit.fi"
+        },
+        {
+          "@objectid": "3",
+          "#text": "Rio Grande Games"
+        },
+        {
+          "@objectid": "7581",
+          "#text": "Runadrake"
+        },
+        {
+          "@objectid": "8313",
+          "#text": "Smart Ltd"
+        },
+        {
+          "@objectid": "3888",
+          "#text": "Stratelibri"
+        },
+        {
+          "@objectid": "9234",
+          "#text": "Swan Panasia Co., Ltd."
+        }
+      ],
+      "boardgamehonor": [
+        {
+          "@objectid": "12819",
+          "#text": "2004 International Gamers Awards - General Strategy; Multi-player Nominee"
+        },
+        {
+          "@objectid": "13420",
+          "#text": "2004 Meeples' Choice Award"
+        },
+        {
+          "@objectid": "13285",
+          "#text": "2004 Tric Trac d'Argent"
+        },
+        {
+          "@objectid": "13287",
+          "#text": "2004 Tric Trac Nominee"
+        },
+        {
+          "@objectid": "8653",
+          "#text": "2005 Spiel des Jahres Recommended"
+        },
+        {
+          "@objectid": "10364",
+          "#text": "2007 Gra Roku Game of the Year"
+        },
+        {
+          "@objectid": "13161",
+          "#text": "2007 Hra roku Nominee"
+        },
+        {
+          "@objectid": "13163",
+          "#text": "2008 Hra roku Nominee"
+        },
+        {
+          "@objectid": "12478",
+          "#text": "2008 Lucca Games Best Boardgame"
+        },
+        {
+          "@objectid": "12481",
+          "#text": "2008 Lucca Games Best Game Mechanics"
+        },
+        {
+          "@objectid": "12646",
+          "#text": "2008 Ludoteca Ideale Official Selection"
+        },
+        {
+          "@objectid": "19922",
+          "#text": "2009 Juego del A\u00f1o Finalist"
+        },
+        {
+          "@objectid": "21195",
+          "#text": "2010 Gouden Ludo Nominee"
+        },
+        {
+          "@objectid": "21194",
+          "#text": "2010 Gouden Ludo Winner"
+        },
+        {
+          "@objectid": "19004",
+          "#text": "2010 Japan Boardgame Prize Voters' Selection Nominee"
+        },
+        {
+          "@objectid": "13116",
+          "#text": "2010 Nederlandse Spellenprijs Nominee"
+        },
+        {
+          "@objectid": "13117",
+          "#text": "2010 Nederlandse Spellenprijs Winner"
+        }
+      ],
+      "description": "Power Grid is the updated release of the Friedemann Friese crayon game Funkenschlag. It removes the crayon aspect from network building in the original edition, while retaining the fluctuating commodities market like Crude: The Oil Game and an auction round intensity reminiscent of The Princes of Florence.<br/><br/>The objective of Power Grid is to supply the most cities with power when someone's network gains a predetermined size.  In this new edition, players mark pre-existing routes between cities for connection, and then bid against each other to purchase the power plants that they use to power their cities.<br/><br/>However, as plants are purchased, newer, more efficient plants become available, so by merely purchasing, you're potentially allowing others access to superior equipment.<br/><br/>Additionally, players must acquire the raw materials (coal, oil, garbage, and uranium) needed to power said plants (except for the 'renewable' windfarm/ solar plants, which require no fuel), making it a constant struggle to upgrade your plants for maximum efficiency while still retaining enough wealth to quickly expand your network to get the cheapest routes.<br/><br/>Power Grid FAQ - Please read this before posting a rules question!  Many questions are asked over and over in the forums... If you have a question about a specific expansion, please check the rules forum or FAQ for that particular expansion.<br/><br/>"
+    }
+  ]
+}

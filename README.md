@@ -84,34 +84,20 @@ OTHER FEATURES TO COME
 REFERENCES
 http://stackoverflow.com/questions/31126596/saving-response-from-requests-to-file
 https://pythonadventures.wordpress.com/2014/12/29/xml-to-dict-xml-to-json/
+https://github.com/ThaWeatherman/scrapers/blob/master/boardgamegeek/get_game_info.py
 
 
-const nameToId = {
-	pandemic legacy: 161936
-}
+COMPETITORS (use https://www.similarweb.com/ to test their numbers)
+http://www.boardgamesfor.me/
+https://boardgamegeek.com/wiki/page/Game_Recommendation_Algorithm
+https://www.reddit.com/r/boardgames/comments/29wdng/announcing_the_new_board_game_recommendation_bot/
+https://boardgamemenu.com/
+http://stechschulte.net/2015/02/01/board-game-recommendations.html
+http://meta.boardgames.stackexchange.com/questions/238/why-should-i-use-this-instead-of-boardgamegeek-whats-the-elevator-pitch
 
 
-SCRAPER
-import requests
-import xmltodict
-import json
-
-page = requests.get('https://boardgamegeek.com/xmlapi/boardgame/161936')
-poop = json.dumps(xmltodict.parse(page.text), indent=2, separators=(',', ': '))
-butt = xmltodict.parse(page.text)
-
-# preprocess
-pee = butt['boardgames']['boardgame']
-pee.pop('boardgamepodcastepisode', None)
-pee.pop('boardgameversion', None)
-pee.pop('rpgpodcastepisode', None)
-pee.pop('poll', None)
-for i in range(len(pee['name'])):
-    if '@primary' in pee['name'][i]:
-		    pee['name'] = pee['name'][i]['#text']
-
-
-poop = json.dumps(pee, indent=2, separators=(',', ': '))
-file = open("out.json", "w")
-file.write(poop)
-file.close();
+BGG
+https://www.boardgamegeek.com/xmlapi
+https://www.boardgamegeek.com/thread/99401/boardgamegeek-xml-api
+https://boardgamegeek.com/wiki/page/Data_Mining
+https://boardgamegeek.com/wiki/page/game_entry#
