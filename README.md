@@ -16,6 +16,7 @@ Board Game Recommender, and successor to BGG
 
 ## MVP
 - [ ] JS vs db for data storage
+- [ ] webpack
 - [ ] mailchimp
 - [ ] user accounts
 - [ ] users can rate games
@@ -42,7 +43,6 @@ Board Game Recommender, and successor to BGG
 * subscriptions to game news, forum posts, game families
 * authorities you can follow, what they are playing / posting about
 * raffles/contests
-
 
 ## DOCUMENTS
 

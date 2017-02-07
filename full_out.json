@@ -65,6 +65,51 @@
         "@inbound": "true",
         "#text": "Pandemic"
       },
+      "statistics": {
+        "@page": "1",
+        "ratings": {
+          "usersrated": "15037",
+          "average": "8.65931",
+          "bayesaverage": "8.46644",
+          "ranks": {
+            "rank": [
+              {
+                "@type": "subtype",
+                "@id": "1",
+                "@name": "boardgame",
+                "@friendlyname": "Board Game Rank",
+                "@value": "1",
+                "@bayesaverage": "8.46644"
+              },
+              {
+                "@type": "family",
+                "@id": "5496",
+                "@name": "thematic",
+                "@friendlyname": "Thematic Rank",
+                "@value": "1",
+                "@bayesaverage": "8.48497"
+              },
+              {
+                "@type": "family",
+                "@id": "5497",
+                "@name": "strategygames",
+                "@friendlyname": "Strategy Game Rank",
+                "@value": "1",
+                "@bayesaverage": "8.46704"
+              }
+            ]
+          },
+          "stddev": "1.77846",
+          "median": "0",
+          "owned": "24966",
+          "trading": "91",
+          "wanting": "610",
+          "wishing": "5513",
+          "numcomments": "2645",
+          "numweights": "573",
+          "averageweight": "2.808"
+        }
+      },
       "boardgamemechanic": [
         {
           "@objectid": "2001",
@@ -261,6 +306,43 @@
         "@objectid": "25613",
         "@inbound": "true",
         "#text": "Through the Ages: A Story of Civilization"
+      },
+      "statistics": {
+        "@page": "1",
+        "ratings": {
+          "usersrated": "5840",
+          "average": "8.78761",
+          "bayesaverage": "8.29753",
+          "ranks": {
+            "rank": [
+              {
+                "@type": "subtype",
+                "@id": "1",
+                "@name": "boardgame",
+                "@friendlyname": "Board Game Rank",
+                "@value": "2",
+                "@bayesaverage": "8.29753"
+              },
+              {
+                "@type": "family",
+                "@id": "5497",
+                "@name": "strategygames",
+                "@friendlyname": "Strategy Game Rank",
+                "@value": "2",
+                "@bayesaverage": "8.41045"
+              }
+            ]
+          },
+          "stddev": "1.46794",
+          "median": "0",
+          "owned": "7953",
+          "trading": "35",
+          "wanting": "967",
+          "wishing": "4313",
+          "numcomments": "912",
+          "numweights": "334",
+          "averageweight": "4.2844"
+        }
       },
       "boardgamemechanic": [
         {
@@ -460,6 +542,51 @@
           "#text": "Twilight Struggle: Turn Zero"
         }
       ],
+      "statistics": {
+        "@page": "1",
+        "ratings": {
+          "usersrated": "26013",
+          "average": "8.35836",
+          "bayesaverage": "8.22447",
+          "ranks": {
+            "rank": [
+              {
+                "@type": "subtype",
+                "@id": "1",
+                "@name": "boardgame",
+                "@friendlyname": "Board Game Rank",
+                "@value": "3",
+                "@bayesaverage": "8.22447"
+              },
+              {
+                "@type": "family",
+                "@id": "4664",
+                "@name": "wargames",
+                "@friendlyname": "War Game Rank",
+                "@value": "1",
+                "@bayesaverage": "8.30914"
+              },
+              {
+                "@type": "family",
+                "@id": "5497",
+                "@name": "strategygames",
+                "@friendlyname": "Strategy Game Rank",
+                "@value": "3",
+                "@bayesaverage": "8.21015"
+              }
+            ]
+          },
+          "stddev": "1.60259",
+          "median": "0",
+          "owned": "35088",
+          "trading": "493",
+          "wanting": "1318",
+          "wishing": "7155",
+          "numcomments": "6341",
+          "numweights": "2879",
+          "averageweight": "3.5255"
+        }
+      },
       "boardgamemechanic": [
         {
           "@objectid": "2080",
@@ -667,6 +794,43 @@
       "boardgamecompilation": {
         "@objectid": "181289",
         "#text": "Terra Mystica: Big Box"
+      },
+      "statistics": {
+        "@page": "1",
+        "ratings": {
+          "usersrated": "22206",
+          "average": "8.2947",
+          "bayesaverage": "8.15066",
+          "ranks": {
+            "rank": [
+              {
+                "@type": "subtype",
+                "@id": "1",
+                "@name": "boardgame",
+                "@friendlyname": "Board Game Rank",
+                "@value": "4",
+                "@bayesaverage": "8.15066"
+              },
+              {
+                "@type": "family",
+                "@id": "5497",
+                "@name": "strategygames",
+                "@friendlyname": "Strategy Game Rank",
+                "@value": "4",
+                "@bayesaverage": "8.16365"
+              }
+            ]
+          },
+          "stddev": "1.45107",
+          "median": "0",
+          "owned": "25735",
+          "trading": "232",
+          "wanting": "1746",
+          "wishing": "8501",
+          "numcomments": "3564",
+          "numweights": "1867",
+          "averageweight": "3.9336"
+        }
       },
       "boardgamemechanic": [
         {
@@ -885,6 +1049,43 @@
         "@inbound": "true",
         "#text": "Freedom in the Galaxy"
       },
+      "statistics": {
+        "@page": "1",
+        "ratings": {
+          "usersrated": "6696",
+          "average": "8.56539",
+          "bayesaverage": "8.11374",
+          "ranks": {
+            "rank": [
+              {
+                "@type": "subtype",
+                "@id": "1",
+                "@name": "boardgame",
+                "@friendlyname": "Board Game Rank",
+                "@value": "5",
+                "@bayesaverage": "8.11374"
+              },
+              {
+                "@type": "family",
+                "@id": "5496",
+                "@name": "thematic",
+                "@friendlyname": "Thematic Rank",
+                "@value": "2",
+                "@bayesaverage": "8.24282"
+              }
+            ]
+          },
+          "stddev": "1.36015",
+          "median": "0",
+          "owned": "11452",
+          "trading": "63",
+          "wanting": "1006",
+          "wishing": "4919",
+          "numcomments": "1199",
+          "numweights": "250",
+          "averageweight": "3.544"
+        }
+      },
       "boardgamemechanic": [
         {
           "@objectid": "2080",
@@ -1065,6 +1266,43 @@
         "@objectid": "5497",
         "#text": "Strategy Games"
       },
+      "statistics": {
+        "@page": "1",
+        "ratings": {
+          "usersrated": "11350",
+          "average": "8.37032",
+          "bayesaverage": "8.07821",
+          "ranks": {
+            "rank": [
+              {
+                "@type": "subtype",
+                "@id": "1",
+                "@name": "boardgame",
+                "@friendlyname": "Board Game Rank",
+                "@value": "6",
+                "@bayesaverage": "8.07821"
+              },
+              {
+                "@type": "family",
+                "@id": "5497",
+                "@name": "strategygames",
+                "@friendlyname": "Strategy Game Rank",
+                "@value": "5",
+                "@bayesaverage": "8.0924"
+              }
+            ]
+          },
+          "stddev": "1.35199",
+          "median": "0",
+          "owned": "15744",
+          "trading": "48",
+          "wanting": "1354",
+          "wishing": "7378",
+          "numcomments": "2283",
+          "numweights": "537",
+          "averageweight": "3.3091"
+        }
+      },
       "boardgamemechanic": [
         {
           "@objectid": "2080",
@@ -1213,6 +1451,43 @@
         "@objectid": "68448",
         "@inbound": "true",
         "#text": "7 Wonders"
+      },
+      "statistics": {
+        "@page": "1",
+        "ratings": {
+          "usersrated": "17066",
+          "average": "8.2069",
+          "bayesaverage": "8.0255",
+          "ranks": {
+            "rank": [
+              {
+                "@type": "subtype",
+                "@id": "1",
+                "@name": "boardgame",
+                "@friendlyname": "Board Game Rank",
+                "@value": "7",
+                "@bayesaverage": "8.0255"
+              },
+              {
+                "@type": "family",
+                "@id": "5497",
+                "@name": "strategygames",
+                "@friendlyname": "Strategy Game Rank",
+                "@value": "7",
+                "@bayesaverage": "8.03153"
+              }
+            ]
+          },
+          "stddev": "1.11621",
+          "median": "0",
+          "owned": "27117",
+          "trading": "132",
+          "wanting": "870",
+          "wishing": "4325",
+          "numcomments": "2626",
+          "numweights": "612",
+          "averageweight": "2.2533"
+        }
       },
       "boardgamemechanic": [
         {
@@ -1412,6 +1687,43 @@
         "@objectid": "31260",
         "@inbound": "true",
         "#text": "Agricola"
+      },
+      "statistics": {
+        "@page": "1",
+        "ratings": {
+          "usersrated": "15706",
+          "average": "8.19954",
+          "bayesaverage": "8.024",
+          "ranks": {
+            "rank": [
+              {
+                "@type": "subtype",
+                "@id": "1",
+                "@name": "boardgame",
+                "@friendlyname": "Board Game Rank",
+                "@value": "8",
+                "@bayesaverage": "8.024"
+              },
+              {
+                "@type": "family",
+                "@id": "5497",
+                "@name": "strategygames",
+                "@friendlyname": "Strategy Game Rank",
+                "@value": "6",
+                "@bayesaverage": "8.04091"
+              }
+            ]
+          },
+          "stddev": "1.36479",
+          "median": "0",
+          "owned": "20011",
+          "trading": "223",
+          "wanting": "1664",
+          "wishing": "7427",
+          "numcomments": "2661",
+          "numweights": "1076",
+          "averageweight": "3.7881"
+        }
       },
       "boardgamemechanic": [
         {
@@ -1613,6 +1925,43 @@
         "@objectid": "5497",
         "#text": "Strategy Games"
       },
+      "statistics": {
+        "@page": "1",
+        "ratings": {
+          "usersrated": "23496",
+          "average": "8.11202",
+          "bayesaverage": "7.99593",
+          "ranks": {
+            "rank": [
+              {
+                "@type": "subtype",
+                "@id": "1",
+                "@name": "boardgame",
+                "@friendlyname": "Board Game Rank",
+                "@value": "9",
+                "@bayesaverage": "7.99593"
+              },
+              {
+                "@type": "family",
+                "@id": "5497",
+                "@name": "strategygames",
+                "@friendlyname": "Strategy Game Rank",
+                "@value": "8",
+                "@bayesaverage": "7.99963"
+              }
+            ]
+          },
+          "stddev": "1.22747",
+          "median": "0",
+          "owned": "32264",
+          "trading": "344",
+          "wanting": "1015",
+          "wishing": "5094",
+          "numcomments": "4526",
+          "numweights": "1529",
+          "averageweight": "3.0445"
+        }
+      },
       "boardgamemechanic": [
         {
           "@objectid": "2072",
@@ -1798,6 +2147,43 @@
       "boardgameartist": {
         "@objectid": "11883",
         "#text": "Franz Vohwinkel"
+      },
+      "statistics": {
+        "@page": "1",
+        "ratings": {
+          "usersrated": "46555",
+          "average": "8.0991",
+          "bayesaverage": "7.99378",
+          "ranks": {
+            "rank": [
+              {
+                "@type": "subtype",
+                "@id": "1",
+                "@name": "boardgame",
+                "@friendlyname": "Board Game Rank",
+                "@value": "10",
+                "@bayesaverage": "7.99378"
+              },
+              {
+                "@type": "family",
+                "@id": "5497",
+                "@name": "strategygames",
+                "@friendlyname": "Strategy Game Rank",
+                "@value": "10",
+                "@bayesaverage": "7.97702"
+              }
+            ]
+          },
+          "stddev": "1.38648",
+          "median": "0",
+          "owned": "52887",
+          "trading": "912",
+          "wanting": "994",
+          "wishing": "6777",
+          "numcomments": "10021",
+          "numweights": "5464",
+          "averageweight": "3.2941"
+        }
       },
       "boardgamemechanic": {
         "@objectid": "2079",
@@ -2215,6 +2601,43 @@
         "@objectid": "5497",
         "#text": "Strategy Games"
       },
+      "statistics": {
+        "@page": "1",
+        "ratings": {
+          "usersrated": "46979",
+          "average": "8.06571",
+          "bayesaverage": "7.97568",
+          "ranks": {
+            "rank": [
+              {
+                "@type": "subtype",
+                "@id": "1",
+                "@name": "boardgame",
+                "@friendlyname": "Board Game Rank",
+                "@value": "11",
+                "@bayesaverage": "7.97568"
+              },
+              {
+                "@type": "family",
+                "@id": "5497",
+                "@name": "strategygames",
+                "@friendlyname": "Strategy Game Rank",
+                "@value": "12",
+                "@bayesaverage": "7.95682"
+              }
+            ]
+          },
+          "stddev": "1.56206",
+          "median": "0",
+          "owned": "56430",
+          "trading": "1012",
+          "wanting": "1063",
+          "wishing": "7669",
+          "numcomments": "10460",
+          "numweights": "5397",
+          "averageweight": "3.6313"
+        }
+      },
       "boardgamemechanic": [
         {
           "@objectid": "2043",
@@ -2525,6 +2948,43 @@
         "@objectid": "182028",
         "#text": "Through the Ages: A New Story of Civilization"
       },
+      "statistics": {
+        "@page": "1",
+        "ratings": {
+          "usersrated": "15124",
+          "average": "8.10714",
+          "bayesaverage": "7.94703",
+          "ranks": {
+            "rank": [
+              {
+                "@type": "subtype",
+                "@id": "1",
+                "@name": "boardgame",
+                "@friendlyname": "Board Game Rank",
+                "@value": "12",
+                "@bayesaverage": "7.94703"
+              },
+              {
+                "@type": "family",
+                "@id": "5497",
+                "@name": "strategygames",
+                "@friendlyname": "Strategy Game Rank",
+                "@value": "9",
+                "@bayesaverage": "7.98061"
+              }
+            ]
+          },
+          "stddev": "1.64569",
+          "median": "0",
+          "owned": "15675",
+          "trading": "667",
+          "wanting": "816",
+          "wishing": "4433",
+          "numcomments": "3658",
+          "numweights": "1713",
+          "averageweight": "4.167"
+        }
+      },
       "boardgamemechanic": [
         {
           "@objectid": "2001",
@@ -2735,6 +3195,51 @@
           "#text": "Thematic Games"
         }
       ],
+      "statistics": {
+        "@page": "1",
+        "ratings": {
+          "usersrated": "17331",
+          "average": "8.14024",
+          "bayesaverage": "7.94527",
+          "ranks": {
+            "rank": [
+              {
+                "@type": "subtype",
+                "@id": "1",
+                "@name": "boardgame",
+                "@friendlyname": "Board Game Rank",
+                "@value": "13",
+                "@bayesaverage": "7.94527"
+              },
+              {
+                "@type": "family",
+                "@id": "5496",
+                "@name": "thematic",
+                "@friendlyname": "Thematic Rank",
+                "@value": "8",
+                "@bayesaverage": "7.91613"
+              },
+              {
+                "@type": "family",
+                "@id": "5497",
+                "@name": "strategygames",
+                "@friendlyname": "Strategy Game Rank",
+                "@value": "14",
+                "@bayesaverage": "7.9318"
+              }
+            ]
+          },
+          "stddev": "1.60867",
+          "median": "0",
+          "owned": "25773",
+          "trading": "535",
+          "wanting": "1171",
+          "wishing": "6885",
+          "numcomments": "3772",
+          "numweights": "1719",
+          "averageweight": "4.196"
+        }
+      },
       "boardgamemechanic": [
         {
           "@objectid": "2041",
@@ -2950,6 +3455,51 @@
         "@inbound": "true",
         "#text": "Midgard"
       },
+      "statistics": {
+        "@page": "1",
+        "ratings": {
+          "usersrated": "11271",
+          "average": "8.19076",
+          "bayesaverage": "7.93234",
+          "ranks": {
+            "rank": [
+              {
+                "@type": "subtype",
+                "@id": "1",
+                "@name": "boardgame",
+                "@friendlyname": "Board Game Rank",
+                "@value": "15",
+                "@bayesaverage": "7.93234"
+              },
+              {
+                "@type": "family",
+                "@id": "5496",
+                "@name": "thematic",
+                "@friendlyname": "Thematic Rank",
+                "@value": "7",
+                "@bayesaverage": "7.94964"
+              },
+              {
+                "@type": "family",
+                "@id": "5497",
+                "@name": "strategygames",
+                "@friendlyname": "Strategy Game Rank",
+                "@value": "13",
+                "@bayesaverage": "7.93592"
+              }
+            ]
+          },
+          "stddev": "1.34769",
+          "median": "0",
+          "owned": "15357",
+          "trading": "101",
+          "wanting": "1212",
+          "wishing": "5407",
+          "numcomments": "1936",
+          "numweights": "465",
+          "averageweight": "2.8925"
+        }
+      },
       "boardgamemechanic": [
         {
           "@objectid": "2001",
@@ -3164,6 +3714,43 @@
         "@objectid": "9609",
         "@inbound": "true",
         "#text": "War of the Ring (first edition)"
+      },
+      "statistics": {
+        "@page": "1",
+        "ratings": {
+          "usersrated": "5843",
+          "average": "8.36147",
+          "bayesaverage": "7.93363",
+          "ranks": {
+            "rank": [
+              {
+                "@type": "subtype",
+                "@id": "1",
+                "@name": "boardgame",
+                "@friendlyname": "Board Game Rank",
+                "@value": "14",
+                "@bayesaverage": "7.93363"
+              },
+              {
+                "@type": "family",
+                "@id": "5496",
+                "@name": "thematic",
+                "@friendlyname": "Thematic Rank",
+                "@value": "3",
+                "@bayesaverage": "8.06656"
+              }
+            ]
+          },
+          "stddev": "1.55527",
+          "median": "0",
+          "owned": "9169",
+          "trading": "118",
+          "wanting": "785",
+          "wishing": "3508",
+          "numcomments": "1167",
+          "numweights": "376",
+          "averageweight": "3.984"
+        }
       },
       "boardgamemechanic": [
         {
@@ -3515,6 +4102,43 @@
           "#text": "Descent: Journeys in the Dark (Second Edition)"
         }
       ],
+      "statistics": {
+        "@page": "1",
+        "ratings": {
+          "usersrated": "10193",
+          "average": "8.23514",
+          "bayesaverage": "7.92298",
+          "ranks": {
+            "rank": [
+              {
+                "@type": "subtype",
+                "@id": "1",
+                "@name": "boardgame",
+                "@friendlyname": "Board Game Rank",
+                "@value": "16",
+                "@bayesaverage": "7.92298"
+              },
+              {
+                "@type": "family",
+                "@id": "5496",
+                "@name": "thematic",
+                "@friendlyname": "Thematic Rank",
+                "@value": "6",
+                "@bayesaverage": "7.96387"
+              }
+            ]
+          },
+          "stddev": "1.41537",
+          "median": "0",
+          "owned": "18151",
+          "trading": "201",
+          "wanting": "918",
+          "wishing": "4387",
+          "numcomments": "1618",
+          "numweights": "551",
+          "averageweight": "3.2686"
+        }
+      },
       "boardgamemechanic": [
         {
           "@objectid": "2072",
@@ -3790,6 +4414,43 @@
         "@objectid": "5497",
         "#text": "Strategy Games"
       },
+      "statistics": {
+        "@page": "1",
+        "ratings": {
+          "usersrated": "40932",
+          "average": "7.95249",
+          "bayesaverage": "7.87429",
+          "ranks": {
+            "rank": [
+              {
+                "@type": "subtype",
+                "@id": "1",
+                "@name": "boardgame",
+                "@friendlyname": "Board Game Rank",
+                "@value": "17",
+                "@bayesaverage": "7.87429"
+              },
+              {
+                "@type": "family",
+                "@id": "5497",
+                "@name": "strategygames",
+                "@friendlyname": "Strategy Game Rank",
+                "@value": "17",
+                "@bayesaverage": "7.86862"
+              }
+            ]
+          },
+          "stddev": "1.33269",
+          "median": "0",
+          "owned": "46586",
+          "trading": "688",
+          "wanting": "1255",
+          "wishing": "7366",
+          "numcomments": "8358",
+          "numweights": "4243",
+          "averageweight": "3.2875"
+        }
+      },
       "boardgamemechanic": [
         {
           "@objectid": "2012",
@@ -4000,6 +4661,10 @@
       ],
       "boardgameexpansion": [
         {
+          "@objectid": "217786",
+          "#text": "Eclipse:  Anticipation of the Elders"
+        },
+        {
           "@objectid": "184256",
           "#text": "Eclipse: Black Hole"
         },
@@ -4111,6 +4776,43 @@
       "boardgamedesigner": {
         "@objectid": "13000",
         "#text": "Touko Tahkokallio"
+      },
+      "statistics": {
+        "@page": "1",
+        "ratings": {
+          "usersrated": "19629",
+          "average": "8.02584",
+          "bayesaverage": "7.87163",
+          "ranks": {
+            "rank": [
+              {
+                "@type": "subtype",
+                "@id": "1",
+                "@name": "boardgame",
+                "@friendlyname": "Board Game Rank",
+                "@value": "18",
+                "@bayesaverage": "7.87163"
+              },
+              {
+                "@type": "family",
+                "@id": "5497",
+                "@name": "strategygames",
+                "@friendlyname": "Strategy Game Rank",
+                "@value": "19",
+                "@bayesaverage": "7.86644"
+              }
+            ]
+          },
+          "stddev": "1.48316",
+          "median": "0",
+          "owned": "21626",
+          "trading": "361",
+          "wanting": "1184",
+          "wishing": "6385",
+          "numcomments": "3784",
+          "numweights": "1666",
+          "averageweight": "3.6759"
+        }
       },
       "boardgamemechanic": [
         {
@@ -4320,6 +5022,43 @@
           "#text": "Terraforming Mars: Small Asteroid promo"
         }
       ],
+      "statistics": {
+        "@page": "1",
+        "ratings": {
+          "usersrated": "5082",
+          "average": "8.3519",
+          "bayesaverage": "7.86117",
+          "ranks": {
+            "rank": [
+              {
+                "@type": "subtype",
+                "@id": "1",
+                "@name": "boardgame",
+                "@friendlyname": "Board Game Rank",
+                "@value": "19",
+                "@bayesaverage": "7.86117"
+              },
+              {
+                "@type": "family",
+                "@id": "5497",
+                "@name": "strategygames",
+                "@friendlyname": "Strategy Game Rank",
+                "@value": "11",
+                "@bayesaverage": "7.96394"
+              }
+            ]
+          },
+          "stddev": "1.27265",
+          "median": "0",
+          "owned": "5088",
+          "trading": "12",
+          "wanting": "1648",
+          "wishing": "7871",
+          "numcomments": "1042",
+          "numweights": "228",
+          "averageweight": "3.2719"
+        }
+      },
       "boardgamemechanic": [
         {
           "@objectid": "2041",
@@ -4851,6 +5590,43 @@
         "@inbound": "true",
         "#text": "Netrunner"
       },
+      "statistics": {
+        "@page": "1",
+        "ratings": {
+          "usersrated": "19616",
+          "average": "8.02432",
+          "bayesaverage": "7.84331",
+          "ranks": {
+            "rank": [
+              {
+                "@type": "subtype",
+                "@id": "1",
+                "@name": "boardgame",
+                "@friendlyname": "Board Game Rank",
+                "@value": "20",
+                "@bayesaverage": "7.84331"
+              },
+              {
+                "@type": "family",
+                "@id": "4667",
+                "@name": "cgs",
+                "@friendlyname": "Customizable Rank",
+                "@value": "3",
+                "@bayesaverage": "7.88527"
+              }
+            ]
+          },
+          "stddev": "1.63013",
+          "median": "0",
+          "owned": "30886",
+          "trading": "1074",
+          "wanting": "544",
+          "wishing": "3619",
+          "numcomments": "4079",
+          "numweights": "1377",
+          "averageweight": "3.337"
+        }
+      },
       "boardgamemechanic": [
         {
           "@objectid": "2001",
@@ -5149,6 +5925,43 @@
         "@objectid": "4735",
         "#text": "Ignacy Trzewiczek"
       },
+      "statistics": {
+        "@page": "1",
+        "ratings": {
+          "usersrated": "16723",
+          "average": "8.02167",
+          "bayesaverage": "7.84109",
+          "ranks": {
+            "rank": [
+              {
+                "@type": "subtype",
+                "@id": "1",
+                "@name": "boardgame",
+                "@friendlyname": "Board Game Rank",
+                "@value": "21",
+                "@bayesaverage": "7.84109"
+              },
+              {
+                "@type": "family",
+                "@id": "5496",
+                "@name": "thematic",
+                "@friendlyname": "Thematic Rank",
+                "@value": "11",
+                "@bayesaverage": "7.83974"
+              }
+            ]
+          },
+          "stddev": "1.3987",
+          "median": "0",
+          "owned": "24794",
+          "trading": "427",
+          "wanting": "1653",
+          "wishing": "8165",
+          "numcomments": "3101",
+          "numweights": "1163",
+          "averageweight": "3.6887"
+        }
+      },
       "boardgamemechanic": [
         {
           "@objectid": "2023",
@@ -5356,6 +6169,43 @@
       "boardgamesubdomain": {
         "@objectid": "5498",
         "#text": "Party Games"
+      },
+      "statistics": {
+        "@page": "1",
+        "ratings": {
+          "usersrated": "26313",
+          "average": "7.94571",
+          "bayesaverage": "7.836",
+          "ranks": {
+            "rank": [
+              {
+                "@type": "subtype",
+                "@id": "1",
+                "@name": "boardgame",
+                "@friendlyname": "Board Game Rank",
+                "@value": "22",
+                "@bayesaverage": "7.836"
+              },
+              {
+                "@type": "family",
+                "@id": "5498",
+                "@name": "partygames",
+                "@friendlyname": "Party Game Rank",
+                "@value": "1",
+                "@bayesaverage": "7.86205"
+              }
+            ]
+          },
+          "stddev": "1.2249",
+          "median": "0",
+          "owned": "42408",
+          "trading": "287",
+          "wanting": "423",
+          "wishing": "3496",
+          "numcomments": "3889",
+          "numweights": "889",
+          "averageweight": "1.3768"
+        }
       },
       "boardgamemechanic": [
         {
@@ -5615,6 +6465,43 @@
         "@objectid": "5497",
         "#text": "Strategy Games"
       },
+      "statistics": {
+        "@page": "1",
+        "ratings": {
+          "usersrated": "18539",
+          "average": "7.93903",
+          "bayesaverage": "7.81858",
+          "ranks": {
+            "rank": [
+              {
+                "@type": "subtype",
+                "@id": "1",
+                "@name": "boardgame",
+                "@friendlyname": "Board Game Rank",
+                "@value": "23",
+                "@bayesaverage": "7.81858"
+              },
+              {
+                "@type": "family",
+                "@id": "5497",
+                "@name": "strategygames",
+                "@friendlyname": "Strategy Game Rank",
+                "@value": "21",
+                "@bayesaverage": "7.83787"
+              }
+            ]
+          },
+          "stddev": "1.43718",
+          "median": "0",
+          "owned": "19340",
+          "trading": "241",
+          "wanting": "1540",
+          "wishing": "6270",
+          "numcomments": "3932",
+          "numweights": "1563",
+          "averageweight": "3.7588"
+        }
+      },
       "boardgamemechanic": {
         "@objectid": "2082",
         "#text": "Worker Placement"
@@ -5833,6 +6720,43 @@
         "@objectid": "6",
         "#text": "Martin Wallace"
       },
+      "statistics": {
+        "@page": "1",
+        "ratings": {
+          "usersrated": "10413",
+          "average": "8.00702",
+          "bayesaverage": "7.81163",
+          "ranks": {
+            "rank": [
+              {
+                "@type": "subtype",
+                "@id": "1",
+                "@name": "boardgame",
+                "@friendlyname": "Board Game Rank",
+                "@value": "24",
+                "@bayesaverage": "7.81163"
+              },
+              {
+                "@type": "family",
+                "@id": "5497",
+                "@name": "strategygames",
+                "@friendlyname": "Strategy Game Rank",
+                "@value": "18",
+                "@bayesaverage": "7.8683"
+              }
+            ]
+          },
+          "stddev": "1.45843",
+          "median": "0",
+          "owned": "10891",
+          "trading": "227",
+          "wanting": "809",
+          "wishing": "3425",
+          "numcomments": "2575",
+          "numweights": "1074",
+          "averageweight": "3.8734"
+        }
+      },
       "boardgamemechanic": [
         {
           "@objectid": "2040",
@@ -5927,52 +6851,6 @@
           "#text": "Science Fiction"
         }
       ],
-      "boardgameexpansion": [
-        {
-          "@objectid": "201669",
-          "#text": "Batman: Year One (Fan Expansion to T.I.M.E Stories)"
-        },
-        {
-          "@objectid": "205847",
-          "#text": "Pariah Missouri (fan expansion to T.I.M.E Stories)"
-        },
-        {
-          "@objectid": "200443",
-          "#text": "Switching Gears (fan expansion to T.I.M.E Stories)"
-        },
-        {
-          "@objectid": "189035",
-          "#text": "T.I.M.E Stories: A Prophecy of Dragons"
-        },
-        {
-          "@objectid": "195752",
-          "#text": "T.I.M.E Stories: Beacon Promo"
-        },
-        {
-          "@objectid": "193527",
-          "#text": "T.I.M.E Stories: Expedition: Endurance"
-        },
-        {
-          "@objectid": "213099",
-          "#text": "T.I.M.E Stories: Lumen Fidei"
-        },
-        {
-          "@objectid": "213295",
-          "#text": "T.I.M.E Stories: Special Reward promo"
-        },
-        {
-          "@objectid": "180585",
-          "#text": "T.I.M.E Stories: The Marcy Case"
-        },
-        {
-          "@objectid": "193664",
-          "#text": "T.I.M.E Stories: Tric Trac TV"
-        },
-        {
-          "@objectid": "189686",
-          "#text": "T.I.M.E Stories: Under the Mask"
-        }
-      ],
       "boardgameartist": [
         {
           "@objectid": "17988",
@@ -6001,6 +6879,52 @@
           "#text": "Manuel Rozoy"
         }
       ],
+      "boardgameexpansion": [
+        {
+          "@objectid": "205847",
+          "#text": "Pariah Missouri (fan expansion to T.I.M.E Stories)"
+        },
+        {
+          "@objectid": "189035",
+          "#text": "T.I.M.E Stories: A Prophecy of Dragons"
+        },
+        {
+          "@objectid": "201669",
+          "#text": "T.I.M.E Stories: Batman: Year One (fan expansion)"
+        },
+        {
+          "@objectid": "195752",
+          "#text": "T.I.M.E Stories: Beacon Promo"
+        },
+        {
+          "@objectid": "193527",
+          "#text": "T.I.M.E Stories: Expedition: Endurance"
+        },
+        {
+          "@objectid": "213099",
+          "#text": "T.I.M.E Stories: Lumen Fidei"
+        },
+        {
+          "@objectid": "213295",
+          "#text": "T.I.M.E Stories: Special Reward promo"
+        },
+        {
+          "@objectid": "200443",
+          "#text": "T.I.M.E Stories: Switching Gears (fan expansion)"
+        },
+        {
+          "@objectid": "180585",
+          "#text": "T.I.M.E Stories: The Marcy Case"
+        },
+        {
+          "@objectid": "193664",
+          "#text": "T.I.M.E Stories: Tric Trac TV"
+        },
+        {
+          "@objectid": "189686",
+          "#text": "T.I.M.E Stories: Under the Mask"
+        }
+      ],
       "boardgamefamily": [
         {
           "@objectid": "35759",
@@ -6018,6 +6942,43 @@
       "boardgamesubdomain": {
         "@objectid": "5496",
         "#text": "Thematic Games"
+      },
+      "statistics": {
+        "@page": "1",
+        "ratings": {
+          "usersrated": "8581",
+          "average": "8.09239",
+          "bayesaverage": "7.8039",
+          "ranks": {
+            "rank": [
+              {
+                "@type": "subtype",
+                "@id": "1",
+                "@name": "boardgame",
+                "@friendlyname": "Board Game Rank",
+                "@value": "25",
+                "@bayesaverage": "7.8039"
+              },
+              {
+                "@type": "family",
+                "@id": "5496",
+                "@name": "thematic",
+                "@friendlyname": "Thematic Rank",
+                "@value": "9",
+                "@bayesaverage": "7.88233"
+              }
+            ]
+          },
+          "stddev": "1.62206",
+          "median": "0",
+          "owned": "14399",
+          "trading": "159",
+          "wanting": "1030",
+          "wishing": "4961",
+          "numcomments": "1548",
+          "numweights": "266",
+          "averageweight": "2.6767"
+        }
       },
       "boardgamemechanic": [
         {
@@ -6198,6 +7159,43 @@
       "boardgameartist": {
         "@objectid": "11961",
         "#text": "Milan Vavro\u0148"
+      },
+      "statistics": {
+        "@page": "1",
+        "ratings": {
+          "usersrated": "16896",
+          "average": "7.94641",
+          "bayesaverage": "7.79948",
+          "ranks": {
+            "rank": [
+              {
+                "@type": "subtype",
+                "@id": "1",
+                "@name": "boardgame",
+                "@friendlyname": "Board Game Rank",
+                "@value": "26",
+                "@bayesaverage": "7.79948"
+              },
+              {
+                "@type": "family",
+                "@id": "5497",
+                "@name": "strategygames",
+                "@friendlyname": "Strategy Game Rank",
+                "@value": "23",
+                "@bayesaverage": "7.81992"
+              }
+            ]
+          },
+          "stddev": "1.25869",
+          "median": "0",
+          "owned": "19255",
+          "trading": "160",
+          "wanting": "1223",
+          "wishing": "5090",
+          "numcomments": "2821",
+          "numweights": "1125",
+          "averageweight": "3.608"
+        }
       },
       "boardgamemechanic": [
         {
@@ -6464,7 +7462,7 @@
       ],
       "boardgameaccessory": {
         "@objectid": "218986",
-        "#text": "Mountains of Madness: Second Edition \u2013 Dice Pack"
+        "#text": "Mansions of Madness: Second Edition \u2013 Dice Pack"
       },
       "boardgamesubdomain": {
         "@objectid": "5496",
@@ -6478,6 +7476,43 @@
         "@objectid": "83330",
         "@inbound": "true",
         "#text": "Mansions of Madness"
+      },
+      "statistics": {
+        "@page": "1",
+        "ratings": {
+          "usersrated": "4600",
+          "average": "8.36206",
+          "bayesaverage": "7.78428",
+          "ranks": {
+            "rank": [
+              {
+                "@type": "subtype",
+                "@id": "1",
+                "@name": "boardgame",
+                "@friendlyname": "Board Game Rank",
+                "@value": "27",
+                "@bayesaverage": "7.78428"
+              },
+              {
+                "@type": "family",
+                "@id": "5496",
+                "@name": "thematic",
+                "@friendlyname": "Thematic Rank",
+                "@value": "4",
+                "@bayesaverage": "7.98693"
+              }
+            ]
+          },
+          "stddev": "1.40616",
+          "median": "0",
+          "owned": "8584",
+          "trading": "51",
+          "wanting": "689",
+          "wishing": "3823",
+          "numcomments": "804",
+          "numweights": "105",
+          "averageweight": "2.6286"
+        }
       },
       "boardgamemechanic": [
         {
@@ -6655,6 +7690,43 @@
         "@objectid": "5497",
         "#text": "Strategy Games"
       },
+      "statistics": {
+        "@page": "1",
+        "ratings": {
+          "usersrated": "7308",
+          "average": "8.06706",
+          "bayesaverage": "7.77318",
+          "ranks": {
+            "rank": [
+              {
+                "@type": "subtype",
+                "@id": "1",
+                "@name": "boardgame",
+                "@friendlyname": "Board Game Rank",
+                "@value": "28",
+                "@bayesaverage": "7.77318"
+              },
+              {
+                "@type": "family",
+                "@id": "5497",
+                "@name": "strategygames",
+                "@friendlyname": "Strategy Game Rank",
+                "@value": "20",
+                "@bayesaverage": "7.84423"
+              }
+            ]
+          },
+          "stddev": "1.14454",
+          "median": "0",
+          "owned": "9026",
+          "trading": "78",
+          "wanting": "919",
+          "wishing": "3303",
+          "numcomments": "1241",
+          "numweights": "356",
+          "averageweight": "3.1096"
+        }
+      },
       "boardgamemechanic": [
         {
           "@objectid": "2664",
@@ -6798,6 +7870,43 @@
       "boardgamesubdomain": {
         "@objectid": "5497",
         "#text": "Strategy Games"
+      },
+      "statistics": {
+        "@page": "1",
+        "ratings": {
+          "usersrated": "4210",
+          "average": "8.28006",
+          "bayesaverage": "7.77025",
+          "ranks": {
+            "rank": [
+              {
+                "@type": "subtype",
+                "@id": "1",
+                "@name": "boardgame",
+                "@friendlyname": "Board Game Rank",
+                "@value": "30",
+                "@bayesaverage": "7.77025"
+              },
+              {
+                "@type": "family",
+                "@id": "5497",
+                "@name": "strategygames",
+                "@friendlyname": "Strategy Game Rank",
+                "@value": "15",
+                "@bayesaverage": "7.89889"
+              }
+            ]
+          },
+          "stddev": "1.46157",
+          "median": "0",
+          "owned": "5688",
+          "trading": "58",
+          "wanting": "936",
+          "wishing": "3398",
+          "numcomments": "885",
+          "numweights": "296",
+          "averageweight": "4.2027"
+        }
       },
       "boardgamemechanic": [
         {
@@ -6970,6 +8079,43 @@
       "boardgamesubdomain": {
         "@objectid": "5497",
         "#text": "Strategy Games"
+      },
+      "statistics": {
+        "@page": "1",
+        "ratings": {
+          "usersrated": "11011",
+          "average": "7.95458",
+          "bayesaverage": "7.75986",
+          "ranks": {
+            "rank": [
+              {
+                "@type": "subtype",
+                "@id": "1",
+                "@name": "boardgame",
+                "@friendlyname": "Board Game Rank",
+                "@value": "31",
+                "@bayesaverage": "7.75986"
+              },
+              {
+                "@type": "family",
+                "@id": "5497",
+                "@name": "strategygames",
+                "@friendlyname": "Strategy Game Rank",
+                "@value": "24",
+                "@bayesaverage": "7.80086"
+              }
+            ]
+          },
+          "stddev": "1.27431",
+          "median": "0",
+          "owned": "13567",
+          "trading": "152",
+          "wanting": "1237",
+          "wishing": "4294",
+          "numcomments": "2111",
+          "numweights": "655",
+          "averageweight": "3.342"
+        }
       },
       "boardgamemechanic": [
         {
@@ -7165,6 +8311,51 @@
           "#text": "Thematic Games"
         }
       ],
+      "statistics": {
+        "@page": "1",
+        "ratings": {
+          "usersrated": "3278",
+          "average": "8.4984",
+          "bayesaverage": "7.77274",
+          "ranks": {
+            "rank": [
+              {
+                "@type": "subtype",
+                "@id": "1",
+                "@name": "boardgame",
+                "@friendlyname": "Board Game Rank",
+                "@value": "29",
+                "@bayesaverage": "7.77274"
+              },
+              {
+                "@type": "family",
+                "@id": "5496",
+                "@name": "thematic",
+                "@friendlyname": "Thematic Rank",
+                "@value": "5",
+                "@bayesaverage": "7.96657"
+              },
+              {
+                "@type": "family",
+                "@id": "5497",
+                "@name": "strategygames",
+                "@friendlyname": "Strategy Game Rank",
+                "@value": "16",
+                "@bayesaverage": "7.882"
+              }
+            ]
+          },
+          "stddev": "1.2345",
+          "median": "0",
+          "owned": "6676",
+          "trading": "37",
+          "wanting": "591",
+          "wishing": "3156",
+          "numcomments": "691",
+          "numweights": "74",
+          "averageweight": "2.4865"
+        }
+      },
       "boardgamemechanic": [
         {
           "@objectid": "2689",
@@ -7339,6 +8530,51 @@
           "#text": "Strategy Games"
         }
       ],
+      "statistics": {
+        "@page": "1",
+        "ratings": {
+          "usersrated": "49439",
+          "average": "7.84307",
+          "bayesaverage": "7.75675",
+          "ranks": {
+            "rank": [
+              {
+                "@type": "subtype",
+                "@id": "1",
+                "@name": "boardgame",
+                "@friendlyname": "Board Game Rank",
+                "@value": "32",
+                "@bayesaverage": "7.75675"
+              },
+              {
+                "@type": "family",
+                "@id": "5497",
+                "@name": "strategygames",
+                "@friendlyname": "Strategy Game Rank",
+                "@value": "32",
+                "@bayesaverage": "7.72665"
+              },
+              {
+                "@type": "family",
+                "@id": "5499",
+                "@name": "familygames",
+                "@friendlyname": "Family Game Rank",
+                "@value": "1",
+                "@bayesaverage": "7.75962"
+              }
+            ]
+          },
+          "stddev": "1.27115",
+          "median": "0",
+          "owned": "63020",
+          "trading": "743",
+          "wanting": "1037",
+          "wishing": "7191",
+          "numcomments": "9052",
+          "numweights": "3455",
+          "averageweight": "2.3444"
+        }
+      },
       "boardgamemechanic": [
         {
           "@objectid": "2041",
@@ -7722,6 +8958,43 @@
         "@objectid": "5496",
         "#text": "Thematic Games"
       },
+      "statistics": {
+        "@page": "1",
+        "ratings": {
+          "usersrated": "21171",
+          "average": "7.89191",
+          "bayesaverage": "7.73763",
+          "ranks": {
+            "rank": [
+              {
+                "@type": "subtype",
+                "@id": "1",
+                "@name": "boardgame",
+                "@friendlyname": "Board Game Rank",
+                "@value": "33",
+                "@bayesaverage": "7.73763"
+              },
+              {
+                "@type": "family",
+                "@id": "5496",
+                "@name": "thematic",
+                "@friendlyname": "Thematic Rank",
+                "@value": "15",
+                "@bayesaverage": "7.69534"
+              }
+            ]
+          },
+          "stddev": "1.39006",
+          "median": "0",
+          "owned": "29739",
+          "trading": "422",
+          "wanting": "1016",
+          "wishing": "6317",
+          "numcomments": "3228",
+          "numweights": "1022",
+          "averageweight": "3.0039"
+        }
+      },
       "boardgamemechanic": [
         {
           "@objectid": "2001",
@@ -7901,6 +9174,43 @@
       "boardgameexpansion": {
         "@objectid": "186554",
         "#text": "The Voyages of Marco Polo: The New Characters"
+      },
+      "statistics": {
+        "@page": "1",
+        "ratings": {
+          "usersrated": "8228",
+          "average": "8.00879",
+          "bayesaverage": "7.73657",
+          "ranks": {
+            "rank": [
+              {
+                "@type": "subtype",
+                "@id": "1",
+                "@name": "boardgame",
+                "@friendlyname": "Board Game Rank",
+                "@value": "34",
+                "@bayesaverage": "7.73657"
+              },
+              {
+                "@type": "family",
+                "@id": "5497",
+                "@name": "strategygames",
+                "@friendlyname": "Strategy Game Rank",
+                "@value": "26",
+                "@bayesaverage": "7.79168"
+              }
+            ]
+          },
+          "stddev": "1.21355",
+          "median": "0",
+          "owned": "9584",
+          "trading": "59",
+          "wanting": "1041",
+          "wishing": "3386",
+          "numcomments": "1296",
+          "numweights": "538",
+          "averageweight": "3.1784"
+        }
       },
       "boardgamemechanic": [
         {
@@ -8102,6 +9412,43 @@
         "@objectid": "5497",
         "#text": "Strategy Games"
       },
+      "statistics": {
+        "@page": "1",
+        "ratings": {
+          "usersrated": "21442",
+          "average": "7.86722",
+          "bayesaverage": "7.73596",
+          "ranks": {
+            "rank": [
+              {
+                "@type": "subtype",
+                "@id": "1",
+                "@name": "boardgame",
+                "@friendlyname": "Board Game Rank",
+                "@value": "35",
+                "@bayesaverage": "7.73596"
+              },
+              {
+                "@type": "family",
+                "@id": "5497",
+                "@name": "strategygames",
+                "@friendlyname": "Strategy Game Rank",
+                "@value": "30",
+                "@bayesaverage": "7.7503"
+              }
+            ]
+          },
+          "stddev": "1.47889",
+          "median": "0",
+          "owned": "21464",
+          "trading": "399",
+          "wanting": "965",
+          "wishing": "4577",
+          "numcomments": "5366",
+          "numweights": "2970",
+          "averageweight": "3.8229"
+        }
+      },
       "boardgamemechanic": {
         "@objectid": "2082",
         "#text": "Worker Placement"
@@ -8275,7 +9622,7 @@
       "boardgameexpansion": [
         {
           "@objectid": "209574",
-          "#text": "Concordia: 8 Forum Cards"
+          "#text": "Concordia Salsa / Navegador Expansion"
         },
         {
           "@objectid": "165023",
@@ -8307,6 +9654,43 @@
       "boardgamesubdomain": {
         "@objectid": "5497",
         "#text": "Strategy Games"
+      },
+      "statistics": {
+        "@page": "1",
+        "ratings": {
+          "usersrated": "9140",
+          "average": "7.96335",
+          "bayesaverage": "7.73192",
+          "ranks": {
+            "rank": [
+              {
+                "@type": "subtype",
+                "@id": "1",
+                "@name": "boardgame",
+                "@friendlyname": "Board Game Rank",
+                "@value": "36",
+                "@bayesaverage": "7.73192"
+              },
+              {
+                "@type": "family",
+                "@id": "5497",
+                "@name": "strategygames",
+                "@friendlyname": "Strategy Game Rank",
+                "@value": "28",
+                "@bayesaverage": "7.78536"
+              }
+            ]
+          },
+          "stddev": "1.16808",
+          "median": "0",
+          "owned": "10059",
+          "trading": "61",
+          "wanting": "1282",
+          "wishing": "4096",
+          "numcomments": "1828",
+          "numweights": "543",
+          "averageweight": "3.1547"
+        }
       },
       "boardgamemechanic": [
         {
@@ -8531,6 +9915,43 @@
         "@inbound": "true",
         "#text": "Arkham Horror"
       },
+      "statistics": {
+        "@page": "1",
+        "ratings": {
+          "usersrated": "15058",
+          "average": "7.94868",
+          "bayesaverage": "7.71712",
+          "ranks": {
+            "rank": [
+              {
+                "@type": "subtype",
+                "@id": "1",
+                "@name": "boardgame",
+                "@friendlyname": "Board Game Rank",
+                "@value": "37",
+                "@bayesaverage": "7.71712"
+              },
+              {
+                "@type": "family",
+                "@id": "5496",
+                "@name": "thematic",
+                "@friendlyname": "Thematic Rank",
+                "@value": "12",
+                "@bayesaverage": "7.72081"
+              }
+            ]
+          },
+          "stddev": "1.46224",
+          "median": "0",
+          "owned": "22874",
+          "trading": "269",
+          "wanting": "805",
+          "wishing": "5116",
+          "numcomments": "2594",
+          "numweights": "973",
+          "averageweight": "3.3186"
+        }
+      },
       "boardgamemechanic": [
         {
           "@objectid": "2023",
@@ -8709,6 +10130,51 @@
           "#text": "Twilight Imperium (second edition)"
         }
       ],
+      "statistics": {
+        "@page": "1",
+        "ratings": {
+          "usersrated": "14537",
+          "average": "7.92303",
+          "bayesaverage": "7.70886",
+          "ranks": {
+            "rank": [
+              {
+                "@type": "subtype",
+                "@id": "1",
+                "@name": "boardgame",
+                "@friendlyname": "Board Game Rank",
+                "@value": "38",
+                "@bayesaverage": "7.70886"
+              },
+              {
+                "@type": "family",
+                "@id": "5496",
+                "@name": "thematic",
+                "@friendlyname": "Thematic Rank",
+                "@value": "13",
+                "@bayesaverage": "7.70586"
+              },
+              {
+                "@type": "family",
+                "@id": "5497",
+                "@name": "strategygames",
+                "@friendlyname": "Strategy Game Rank",
+                "@value": "36",
+                "@bayesaverage": "7.68352"
+              }
+            ]
+          },
+          "stddev": "1.66897",
+          "median": "0",
+          "owned": "16746",
+          "trading": "312",
+          "wanting": "1013",
+          "wishing": "5614",
+          "numcomments": "3769",
+          "numweights": "1898",
+          "averageweight": "4.2208"
+        }
+      },
       "boardgamemechanic": [
         {
           "@objectid": "2001",
@@ -8824,6 +10290,51 @@
       "boardgamedesigner": {
         "@objectid": "10",
         "#text": "Uwe Rosenberg"
+      },
+      "statistics": {
+        "@page": "1",
+        "ratings": {
+          "usersrated": "16030",
+          "average": "7.84762",
+          "bayesaverage": "7.69868",
+          "ranks": {
+            "rank": [
+              {
+                "@type": "subtype",
+                "@id": "1",
+                "@name": "boardgame",
+                "@friendlyname": "Board Game Rank",
+                "@value": "39",
+                "@bayesaverage": "7.69868"
+              },
+              {
+                "@type": "family",
+                "@id": "4666",
+                "@name": "abstracts",
+                "@friendlyname": "Abstract Game Rank",
+                "@value": "1",
+                "@bayesaverage": "7.65126"
+              },
+              {
+                "@type": "family",
+                "@id": "5499",
+                "@name": "familygames",
+                "@friendlyname": "Family Game Rank",
+                "@value": "2",
+                "@bayesaverage": "7.73463"
+              }
+            ]
+          },
+          "stddev": "1.06886",
+          "median": "0",
+          "owned": "24114",
+          "trading": "126",
+          "wanting": "741",
+          "wishing": "3222",
+          "numcomments": "2394",
+          "numweights": "588",
+          "averageweight": "1.7143"
+        }
       },
       "boardgamemechanic": [
         {
@@ -9040,6 +10551,43 @@
         "@inbound": "true",
         "#text": "Race for the Galaxy"
       },
+      "statistics": {
+        "@page": "1",
+        "ratings": {
+          "usersrated": "12954",
+          "average": "7.86676",
+          "bayesaverage": "7.6954",
+          "ranks": {
+            "rank": [
+              {
+                "@type": "subtype",
+                "@id": "1",
+                "@name": "boardgame",
+                "@friendlyname": "Board Game Rank",
+                "@value": "41",
+                "@bayesaverage": "7.6954"
+              },
+              {
+                "@type": "family",
+                "@id": "5497",
+                "@name": "strategygames",
+                "@friendlyname": "Strategy Game Rank",
+                "@value": "33",
+                "@bayesaverage": "7.71557"
+              }
+            ]
+          },
+          "stddev": "1.28925",
+          "median": "0",
+          "owned": "17110",
+          "trading": "203",
+          "wanting": "1131",
+          "wishing": "5052",
+          "numcomments": "2186",
+          "numweights": "570",
+          "averageweight": "2.7579"
+        }
+      },
       "boardgamemechanic": [
         {
           "@objectid": "2664",
@@ -9187,6 +10735,43 @@
       "boardgamesubdomain": {
         "@objectid": "5497",
         "#text": "Strategy Games"
+      },
+      "statistics": {
+        "@page": "1",
+        "ratings": {
+          "usersrated": "12549",
+          "average": "7.87221",
+          "bayesaverage": "7.6961",
+          "ranks": {
+            "rank": [
+              {
+                "@type": "subtype",
+                "@id": "1",
+                "@name": "boardgame",
+                "@friendlyname": "Board Game Rank",
+                "@value": "40",
+                "@bayesaverage": "7.6961"
+              },
+              {
+                "@type": "family",
+                "@id": "5497",
+                "@name": "strategygames",
+                "@friendlyname": "Strategy Game Rank",
+                "@value": "31",
+                "@bayesaverage": "7.72841"
+              }
+            ]
+          },
+          "stddev": "1.49645",
+          "median": "0",
+          "owned": "13409",
+          "trading": "277",
+          "wanting": "1143",
+          "wishing": "4992",
+          "numcomments": "3040",
+          "numweights": "1183",
+          "averageweight": "4.0287"
+        }
       },
       "boardgamemechanic": [
         {
@@ -9379,6 +10964,43 @@
       "boardgamesubdomain": {
         "@objectid": "5497",
         "#text": "Strategy Games"
+      },
+      "statistics": {
+        "@page": "1",
+        "ratings": {
+          "usersrated": "33397",
+          "average": "7.7707",
+          "bayesaverage": "7.68485",
+          "ranks": {
+            "rank": [
+              {
+                "@type": "subtype",
+                "@id": "1",
+                "@name": "boardgame",
+                "@friendlyname": "Board Game Rank",
+                "@value": "42",
+                "@bayesaverage": "7.68485"
+              },
+              {
+                "@type": "family",
+                "@id": "5497",
+                "@name": "strategygames",
+                "@friendlyname": "Strategy Game Rank",
+                "@value": "37",
+                "@bayesaverage": "7.67845"
+              }
+            ]
+          },
+          "stddev": "1.50275",
+          "median": "0",
+          "owned": "39721",
+          "trading": "863",
+          "wanting": "810",
+          "wishing": "5380",
+          "numcomments": "7590",
+          "numweights": "3081",
+          "averageweight": "2.9711"
+        }
       },
       "boardgamemechanic": [
         {
@@ -9598,6 +11220,43 @@
         "@objectid": "5497",
         "#text": "Strategy Games"
       },
+      "statistics": {
+        "@page": "1",
+        "ratings": {
+          "usersrated": "15801",
+          "average": "7.83643",
+          "bayesaverage": "7.68367",
+          "ranks": {
+            "rank": [
+              {
+                "@type": "subtype",
+                "@id": "1",
+                "@name": "boardgame",
+                "@friendlyname": "Board Game Rank",
+                "@value": "45",
+                "@bayesaverage": "7.68367"
+              },
+              {
+                "@type": "family",
+                "@id": "5497",
+                "@name": "strategygames",
+                "@friendlyname": "Strategy Game Rank",
+                "@value": "35",
+                "@bayesaverage": "7.68999"
+              }
+            ]
+          },
+          "stddev": "1.24995",
+          "median": "0",
+          "owned": "21234",
+          "trading": "228",
+          "wanting": "1187",
+          "wishing": "5373",
+          "numcomments": "2597",
+          "numweights": "772",
+          "averageweight": "2.8886"
+        }
+      },
       "boardgamemechanic": [
         {
           "@objectid": "2080",
@@ -9774,6 +11433,43 @@
         "@objectid": "5497",
         "#text": "Strategy Games"
       },
+      "statistics": {
+        "@page": "1",
+        "ratings": {
+          "usersrated": "18026",
+          "average": "7.81018",
+          "bayesaverage": "7.68369",
+          "ranks": {
+            "rank": [
+              {
+                "@type": "subtype",
+                "@id": "1",
+                "@name": "boardgame",
+                "@friendlyname": "Board Game Rank",
+                "@value": "44",
+                "@bayesaverage": "7.68369"
+              },
+              {
+                "@type": "family",
+                "@id": "5497",
+                "@name": "strategygames",
+                "@friendlyname": "Strategy Game Rank",
+                "@value": "34",
+                "@bayesaverage": "7.70658"
+              }
+            ]
+          },
+          "stddev": "1.34088",
+          "median": "0",
+          "owned": "17459",
+          "trading": "295",
+          "wanting": "1192",
+          "wishing": "4143",
+          "numcomments": "4545",
+          "numweights": "1911",
+          "averageweight": "3.0874"
+        }
+      },
       "boardgamemechanic": [
         {
           "@objectid": "2080",
@@ -9940,6 +11636,43 @@
         "@objectid": "128621",
         "@inbound": "true",
         "#text": "Viticulture"
+      },
+      "statistics": {
+        "@page": "1",
+        "ratings": {
+          "usersrated": "3945",
+          "average": "8.20582",
+          "bayesaverage": "7.68402",
+          "ranks": {
+            "rank": [
+              {
+                "@type": "subtype",
+                "@id": "1",
+                "@name": "boardgame",
+                "@friendlyname": "Board Game Rank",
+                "@value": "43",
+                "@bayesaverage": "7.68402"
+              },
+              {
+                "@type": "family",
+                "@id": "5497",
+                "@name": "strategygames",
+                "@friendlyname": "Strategy Game Rank",
+                "@value": "25",
+                "@bayesaverage": "7.79376"
+              }
+            ]
+          },
+          "stddev": "1.204",
+          "median": "0",
+          "owned": "6229",
+          "trading": "39",
+          "wanting": "672",
+          "wishing": "2229",
+          "numcomments": "678",
+          "numweights": "132",
+          "averageweight": "2.9621"
+        }
       },
       "boardgamemechanic": [
         {
@@ -10178,6 +11911,43 @@
       "boardgamesubdomain": {
         "@objectid": "5497",
         "#text": "Strategy Games"
+      },
+      "statistics": {
+        "@page": "1",
+        "ratings": {
+          "usersrated": "27639",
+          "average": "7.79562",
+          "bayesaverage": "7.68252",
+          "ranks": {
+            "rank": [
+              {
+                "@type": "subtype",
+                "@id": "1",
+                "@name": "boardgame",
+                "@friendlyname": "Board Game Rank",
+                "@value": "46",
+                "@bayesaverage": "7.68252"
+              },
+              {
+                "@type": "family",
+                "@id": "5497",
+                "@name": "strategygames",
+                "@friendlyname": "Strategy Game Rank",
+                "@value": "42",
+                "@bayesaverage": "7.65086"
+              }
+            ]
+          },
+          "stddev": "1.25551",
+          "median": "0",
+          "owned": "33643",
+          "trading": "356",
+          "wanting": "1145",
+          "wishing": "6094",
+          "numcomments": "5035",
+          "numweights": "1718",
+          "averageweight": "2.5076"
+        }
       },
       "boardgamemechanic": [
         {
@@ -10450,6 +12220,43 @@
       "boardgamedesigner": {
         "@objectid": "10525",
         "#text": "Donald X. Vaccarino"
+      },
+      "statistics": {
+        "@page": "1",
+        "ratings": {
+          "usersrated": "22610",
+          "average": "7.80088",
+          "bayesaverage": "7.67993",
+          "ranks": {
+            "rank": [
+              {
+                "@type": "subtype",
+                "@id": "1",
+                "@name": "boardgame",
+                "@friendlyname": "Board Game Rank",
+                "@value": "47",
+                "@bayesaverage": "7.67993"
+              },
+              {
+                "@type": "family",
+                "@id": "5497",
+                "@name": "strategygames",
+                "@friendlyname": "Strategy Game Rank",
+                "@value": "39",
+                "@bayesaverage": "7.67616"
+              }
+            ]
+          },
+          "stddev": "1.35601",
+          "median": "0",
+          "owned": "31725",
+          "trading": "438",
+          "wanting": "467",
+          "wishing": "2540",
+          "numcomments": "3380",
+          "numweights": "1197",
+          "averageweight": "2.4453"
+        }
       },
       "boardgamemechanic": [
         {
@@ -10992,6 +12799,51 @@
           "#text": "Star Wars: X-Wing Miniatures Game \u2013 The Force Awakens Core Set"
         }
       ],
+      "statistics": {
+        "@page": "1",
+        "ratings": {
+          "usersrated": "16060",
+          "average": "7.8906",
+          "bayesaverage": "7.67902",
+          "ranks": {
+            "rank": [
+              {
+                "@type": "subtype",
+                "@id": "1",
+                "@name": "boardgame",
+                "@friendlyname": "Board Game Rank",
+                "@value": "48",
+                "@bayesaverage": "7.67902"
+              },
+              {
+                "@type": "family",
+                "@id": "4664",
+                "@name": "wargames",
+                "@friendlyname": "War Game Rank",
+                "@value": "23",
+                "@bayesaverage": "7.59308"
+              },
+              {
+                "@type": "family",
+                "@id": "4667",
+                "@name": "cgs",
+                "@friendlyname": "Customizable Rank",
+                "@value": "7",
+                "@bayesaverage": "7.60064"
+              }
+            ]
+          },
+          "stddev": "1.39308",
+          "median": "0",
+          "owned": "27550",
+          "trading": "508",
+          "wanting": "360",
+          "wishing": "1996",
+          "numcomments": "2888",
+          "numweights": "1013",
+          "averageweight": "2.4699"
+        }
+      },
       "boardgamemechanic": [
         {
           "@objectid": "2689",
@@ -11210,6 +13062,43 @@
         "@objectid": "5496",
         "#text": "Thematic Games"
       },
+      "statistics": {
+        "@page": "1",
+        "ratings": {
+          "usersrated": "24729",
+          "average": "7.78107",
+          "bayesaverage": "7.64712",
+          "ranks": {
+            "rank": [
+              {
+                "@type": "subtype",
+                "@id": "1",
+                "@name": "boardgame",
+                "@friendlyname": "Board Game Rank",
+                "@value": "49",
+                "@bayesaverage": "7.64712"
+              },
+              {
+                "@type": "family",
+                "@id": "5496",
+                "@name": "thematic",
+                "@friendlyname": "Thematic Rank",
+                "@value": "19",
+                "@bayesaverage": "7.63881"
+              }
+            ]
+          },
+          "stddev": "1.54609",
+          "median": "0",
+          "owned": "27352",
+          "trading": "676",
+          "wanting": "631",
+          "wishing": "4509",
+          "numcomments": "5487",
+          "numweights": "1892",
+          "averageweight": "3.2273"
+        }
+      },
       "boardgamemechanic": [
         {
           "@objectid": "2046",
@@ -11382,6 +13271,43 @@
         "@objectid": "5497",
         "#text": "Strategy Games"
       },
+      "statistics": {
+        "@page": "1",
+        "ratings": {
+          "usersrated": "2755",
+          "average": "8.41601",
+          "bayesaverage": "7.64596",
+          "ranks": {
+            "rank": [
+              {
+                "@type": "subtype",
+                "@id": "1",
+                "@name": "boardgame",
+                "@friendlyname": "Board Game Rank",
+                "@value": "50",
+                "@bayesaverage": "7.64596"
+              },
+              {
+                "@type": "family",
+                "@id": "5497",
+                "@name": "strategygames",
+                "@friendlyname": "Strategy Game Rank",
+                "@value": "22",
+                "@bayesaverage": "7.8303"
+              }
+            ]
+          },
+          "stddev": "1.30324",
+          "median": "0",
+          "owned": "4163",
+          "trading": "29",
+          "wanting": "899",
+          "wishing": "4024",
+          "numcomments": "565",
+          "numweights": "133",
+          "averageweight": "3.8195"
+        }
+      },
       "boardgamemechanic": [
         {
           "@objectid": "2043",
@@ -11513,6 +13439,43 @@
       "boardgamesubdomain": {
         "@objectid": "5497",
         "#text": "Strategy Games"
+      },
+      "statistics": {
+        "@page": "1",
+        "ratings": {
+          "usersrated": "3174",
+          "average": "8.23528",
+          "bayesaverage": "7.61908",
+          "ranks": {
+            "rank": [
+              {
+                "@type": "subtype",
+                "@id": "1",
+                "@name": "boardgame",
+                "@friendlyname": "Board Game Rank",
+                "@value": "52",
+                "@bayesaverage": "7.61908"
+              },
+              {
+                "@type": "family",
+                "@id": "5497",
+                "@name": "strategygames",
+                "@friendlyname": "Strategy Game Rank",
+                "@value": "29",
+                "@bayesaverage": "7.77006"
+              }
+            ]
+          },
+          "stddev": "1.21293",
+          "median": "0",
+          "owned": "5489",
+          "trading": "78",
+          "wanting": "789",
+          "wishing": "2525",
+          "numcomments": "709",
+          "numweights": "227",
+          "averageweight": "3.8943"
+        }
       },
       "boardgamemechanic": {
         "@objectid": "2082",
@@ -11851,6 +13814,43 @@
         "@objectid": "10525",
         "#text": "Donald X. Vaccarino"
       },
+      "statistics": {
+        "@page": "1",
+        "ratings": {
+          "usersrated": "54178",
+          "average": "7.70829",
+          "bayesaverage": "7.61654",
+          "ranks": {
+            "rank": [
+              {
+                "@type": "subtype",
+                "@id": "1",
+                "@name": "boardgame",
+                "@friendlyname": "Board Game Rank",
+                "@value": "53",
+                "@bayesaverage": "7.61654"
+              },
+              {
+                "@type": "family",
+                "@id": "5497",
+                "@name": "strategygames",
+                "@friendlyname": "Strategy Game Rank",
+                "@value": "49",
+                "@bayesaverage": "7.57344"
+              }
+            ]
+          },
+          "stddev": "1.42837",
+          "median": "0",
+          "owned": "69491",
+          "trading": "1458",
+          "wanting": "557",
+          "wishing": "5329",
+          "numcomments": "10478",
+          "numweights": "4380",
+          "averageweight": "2.3769"
+        }
+      },
       "boardgamemechanic": [
         {
           "@objectid": "2041",
@@ -12167,6 +14167,43 @@
         "@objectid": "37838",
         "#text": "Stronghold Games: The Great Designer Series"
       },
+      "statistics": {
+        "@page": "1",
+        "ratings": {
+          "usersrated": "2946",
+          "average": "8.29383",
+          "bayesaverage": "7.62361",
+          "ranks": {
+            "rank": [
+              {
+                "@type": "subtype",
+                "@id": "1",
+                "@name": "boardgame",
+                "@friendlyname": "Board Game Rank",
+                "@value": "51",
+                "@bayesaverage": "7.62361"
+              },
+              {
+                "@type": "family",
+                "@id": "5497",
+                "@name": "strategygames",
+                "@friendlyname": "Strategy Game Rank",
+                "@value": "27",
+                "@bayesaverage": "7.79055"
+              }
+            ]
+          },
+          "stddev": "1.16118",
+          "median": "0",
+          "owned": "4147",
+          "trading": "18",
+          "wanting": "755",
+          "wishing": "3286",
+          "numcomments": "549",
+          "numweights": "147",
+          "averageweight": "3.7279"
+        }
+      },
       "boardgamemechanic": [
         {
           "@objectid": "2664",
@@ -12396,6 +14433,43 @@
         "@objectid": "5496",
         "#text": "Thematic Games"
       },
+      "statistics": {
+        "@page": "1",
+        "ratings": {
+          "usersrated": "8445",
+          "average": "7.85526",
+          "bayesaverage": "7.60638",
+          "ranks": {
+            "rank": [
+              {
+                "@type": "subtype",
+                "@id": "1",
+                "@name": "boardgame",
+                "@friendlyname": "Board Game Rank",
+                "@value": "54",
+                "@bayesaverage": "7.60638"
+              },
+              {
+                "@type": "family",
+                "@id": "5496",
+                "@name": "thematic",
+                "@friendlyname": "Thematic Rank",
+                "@value": "17",
+                "@bayesaverage": "7.64913"
+              }
+            ]
+          },
+          "stddev": "1.37706",
+          "median": "0",
+          "owned": "17338",
+          "trading": "295",
+          "wanting": "808",
+          "wishing": "3925",
+          "numcomments": "1858",
+          "numweights": "410",
+          "averageweight": "2.7707"
+        }
+      },
       "boardgamemechanic": [
         {
           "@objectid": "2023",
@@ -12590,6 +14664,43 @@
         "@objectid": "5497",
         "#text": "Strategy Games"
       },
+      "statistics": {
+        "@page": "1",
+        "ratings": {
+          "usersrated": "19847",
+          "average": "7.72806",
+          "bayesaverage": "7.60112",
+          "ranks": {
+            "rank": [
+              {
+                "@type": "subtype",
+                "@id": "1",
+                "@name": "boardgame",
+                "@friendlyname": "Board Game Rank",
+                "@value": "55",
+                "@bayesaverage": "7.60112"
+              },
+              {
+                "@type": "family",
+                "@id": "5497",
+                "@name": "strategygames",
+                "@friendlyname": "Strategy Game Rank",
+                "@value": "45",
+                "@bayesaverage": "7.60998"
+              }
+            ]
+          },
+          "stddev": "1.49255",
+          "median": "0",
+          "owned": "21533",
+          "trading": "498",
+          "wanting": "992",
+          "wishing": "4139",
+          "numcomments": "5510",
+          "numweights": "2431",
+          "averageweight": "3.5311"
+        }
+      },
       "boardgamemechanic": [
         {
           "@objectid": "2080",
@@ -12725,6 +14836,43 @@
       "boardgamesubdomain": {
         "@objectid": "5497",
         "#text": "Strategy Games"
+      },
+      "statistics": {
+        "@page": "1",
+        "ratings": {
+          "usersrated": "9203",
+          "average": "7.81891",
+          "bayesaverage": "7.59887",
+          "ranks": {
+            "rank": [
+              {
+                "@type": "subtype",
+                "@id": "1",
+                "@name": "boardgame",
+                "@friendlyname": "Board Game Rank",
+                "@value": "56",
+                "@bayesaverage": "7.59887"
+              },
+              {
+                "@type": "family",
+                "@id": "5497",
+                "@name": "strategygames",
+                "@friendlyname": "Strategy Game Rank",
+                "@value": "41",
+                "@bayesaverage": "7.65232"
+              }
+            ]
+          },
+          "stddev": "1.34378",
+          "median": "0",
+          "owned": "10808",
+          "trading": "186",
+          "wanting": "863",
+          "wishing": "3230",
+          "numcomments": "1851",
+          "numweights": "646",
+          "averageweight": "3.6703"
+        }
       },
       "boardgamemechanic": [
         {
@@ -12903,6 +15051,43 @@
       "boardgamesubdomain": {
         "@objectid": "5497",
         "#text": "Strategy Games"
+      },
+      "statistics": {
+        "@page": "1",
+        "ratings": {
+          "usersrated": "8379",
+          "average": "7.83607",
+          "bayesaverage": "7.59745",
+          "ranks": {
+            "rank": [
+              {
+                "@type": "subtype",
+                "@id": "1",
+                "@name": "boardgame",
+                "@friendlyname": "Board Game Rank",
+                "@value": "57",
+                "@bayesaverage": "7.59745"
+              },
+              {
+                "@type": "family",
+                "@id": "5497",
+                "@name": "strategygames",
+                "@friendlyname": "Strategy Game Rank",
+                "@value": "40",
+                "@bayesaverage": "7.65332"
+              }
+            ]
+          },
+          "stddev": "1.27193",
+          "median": "0",
+          "owned": "9276",
+          "trading": "109",
+          "wanting": "756",
+          "wishing": "2568",
+          "numcomments": "1485",
+          "numweights": "578",
+          "averageweight": "3.41"
+        }
       },
       "boardgamemechanic": {
         "@objectid": "2082",
@@ -13119,6 +15304,51 @@
       "videogamebg": {
         "@objectid": "148659",
         "#text": "Pandemic: The Board Game"
+      },
+      "statistics": {
+        "@page": "1",
+        "ratings": {
+          "usersrated": "59540",
+          "average": "7.67195",
+          "bayesaverage": "7.5867",
+          "ranks": {
+            "rank": [
+              {
+                "@type": "subtype",
+                "@id": "1",
+                "@name": "boardgame",
+                "@friendlyname": "Board Game Rank",
+                "@value": "59",
+                "@bayesaverage": "7.5867"
+              },
+              {
+                "@type": "family",
+                "@id": "5497",
+                "@name": "strategygames",
+                "@friendlyname": "Strategy Game Rank",
+                "@value": "62",
+                "@bayesaverage": "7.50311"
+              },
+              {
+                "@type": "family",
+                "@id": "5499",
+                "@name": "familygames",
+                "@friendlyname": "Family Game Rank",
+                "@value": "4",
+                "@bayesaverage": "7.56659"
+              }
+            ]
+          },
+          "stddev": "1.30495",
+          "median": "0",
+          "owned": "84370",
+          "trading": "1452",
+          "wanting": "641",
+          "wishing": "6140",
+          "numcomments": "11004",
+          "numweights": "4329",
+          "averageweight": "2.431"
+        }
       },
       "boardgamemechanic": [
         {
@@ -13446,6 +15676,43 @@
         "@objectid": "5497",
         "#text": "Strategy Games"
       },
+      "statistics": {
+        "@page": "1",
+        "ratings": {
+          "usersrated": "12147",
+          "average": "7.75888",
+          "bayesaverage": "7.58594",
+          "ranks": {
+            "rank": [
+              {
+                "@type": "subtype",
+                "@id": "1",
+                "@name": "boardgame",
+                "@friendlyname": "Board Game Rank",
+                "@value": "60",
+                "@bayesaverage": "7.58594"
+              },
+              {
+                "@type": "family",
+                "@id": "5497",
+                "@name": "strategygames",
+                "@friendlyname": "Strategy Game Rank",
+                "@value": "44",
+                "@bayesaverage": "7.61059"
+              }
+            ]
+          },
+          "stddev": "1.17034",
+          "median": "0",
+          "owned": "16666",
+          "trading": "230",
+          "wanting": "1140",
+          "wishing": "4620",
+          "numcomments": "2147",
+          "numweights": "563",
+          "averageweight": "2.6536"
+        }
+      },
       "boardgamemechanic": [
         {
           "@objectid": "2041",
@@ -13682,6 +15949,51 @@
           "#text": "Evan Simonet"
         }
       ],
+      "statistics": {
+        "@page": "1",
+        "ratings": {
+          "usersrated": "2956",
+          "average": "8.44445",
+          "bayesaverage": "7.58978",
+          "ranks": {
+            "rank": [
+              {
+                "@type": "subtype",
+                "@id": "1",
+                "@name": "boardgame",
+                "@friendlyname": "Board Game Rank",
+                "@value": "58",
+                "@bayesaverage": "7.58978"
+              },
+              {
+                "@type": "family",
+                "@id": "4667",
+                "@name": "cgs",
+                "@friendlyname": "Customizable Rank",
+                "@value": "1",
+                "@bayesaverage": "8.03532"
+              },
+              {
+                "@type": "family",
+                "@id": "5496",
+                "@name": "thematic",
+                "@friendlyname": "Thematic Rank",
+                "@value": "10",
+                "@bayesaverage": "7.8599"
+              }
+            ]
+          },
+          "stddev": "1.32032",
+          "median": "0",
+          "owned": "7090",
+          "trading": "51",
+          "wanting": "454",
+          "wishing": "2638",
+          "numcomments": "558",
+          "numweights": "91",
+          "averageweight": "3.011"
+        }
+      },
       "boardgamemechanic": [
         {
           "@objectid": "2023",
@@ -14017,7 +16329,7 @@
         },
         {
           "@objectid": "140819",
-          "#text": "Descent: Journeys in the Dark (second edition) \u2013 Dice Pack"
+          "#text": "Descent: Journeys in the Dark (Second Edition) \u2013 Dice Pack"
         }
       ],
       "boardgameimplementation": [
@@ -14034,6 +16346,43 @@
       "boardgamesubdomain": {
         "@objectid": "5496",
         "#text": "Thematic Games"
+      },
+      "statistics": {
+        "@page": "1",
+        "ratings": {
+          "usersrated": "13805",
+          "average": "7.7993",
+          "bayesaverage": "7.57519",
+          "ranks": {
+            "rank": [
+              {
+                "@type": "subtype",
+                "@id": "1",
+                "@name": "boardgame",
+                "@friendlyname": "Board Game Rank",
+                "@value": "61",
+                "@bayesaverage": "7.57519"
+              },
+              {
+                "@type": "family",
+                "@id": "5496",
+                "@name": "thematic",
+                "@friendlyname": "Thematic Rank",
+                "@value": "21",
+                "@bayesaverage": "7.58329"
+              }
+            ]
+          },
+          "stddev": "1.46003",
+          "median": "0",
+          "owned": "22033",
+          "trading": "472",
+          "wanting": "764",
+          "wishing": "4558",
+          "numcomments": "2501",
+          "numweights": "870",
+          "averageweight": "3.1885"
+        }
       },
       "boardgamemechanic": [
         {
@@ -14154,6 +16503,43 @@
       "boardgamesubdomain": {
         "@objectid": "5499",
         "#text": "Family Games"
+      },
+      "statistics": {
+        "@page": "1",
+        "ratings": {
+          "usersrated": "7427",
+          "average": "7.80244",
+          "bayesaverage": "7.56706",
+          "ranks": {
+            "rank": [
+              {
+                "@type": "subtype",
+                "@id": "1",
+                "@name": "boardgame",
+                "@friendlyname": "Board Game Rank",
+                "@value": "62",
+                "@bayesaverage": "7.56706"
+              },
+              {
+                "@type": "family",
+                "@id": "5499",
+                "@name": "familygames",
+                "@friendlyname": "Family Game Rank",
+                "@value": "3",
+                "@bayesaverage": "7.63707"
+              }
+            ]
+          },
+          "stddev": "1.64982",
+          "median": "0",
+          "owned": "5158",
+          "trading": "45",
+          "wanting": "566",
+          "wishing": "2745",
+          "numcomments": "1990",
+          "numweights": "509",
+          "averageweight": "1.2888"
+        }
       },
       "boardgamemechanic": {
         "@objectid": "2019",
@@ -14348,6 +16734,51 @@
       "boardgamecompilation": {
         "@objectid": "60153",
         "#text": "War of the Ring Collector's Edition"
+      },
+      "statistics": {
+        "@page": "1",
+        "ratings": {
+          "usersrated": "8861",
+          "average": "7.81749",
+          "bayesaverage": "7.56697",
+          "ranks": {
+            "rank": [
+              {
+                "@type": "subtype",
+                "@id": "1",
+                "@name": "boardgame",
+                "@friendlyname": "Board Game Rank",
+                "@value": "63",
+                "@bayesaverage": "7.56697"
+              },
+              {
+                "@type": "family",
+                "@id": "4664",
+                "@name": "wargames",
+                "@friendlyname": "War Game Rank",
+                "@value": "16",
+                "@bayesaverage": "7.69479"
+              },
+              {
+                "@type": "family",
+                "@id": "5496",
+                "@name": "thematic",
+                "@friendlyname": "Thematic Rank",
+                "@value": "18",
+                "@bayesaverage": "7.64601"
+              }
+            ]
+          },
+          "stddev": "1.61583",
+          "median": "0",
+          "owned": "11272",
+          "trading": "352",
+          "wanting": "464",
+          "wishing": "1938",
+          "numcomments": "2813",
+          "numweights": "1354",
+          "averageweight": "3.839"
+        }
       },
       "boardgamemechanic": [
         {
@@ -14554,6 +16985,43 @@
           "#text": "The Resistance"
         }
       ],
+      "statistics": {
+        "@page": "1",
+        "ratings": {
+          "usersrated": "15017",
+          "average": "7.73406",
+          "bayesaverage": "7.5655",
+          "ranks": {
+            "rank": [
+              {
+                "@type": "subtype",
+                "@id": "1",
+                "@name": "boardgame",
+                "@friendlyname": "Board Game Rank",
+                "@value": "64",
+                "@bayesaverage": "7.5655"
+              },
+              {
+                "@type": "family",
+                "@id": "5498",
+                "@name": "partygames",
+                "@friendlyname": "Party Game Rank",
+                "@value": "3",
+                "@bayesaverage": "7.52783"
+              }
+            ]
+          },
+          "stddev": "1.4983",
+          "median": "0",
+          "owned": "21242",
+          "trading": "320",
+          "wanting": "306",
+          "wishing": "2238",
+          "numcomments": "2425",
+          "numweights": "646",
+          "averageweight": "1.7771"
+        }
+      },
       "boardgamemechanic": [
         {
           "@objectid": "2047",
@@ -14684,6 +17152,43 @@
         "@objectid": "5497",
         "#text": "Strategy Games"
       },
+      "statistics": {
+        "@page": "1",
+        "ratings": {
+          "usersrated": "4225",
+          "average": "8.02147",
+          "bayesaverage": "7.56338",
+          "ranks": {
+            "rank": [
+              {
+                "@type": "subtype",
+                "@id": "1",
+                "@name": "boardgame",
+                "@friendlyname": "Board Game Rank",
+                "@value": "65",
+                "@bayesaverage": "7.56338"
+              },
+              {
+                "@type": "family",
+                "@id": "5497",
+                "@name": "strategygames",
+                "@friendlyname": "Strategy Game Rank",
+                "@value": "38",
+                "@bayesaverage": "7.67825"
+              }
+            ]
+          },
+          "stddev": "1.21319",
+          "median": "0",
+          "owned": "5873",
+          "trading": "67",
+          "wanting": "565",
+          "wishing": "1976",
+          "numcomments": "730",
+          "numweights": "313",
+          "averageweight": "3.853"
+        }
+      },
       "boardgamemechanic": [
         {
           "@objectid": "2689",
@@ -14734,6 +17239,10 @@
         {
           "@objectid": "32651",
           "#text": "Bright World Games"
+        },
+        {
+          "@objectid": "6194",
+          "#text": "Delta Vision Publishing"
         },
         {
           "@objectid": "2862",
@@ -14879,6 +17388,43 @@
       "boardgamesubdomain": {
         "@objectid": "5497",
         "#text": "Strategy Games"
+      },
+      "statistics": {
+        "@page": "1",
+        "ratings": {
+          "usersrated": "10594",
+          "average": "7.74155",
+          "bayesaverage": "7.55824",
+          "ranks": {
+            "rank": [
+              {
+                "@type": "subtype",
+                "@id": "1",
+                "@name": "boardgame",
+                "@friendlyname": "Board Game Rank",
+                "@value": "66",
+                "@bayesaverage": "7.55824"
+              },
+              {
+                "@type": "family",
+                "@id": "5497",
+                "@name": "strategygames",
+                "@friendlyname": "Strategy Game Rank",
+                "@value": "47",
+                "@bayesaverage": "7.59989"
+              }
+            ]
+          },
+          "stddev": "1.33343",
+          "median": "0",
+          "owned": "10694",
+          "trading": "146",
+          "wanting": "1070",
+          "wishing": "3770",
+          "numcomments": "2266",
+          "numweights": "848",
+          "averageweight": "3.4646"
+        }
       },
       "boardgamemechanic": [
         {
@@ -15052,6 +17598,43 @@
         "@objectid": "6472",
         "@inbound": "true",
         "#text": "A Game of Thrones (first edition)"
+      },
+      "statistics": {
+        "@page": "1",
+        "ratings": {
+          "usersrated": "16866",
+          "average": "7.74912",
+          "bayesaverage": "7.55202",
+          "ranks": {
+            "rank": [
+              {
+                "@type": "subtype",
+                "@id": "1",
+                "@name": "boardgame",
+                "@friendlyname": "Board Game Rank",
+                "@value": "67",
+                "@bayesaverage": "7.55202"
+              },
+              {
+                "@type": "family",
+                "@id": "5497",
+                "@name": "strategygames",
+                "@friendlyname": "Strategy Game Rank",
+                "@value": "59",
+                "@bayesaverage": "7.51947"
+              }
+            ]
+          },
+          "stddev": "1.49123",
+          "median": "0",
+          "owned": "21852",
+          "trading": "405",
+          "wanting": "601",
+          "wishing": "3918",
+          "numcomments": "2623",
+          "numweights": "1061",
+          "averageweight": "3.6362"
+        }
       },
       "boardgamemechanic": [
         {
@@ -15437,6 +18020,43 @@
         "@objectid": "5496",
         "#text": "Thematic Games"
       },
+      "statistics": {
+        "@page": "1",
+        "ratings": {
+          "usersrated": "4403",
+          "average": "8.02897",
+          "bayesaverage": "7.54165",
+          "ranks": {
+            "rank": [
+              {
+                "@type": "subtype",
+                "@id": "1",
+                "@name": "boardgame",
+                "@friendlyname": "Board Game Rank",
+                "@value": "69",
+                "@bayesaverage": "7.54165"
+              },
+              {
+                "@type": "family",
+                "@id": "5496",
+                "@name": "thematic",
+                "@friendlyname": "Thematic Rank",
+                "@value": "16",
+                "@bayesaverage": "7.66107"
+              }
+            ]
+          },
+          "stddev": "1.42221",
+          "median": "0",
+          "owned": "7453",
+          "trading": "72",
+          "wanting": "611",
+          "wishing": "2465",
+          "numcomments": "849",
+          "numweights": "211",
+          "averageweight": "2.5592"
+        }
+      },
       "boardgamemechanic": [
         {
           "@objectid": "2072",
@@ -15534,6 +18154,43 @@
       "boardgamesubdomain": {
         "@objectid": "5497",
         "#text": "Strategy Games"
+      },
+      "statistics": {
+        "@page": "1",
+        "ratings": {
+          "usersrated": "9087",
+          "average": "7.78472",
+          "bayesaverage": "7.54174",
+          "ranks": {
+            "rank": [
+              {
+                "@type": "subtype",
+                "@id": "1",
+                "@name": "boardgame",
+                "@friendlyname": "Board Game Rank",
+                "@value": "68",
+                "@bayesaverage": "7.54174"
+              },
+              {
+                "@type": "family",
+                "@id": "5497",
+                "@name": "strategygames",
+                "@friendlyname": "Strategy Game Rank",
+                "@value": "50",
+                "@bayesaverage": "7.56722"
+              }
+            ]
+          },
+          "stddev": "1.38516",
+          "median": "0",
+          "owned": "12329",
+          "trading": "195",
+          "wanting": "625",
+          "wishing": "3171",
+          "numcomments": "1508",
+          "numweights": "577",
+          "averageweight": "3.7851"
+        }
       },
       "boardgamemechanic": [
         {
@@ -15708,6 +18365,51 @@
       "videogamebg": {
         "@objectid": "134996",
         "#text": "Stone Age: The Board Game"
+      },
+      "statistics": {
+        "@page": "1",
+        "ratings": {
+          "usersrated": "29352",
+          "average": "7.63136",
+          "bayesaverage": "7.5383",
+          "ranks": {
+            "rank": [
+              {
+                "@type": "subtype",
+                "@id": "1",
+                "@name": "boardgame",
+                "@friendlyname": "Board Game Rank",
+                "@value": "70",
+                "@bayesaverage": "7.5383"
+              },
+              {
+                "@type": "family",
+                "@id": "5497",
+                "@name": "strategygames",
+                "@friendlyname": "Strategy Game Rank",
+                "@value": "58",
+                "@bayesaverage": "7.52177"
+              },
+              {
+                "@type": "family",
+                "@id": "5499",
+                "@name": "familygames",
+                "@friendlyname": "Family Game Rank",
+                "@value": "5",
+                "@bayesaverage": "7.55612"
+              }
+            ]
+          },
+          "stddev": "1.23167",
+          "median": "0",
+          "owned": "30417",
+          "trading": "318",
+          "wanting": "1490",
+          "wishing": "7138",
+          "numcomments": "5839",
+          "numweights": "2328",
+          "averageweight": "2.5052"
+        }
       },
       "boardgamemechanic": [
         {
@@ -15973,6 +18675,43 @@
         "@objectid": "5497",
         "#text": "Strategy Games"
       },
+      "statistics": {
+        "@page": "1",
+        "ratings": {
+          "usersrated": "7304",
+          "average": "7.79535",
+          "bayesaverage": "7.53554",
+          "ranks": {
+            "rank": [
+              {
+                "@type": "subtype",
+                "@id": "1",
+                "@name": "boardgame",
+                "@friendlyname": "Board Game Rank",
+                "@value": "71",
+                "@bayesaverage": "7.53554"
+              },
+              {
+                "@type": "family",
+                "@id": "5497",
+                "@name": "strategygames",
+                "@friendlyname": "Strategy Game Rank",
+                "@value": "46",
+                "@bayesaverage": "7.60452"
+              }
+            ]
+          },
+          "stddev": "1.35819",
+          "median": "0",
+          "owned": "9087",
+          "trading": "171",
+          "wanting": "973",
+          "wishing": "3034",
+          "numcomments": "1423",
+          "numweights": "557",
+          "averageweight": "3.8905"
+        }
+      },
       "boardgamemechanic": [
         {
           "@objectid": "2011",
@@ -16171,6 +18910,43 @@
         "@objectid": "5497",
         "#text": "Strategy Games"
       },
+      "statistics": {
+        "@page": "1",
+        "ratings": {
+          "usersrated": "8676",
+          "average": "7.77334",
+          "bayesaverage": "7.53232",
+          "ranks": {
+            "rank": [
+              {
+                "@type": "subtype",
+                "@id": "1",
+                "@name": "boardgame",
+                "@friendlyname": "Board Game Rank",
+                "@value": "72",
+                "@bayesaverage": "7.53232"
+              },
+              {
+                "@type": "family",
+                "@id": "5497",
+                "@name": "strategygames",
+                "@friendlyname": "Strategy Game Rank",
+                "@value": "51",
+                "@bayesaverage": "7.56439"
+              }
+            ]
+          },
+          "stddev": "1.31577",
+          "median": "0",
+          "owned": "10712",
+          "trading": "131",
+          "wanting": "1181",
+          "wishing": "4566",
+          "numcomments": "1571",
+          "numweights": "470",
+          "averageweight": "2.9745"
+        }
+      },
       "boardgamemechanic": [
         {
           "@objectid": "2001",
@@ -16313,6 +19089,43 @@
         "@objectid": "129437",
         "@inbound": "true",
         "#text": "Legendary: A Marvel Deck Building Game"
+      },
+      "statistics": {
+        "@page": "1",
+        "ratings": {
+          "usersrated": "5949",
+          "average": "7.88619",
+          "bayesaverage": "7.53042",
+          "ranks": {
+            "rank": [
+              {
+                "@type": "subtype",
+                "@id": "1",
+                "@name": "boardgame",
+                "@friendlyname": "Board Game Rank",
+                "@value": "73",
+                "@bayesaverage": "7.53042"
+              },
+              {
+                "@type": "family",
+                "@id": "5496",
+                "@name": "thematic",
+                "@friendlyname": "Thematic Rank",
+                "@value": "20",
+                "@bayesaverage": "7.63787"
+              }
+            ]
+          },
+          "stddev": "1.30419",
+          "median": "0",
+          "owned": "9053",
+          "trading": "163",
+          "wanting": "565",
+          "wishing": "2373",
+          "numcomments": "1116",
+          "numweights": "303",
+          "averageweight": "2.7063"
+        }
       },
       "boardgamemechanic": [
         {
@@ -16474,6 +19287,43 @@
         "@objectid": "5497",
         "#text": "Strategy Games"
       },
+      "statistics": {
+        "@page": "1",
+        "ratings": {
+          "usersrated": "7775",
+          "average": "7.7734",
+          "bayesaverage": "7.52156",
+          "ranks": {
+            "rank": [
+              {
+                "@type": "subtype",
+                "@id": "1",
+                "@name": "boardgame",
+                "@friendlyname": "Board Game Rank",
+                "@value": "74",
+                "@bayesaverage": "7.52156"
+              },
+              {
+                "@type": "family",
+                "@id": "5497",
+                "@name": "strategygames",
+                "@friendlyname": "Strategy Game Rank",
+                "@value": "48",
+                "@bayesaverage": "7.58267"
+              }
+            ]
+          },
+          "stddev": "1.37122",
+          "median": "0",
+          "owned": "8740",
+          "trading": "212",
+          "wanting": "675",
+          "wishing": "2734",
+          "numcomments": "1508",
+          "numweights": "563",
+          "averageweight": "3.5346"
+        }
+      },
       "boardgamemechanic": [
         {
           "@objectid": "2041",
@@ -16624,6 +19474,43 @@
           "#text": "Suburbia: Acrylic Tokens"
         }
       ],
+      "statistics": {
+        "@page": "1",
+        "ratings": {
+          "usersrated": "14133",
+          "average": "7.65781",
+          "bayesaverage": "7.51456",
+          "ranks": {
+            "rank": [
+              {
+                "@type": "subtype",
+                "@id": "1",
+                "@name": "boardgame",
+                "@friendlyname": "Board Game Rank",
+                "@value": "75",
+                "@bayesaverage": "7.51456"
+              },
+              {
+                "@type": "family",
+                "@id": "5497",
+                "@name": "strategygames",
+                "@friendlyname": "Strategy Game Rank",
+                "@value": "55",
+                "@bayesaverage": "7.52853"
+              }
+            ]
+          },
+          "stddev": "1.23869",
+          "median": "0",
+          "owned": "17123",
+          "trading": "303",
+          "wanting": "1082",
+          "wishing": "4765",
+          "numcomments": "2615",
+          "numweights": "761",
+          "averageweight": "2.7753"
+        }
+      },
       "boardgamemechanic": [
         {
           "@objectid": "2041",
@@ -16776,6 +19663,43 @@
         "@objectid": "4664",
         "#text": "Wargames"
       },
+      "statistics": {
+        "@page": "1",
+        "ratings": {
+          "usersrated": "6714",
+          "average": "7.80247",
+          "bayesaverage": "7.51018",
+          "ranks": {
+            "rank": [
+              {
+                "@type": "subtype",
+                "@id": "1",
+                "@name": "boardgame",
+                "@friendlyname": "Board Game Rank",
+                "@value": "76",
+                "@bayesaverage": "7.51018"
+              },
+              {
+                "@type": "family",
+                "@id": "4664",
+                "@name": "wargames",
+                "@friendlyname": "War Game Rank",
+                "@value": "15",
+                "@bayesaverage": "7.69842"
+              }
+            ]
+          },
+          "stddev": "1.41788",
+          "median": "0",
+          "owned": "8623",
+          "trading": "233",
+          "wanting": "596",
+          "wishing": "2251",
+          "numcomments": "2362",
+          "numweights": "966",
+          "averageweight": "2.6925"
+        }
+      },
       "boardgamemechanic": [
         {
           "@objectid": "2018",
@@ -16889,6 +19813,43 @@
       "boardgamesubdomain": {
         "@objectid": "5497",
         "#text": "Strategy Games"
+      },
+      "statistics": {
+        "@page": "1",
+        "ratings": {
+          "usersrated": "3252",
+          "average": "8.08234",
+          "bayesaverage": "7.50605",
+          "ranks": {
+            "rank": [
+              {
+                "@type": "subtype",
+                "@id": "1",
+                "@name": "boardgame",
+                "@friendlyname": "Board Game Rank",
+                "@value": "77",
+                "@bayesaverage": "7.50605"
+              },
+              {
+                "@type": "family",
+                "@id": "5497",
+                "@name": "strategygames",
+                "@friendlyname": "Strategy Game Rank",
+                "@value": "43",
+                "@bayesaverage": "7.64718"
+              }
+            ]
+          },
+          "stddev": "1.35767",
+          "median": "0",
+          "owned": "5275",
+          "trading": "47",
+          "wanting": "808",
+          "wishing": "2595",
+          "numcomments": "739",
+          "numweights": "283",
+          "averageweight": "4.2721"
+        }
       },
       "boardgamemechanic": [
         {
@@ -17177,6 +20138,43 @@
         "@objectid": "5497",
         "#text": "Strategy Games"
       },
+      "statistics": {
+        "@page": "1",
+        "ratings": {
+          "usersrated": "17180",
+          "average": "7.64866",
+          "bayesaverage": "7.50174",
+          "ranks": {
+            "rank": [
+              {
+                "@type": "subtype",
+                "@id": "1",
+                "@name": "boardgame",
+                "@friendlyname": "Board Game Rank",
+                "@value": "79",
+                "@bayesaverage": "7.50174"
+              },
+              {
+                "@type": "family",
+                "@id": "5497",
+                "@name": "strategygames",
+                "@friendlyname": "Strategy Game Rank",
+                "@value": "66",
+                "@bayesaverage": "7.47623"
+              }
+            ]
+          },
+          "stddev": "1.25123",
+          "median": "0",
+          "owned": "26225",
+          "trading": "368",
+          "wanting": "293",
+          "wishing": "2104",
+          "numcomments": "3092",
+          "numweights": "820",
+          "averageweight": "1.972"
+        }
+      },
       "boardgamemechanic": [
         {
           "@objectid": "2041",
@@ -17322,6 +20320,43 @@
       "boardgamesubdomain": {
         "@objectid": "4664",
         "#text": "Wargames"
+      },
+      "statistics": {
+        "@page": "1",
+        "ratings": {
+          "usersrated": "3530",
+          "average": "8.03228",
+          "bayesaverage": "7.50195",
+          "ranks": {
+            "rank": [
+              {
+                "@type": "subtype",
+                "@id": "1",
+                "@name": "boardgame",
+                "@friendlyname": "Board Game Rank",
+                "@value": "78",
+                "@bayesaverage": "7.50195"
+              },
+              {
+                "@type": "family",
+                "@id": "4664",
+                "@name": "wargames",
+                "@friendlyname": "War Game Rank",
+                "@value": "2",
+                "@bayesaverage": "7.91688"
+              }
+            ]
+          },
+          "stddev": "1.67066",
+          "median": "0",
+          "owned": "6453",
+          "trading": "174",
+          "wanting": "303",
+          "wishing": "1328",
+          "numcomments": "1354",
+          "numweights": "557",
+          "averageweight": "3.8007"
+        }
       },
       "boardgamemechanic": [
         {
@@ -17537,6 +20572,43 @@
           "#text": "Video Game Theme"
         }
       ],
+      "statistics": {
+        "@page": "1",
+        "ratings": {
+          "usersrated": "9305",
+          "average": "7.70419",
+          "bayesaverage": "7.49558",
+          "ranks": {
+            "rank": [
+              {
+                "@type": "subtype",
+                "@id": "1",
+                "@name": "boardgame",
+                "@friendlyname": "Board Game Rank",
+                "@value": "80",
+                "@bayesaverage": "7.49558"
+              },
+              {
+                "@type": "family",
+                "@id": "5497",
+                "@name": "strategygames",
+                "@friendlyname": "Strategy Game Rank",
+                "@value": "54",
+                "@bayesaverage": "7.53617"
+              }
+            ]
+          },
+          "stddev": "1.34025",
+          "median": "0",
+          "owned": "9637",
+          "trading": "222",
+          "wanting": "711",
+          "wishing": "2576",
+          "numcomments": "2843",
+          "numweights": "1293",
+          "averageweight": "3.0309"
+        }
+      },
       "boardgamemechanic": [
         {
           "@objectid": "2001",
@@ -17690,6 +20762,43 @@
       "boardgamesubdomain": {
         "@objectid": "4664",
         "#text": "Wargames"
+      },
+      "statistics": {
+        "@page": "1",
+        "ratings": {
+          "usersrated": "4263",
+          "average": "7.92794",
+          "bayesaverage": "7.4875",
+          "ranks": {
+            "rank": [
+              {
+                "@type": "subtype",
+                "@id": "1",
+                "@name": "boardgame",
+                "@friendlyname": "Board Game Rank",
+                "@value": "81",
+                "@bayesaverage": "7.4875"
+              },
+              {
+                "@type": "family",
+                "@id": "4664",
+                "@name": "wargames",
+                "@friendlyname": "War Game Rank",
+                "@value": "8",
+                "@bayesaverage": "7.77054"
+              }
+            ]
+          },
+          "stddev": "1.69517",
+          "median": "0",
+          "owned": "6135",
+          "trading": "133",
+          "wanting": "361",
+          "wishing": "1432",
+          "numcomments": "1585",
+          "numweights": "619",
+          "averageweight": "3.2052"
+        }
       },
       "boardgamemechanic": [
         {
@@ -18046,6 +21155,43 @@
           "#text": "Travel"
         }
       ],
+      "statistics": {
+        "@page": "1",
+        "ratings": {
+          "usersrated": "33978",
+          "average": "7.59156",
+          "bayesaverage": "7.4833",
+          "ranks": {
+            "rank": [
+              {
+                "@type": "subtype",
+                "@id": "1",
+                "@name": "boardgame",
+                "@friendlyname": "Board Game Rank",
+                "@value": "82",
+                "@bayesaverage": "7.4833"
+              },
+              {
+                "@type": "family",
+                "@id": "5499",
+                "@name": "familygames",
+                "@friendlyname": "Family Game Rank",
+                "@value": "7",
+                "@bayesaverage": "7.49224"
+              }
+            ]
+          },
+          "stddev": "1.19064",
+          "median": "0",
+          "owned": "42736",
+          "trading": "330",
+          "wanting": "738",
+          "wishing": "3956",
+          "numcomments": "6061",
+          "numweights": "2836",
+          "averageweight": "1.9658"
+        }
+      },
       "boardgamemechanic": [
         {
           "@objectid": "2041",
@@ -18236,6 +21382,51 @@
         "@objectid": "4328",
         "#text": "Warhammer Fantasy Board Games"
       },
+      "statistics": {
+        "@page": "1",
+        "ratings": {
+          "usersrated": "10921",
+          "average": "7.68396",
+          "bayesaverage": "7.48195",
+          "ranks": {
+            "rank": [
+              {
+                "@type": "subtype",
+                "@id": "1",
+                "@name": "boardgame",
+                "@friendlyname": "Board Game Rank",
+                "@value": "83",
+                "@bayesaverage": "7.48195"
+              },
+              {
+                "@type": "family",
+                "@id": "5496",
+                "@name": "thematic",
+                "@friendlyname": "Thematic Rank",
+                "@value": "23",
+                "@bayesaverage": "7.51248"
+              },
+              {
+                "@type": "family",
+                "@id": "5497",
+                "@name": "strategygames",
+                "@friendlyname": "Strategy Game Rank",
+                "@value": "63",
+                "@bayesaverage": "7.48641"
+              }
+            ]
+          },
+          "stddev": "1.45725",
+          "median": "0",
+          "owned": "11768",
+          "trading": "243",
+          "wanting": "707",
+          "wishing": "3068",
+          "numcomments": "2441",
+          "numweights": "797",
+          "averageweight": "3.1644"
+        }
+      },
       "boardgamemechanic": [
         {
           "@objectid": "2001",
@@ -18405,6 +21596,43 @@
       "boardgamesubdomain": {
         "@objectid": "5497",
         "#text": "Strategy Games"
+      },
+      "statistics": {
+        "@page": "1",
+        "ratings": {
+          "usersrated": "3375",
+          "average": "8.07889",
+          "bayesaverage": "7.47022",
+          "ranks": {
+            "rank": [
+              {
+                "@type": "subtype",
+                "@id": "1",
+                "@name": "boardgame",
+                "@friendlyname": "Board Game Rank",
+                "@value": "84",
+                "@bayesaverage": "7.47022"
+              },
+              {
+                "@type": "family",
+                "@id": "5497",
+                "@name": "strategygames",
+                "@friendlyname": "Strategy Game Rank",
+                "@value": "52",
+                "@bayesaverage": "7.56048"
+              }
+            ]
+          },
+          "stddev": "1.44245",
+          "median": "0",
+          "owned": "6433",
+          "trading": "143",
+          "wanting": "494",
+          "wishing": "2092",
+          "numcomments": "672",
+          "numweights": "248",
+          "averageweight": "3.7339"
+        }
       },
       "boardgamemechanic": [
         {
@@ -18605,6 +21833,51 @@
           "#text": "Thematic Games"
         }
       ],
+      "statistics": {
+        "@page": "1",
+        "ratings": {
+          "usersrated": "18069",
+          "average": "7.61166",
+          "bayesaverage": "7.46591",
+          "ranks": {
+            "rank": [
+              {
+                "@type": "subtype",
+                "@id": "1",
+                "@name": "boardgame",
+                "@friendlyname": "Board Game Rank",
+                "@value": "85",
+                "@bayesaverage": "7.46591"
+              },
+              {
+                "@type": "family",
+                "@id": "5496",
+                "@name": "thematic",
+                "@friendlyname": "Thematic Rank",
+                "@value": "30",
+                "@bayesaverage": "7.40345"
+              },
+              {
+                "@type": "family",
+                "@id": "5497",
+                "@name": "strategygames",
+                "@friendlyname": "Strategy Game Rank",
+                "@value": "76",
+                "@bayesaverage": "7.4192"
+              }
+            ]
+          },
+          "stddev": "1.68493",
+          "median": "0",
+          "owned": "21799",
+          "trading": "363",
+          "wanting": "1160",
+          "wishing": "5613",
+          "numcomments": "3980",
+          "numweights": "1057",
+          "averageweight": "2.5506"
+        }
+      },
       "boardgamemechanic": [
         {
           "@objectid": "2040",
@@ -18908,6 +22181,43 @@
         "@inbound": "true",
         "#text": "Age of Steam"
       },
+      "statistics": {
+        "@page": "1",
+        "ratings": {
+          "usersrated": "7842",
+          "average": "7.69016",
+          "bayesaverage": "7.46541",
+          "ranks": {
+            "rank": [
+              {
+                "@type": "subtype",
+                "@id": "1",
+                "@name": "boardgame",
+                "@friendlyname": "Board Game Rank",
+                "@value": "86",
+                "@bayesaverage": "7.46541"
+              },
+              {
+                "@type": "family",
+                "@id": "5497",
+                "@name": "strategygames",
+                "@friendlyname": "Strategy Game Rank",
+                "@value": "56",
+                "@bayesaverage": "7.52681"
+              }
+            ]
+          },
+          "stddev": "1.3456",
+          "median": "0",
+          "owned": "8564",
+          "trading": "241",
+          "wanting": "528",
+          "wishing": "2131",
+          "numcomments": "1832",
+          "numweights": "633",
+          "averageweight": "3.4534"
+        }
+      },
       "boardgamemechanic": [
         {
           "@objectid": "2012",
@@ -19043,6 +22353,43 @@
       "boardgamesubdomain": {
         "@objectid": "5497",
         "#text": "Strategy Games"
+      },
+      "statistics": {
+        "@page": "1",
+        "ratings": {
+          "usersrated": "9505",
+          "average": "7.65109",
+          "bayesaverage": "7.46109",
+          "ranks": {
+            "rank": [
+              {
+                "@type": "subtype",
+                "@id": "1",
+                "@name": "boardgame",
+                "@friendlyname": "Board Game Rank",
+                "@value": "87",
+                "@bayesaverage": "7.46109"
+              },
+              {
+                "@type": "family",
+                "@id": "5497",
+                "@name": "strategygames",
+                "@friendlyname": "Strategy Game Rank",
+                "@value": "61",
+                "@bayesaverage": "7.51141"
+              }
+            ]
+          },
+          "stddev": "1.29247",
+          "median": "0",
+          "owned": "9257",
+          "trading": "227",
+          "wanting": "853",
+          "wishing": "2541",
+          "numcomments": "2770",
+          "numweights": "1083",
+          "averageweight": "3.3878"
+        }
       },
       "boardgamemechanic": [
         {
@@ -19217,6 +22564,43 @@
       "boardgamesubdomain": {
         "@objectid": "5497",
         "#text": "Strategy Games"
+      },
+      "statistics": {
+        "@page": "1",
+        "ratings": {
+          "usersrated": "11108",
+          "average": "7.63013",
+          "bayesaverage": "7.45333",
+          "ranks": {
+            "rank": [
+              {
+                "@type": "subtype",
+                "@id": "1",
+                "@name": "boardgame",
+                "@friendlyname": "Board Game Rank",
+                "@value": "88",
+                "@bayesaverage": "7.45333"
+              },
+              {
+                "@type": "family",
+                "@id": "5497",
+                "@name": "strategygames",
+                "@friendlyname": "Strategy Game Rank",
+                "@value": "67",
+                "@bayesaverage": "7.475"
+              }
+            ]
+          },
+          "stddev": "1.10429",
+          "median": "0",
+          "owned": "14238",
+          "trading": "147",
+          "wanting": "750",
+          "wishing": "2944",
+          "numcomments": "1836",
+          "numweights": "604",
+          "averageweight": "2.6175"
+        }
       },
       "boardgamemechanic": [
         {
@@ -19416,6 +22800,43 @@
           "#text": "Splendor: Translucent Gem Tokens"
         }
       ],
+      "statistics": {
+        "@page": "1",
+        "ratings": {
+          "usersrated": "27165",
+          "average": "7.55605",
+          "bayesaverage": "7.44952",
+          "ranks": {
+            "rank": [
+              {
+                "@type": "subtype",
+                "@id": "1",
+                "@name": "boardgame",
+                "@friendlyname": "Board Game Rank",
+                "@value": "89",
+                "@bayesaverage": "7.44952"
+              },
+              {
+                "@type": "family",
+                "@id": "5499",
+                "@name": "familygames",
+                "@friendlyname": "Family Game Rank",
+                "@value": "8",
+                "@bayesaverage": "7.45724"
+              }
+            ]
+          },
+          "stddev": "1.2628",
+          "median": "0",
+          "owned": "36181",
+          "trading": "259",
+          "wanting": "831",
+          "wishing": "4559",
+          "numcomments": "4311",
+          "numweights": "1390",
+          "averageweight": "1.8424"
+        }
+      },
       "boardgamemechanic": [
         {
           "@objectid": "2041",
@@ -19650,6 +23071,43 @@
         "@objectid": "156455",
         "#text": "Viticulture: Complete Collector's Edition"
       },
+      "statistics": {
+        "@page": "1",
+        "ratings": {
+          "usersrated": "5657",
+          "average": "7.78799",
+          "bayesaverage": "7.44884",
+          "ranks": {
+            "rank": [
+              {
+                "@type": "subtype",
+                "@id": "1",
+                "@name": "boardgame",
+                "@friendlyname": "Board Game Rank",
+                "@value": "90",
+                "@bayesaverage": "7.44884"
+              },
+              {
+                "@type": "family",
+                "@id": "5497",
+                "@name": "strategygames",
+                "@friendlyname": "Strategy Game Rank",
+                "@value": "57",
+                "@bayesaverage": "7.52222"
+              }
+            ]
+          },
+          "stddev": "1.34323",
+          "median": "0",
+          "owned": "6092",
+          "trading": "53",
+          "wanting": "678",
+          "wishing": "2226",
+          "numcomments": "1152",
+          "numweights": "356",
+          "averageweight": "2.9298"
+        }
+      },
       "boardgamemechanic": [
         {
           "@objectid": "2040",
@@ -19761,6 +23219,43 @@
       "boardgamesubdomain": {
         "@objectid": "5497",
         "#text": "Strategy Games"
+      },
+      "statistics": {
+        "@page": "1",
+        "ratings": {
+          "usersrated": "12991",
+          "average": "7.60065",
+          "bayesaverage": "7.44333",
+          "ranks": {
+            "rank": [
+              {
+                "@type": "subtype",
+                "@id": "1",
+                "@name": "boardgame",
+                "@friendlyname": "Board Game Rank",
+                "@value": "91",
+                "@bayesaverage": "7.44333"
+              },
+              {
+                "@type": "family",
+                "@id": "5497",
+                "@name": "strategygames",
+                "@friendlyname": "Strategy Game Rank",
+                "@value": "65",
+                "@bayesaverage": "7.47801"
+              }
+            ]
+          },
+          "stddev": "1.34631",
+          "median": "0",
+          "owned": "13691",
+          "trading": "394",
+          "wanting": "573",
+          "wishing": "2050",
+          "numcomments": "3541",
+          "numweights": "1525",
+          "averageweight": "3.2531"
+        }
       },
       "boardgamemechanic": [
         {
@@ -20339,6 +23834,43 @@
           "#text": "Benjamin Pope"
         }
       ],
+      "statistics": {
+        "@page": "1",
+        "ratings": {
+          "usersrated": "5835",
+          "average": "7.84195",
+          "bayesaverage": "7.44198",
+          "ranks": {
+            "rank": [
+              {
+                "@type": "subtype",
+                "@id": "1",
+                "@name": "boardgame",
+                "@friendlyname": "Board Game Rank",
+                "@value": "92",
+                "@bayesaverage": "7.44198"
+              },
+              {
+                "@type": "family",
+                "@id": "4667",
+                "@name": "cgs",
+                "@friendlyname": "Customizable Rank",
+                "@value": "8",
+                "@bayesaverage": "7.55462"
+              }
+            ]
+          },
+          "stddev": "1.60845",
+          "median": "0",
+          "owned": "10134",
+          "trading": "575",
+          "wanting": "340",
+          "wishing": "2310",
+          "numcomments": "1320",
+          "numweights": "466",
+          "averageweight": "3.6245"
+        }
+      },
       "boardgamemechanic": [
         {
           "@objectid": "2072",
@@ -21151,6 +24683,43 @@
           "#text": "The Lord of the Rings: The Card Game - The Dungeons of Cirith Gurat"
         }
       ],
+      "statistics": {
+        "@page": "1",
+        "ratings": {
+          "usersrated": "14343",
+          "average": "7.64942",
+          "bayesaverage": "7.44115",
+          "ranks": {
+            "rank": [
+              {
+                "@type": "subtype",
+                "@id": "1",
+                "@name": "boardgame",
+                "@friendlyname": "Board Game Rank",
+                "@value": "93",
+                "@bayesaverage": "7.44115"
+              },
+              {
+                "@type": "family",
+                "@id": "4667",
+                "@name": "cgs",
+                "@friendlyname": "Customizable Rank",
+                "@value": "9",
+                "@bayesaverage": "7.54376"
+              }
+            ]
+          },
+          "stddev": "1.51928",
+          "median": "0",
+          "owned": "22110",
+          "trading": "795",
+          "wanting": "379",
+          "wishing": "2098",
+          "numcomments": "3133",
+          "numweights": "1101",
+          "averageweight": "3.1126"
+        }
+      },
       "boardgamemechanic": [
         {
           "@objectid": "2023",
@@ -21721,6 +25290,43 @@
         "@objectid": "6",
         "#text": "Martin Wallace"
       },
+      "statistics": {
+        "@page": "1",
+        "ratings": {
+          "usersrated": "6636",
+          "average": "7.70514",
+          "bayesaverage": "7.43971",
+          "ranks": {
+            "rank": [
+              {
+                "@type": "subtype",
+                "@id": "1",
+                "@name": "boardgame",
+                "@friendlyname": "Board Game Rank",
+                "@value": "94",
+                "@bayesaverage": "7.43971"
+              },
+              {
+                "@type": "family",
+                "@id": "5497",
+                "@name": "strategygames",
+                "@friendlyname": "Strategy Game Rank",
+                "@value": "60",
+                "@bayesaverage": "7.51661"
+              }
+            ]
+          },
+          "stddev": "1.65311",
+          "median": "0",
+          "owned": "6186",
+          "trading": "181",
+          "wanting": "421",
+          "wishing": "1643",
+          "numcomments": "2201",
+          "numweights": "865",
+          "averageweight": "3.926"
+        }
+      },
       "boardgamemechanic": [
         {
           "@objectid": "2012",
@@ -21867,6 +25473,43 @@
         "@objectid": "5497",
         "#text": "Strategy Games"
       },
+      "statistics": {
+        "@page": "1",
+        "ratings": {
+          "usersrated": "4484",
+          "average": "7.82784",
+          "bayesaverage": "7.43755",
+          "ranks": {
+            "rank": [
+              {
+                "@type": "subtype",
+                "@id": "1",
+                "@name": "boardgame",
+                "@friendlyname": "Board Game Rank",
+                "@value": "95",
+                "@bayesaverage": "7.43755"
+              },
+              {
+                "@type": "family",
+                "@id": "5497",
+                "@name": "strategygames",
+                "@friendlyname": "Strategy Game Rank",
+                "@value": "53",
+                "@bayesaverage": "7.53873"
+              }
+            ]
+          },
+          "stddev": "1.21874",
+          "median": "0",
+          "owned": "6381",
+          "trading": "110",
+          "wanting": "646",
+          "wishing": "2045",
+          "numcomments": "894",
+          "numweights": "310",
+          "averageweight": "3.5839"
+        }
+      },
       "boardgamemechanic": [
         {
           "@objectid": "2080",
@@ -22000,6 +25643,43 @@
       "boardgamesubdomain": {
         "@objectid": "5497",
         "#text": "Strategy Games"
+      },
+      "statistics": {
+        "@page": "1",
+        "ratings": {
+          "usersrated": "8122",
+          "average": "7.6395",
+          "bayesaverage": "7.42588",
+          "ranks": {
+            "rank": [
+              {
+                "@type": "subtype",
+                "@id": "1",
+                "@name": "boardgame",
+                "@friendlyname": "Board Game Rank",
+                "@value": "96",
+                "@bayesaverage": "7.42588"
+              },
+              {
+                "@type": "family",
+                "@id": "5497",
+                "@name": "strategygames",
+                "@friendlyname": "Strategy Game Rank",
+                "@value": "64",
+                "@bayesaverage": "7.48323"
+              }
+            ]
+          },
+          "stddev": "1.38725",
+          "median": "0",
+          "owned": "7992",
+          "trading": "126",
+          "wanting": "619",
+          "wishing": "2056",
+          "numcomments": "1878",
+          "numweights": "604",
+          "averageweight": "3.1325"
+        }
       },
       "boardgamemechanic": [
         {
@@ -22187,6 +25867,43 @@
           "#text": "Norman Sommer"
         }
       ],
+      "statistics": {
+        "@page": "1",
+        "ratings": {
+          "usersrated": "11237",
+          "average": "7.6774",
+          "bayesaverage": "7.41954",
+          "ranks": {
+            "rank": [
+              {
+                "@type": "subtype",
+                "@id": "1",
+                "@name": "boardgame",
+                "@friendlyname": "Board Game Rank",
+                "@value": "97",
+                "@bayesaverage": "7.41954"
+              },
+              {
+                "@type": "family",
+                "@id": "4666",
+                "@name": "abstracts",
+                "@friendlyname": "Abstract Game Rank",
+                "@value": "6",
+                "@bayesaverage": "7.28004"
+              }
+            ]
+          },
+          "stddev": "1.909",
+          "median": "0",
+          "owned": "14952",
+          "trading": "238",
+          "wanting": "126",
+          "wishing": "1163",
+          "numcomments": "3086",
+          "numweights": "1209",
+          "averageweight": "3.9694"
+        }
+      },
       "boardgamemechanic": {
         "@objectid": "2043",
         "#text": "Area Enclosure"
@@ -22550,6 +26267,43 @@
         "@inbound": "true",
         "#text": "Zheng Fen"
       },
+      "statistics": {
+        "@page": "1",
+        "ratings": {
+          "usersrated": "10356",
+          "average": "7.60946",
+          "bayesaverage": "7.41836",
+          "ranks": {
+            "rank": [
+              {
+                "@type": "subtype",
+                "@id": "1",
+                "@name": "boardgame",
+                "@friendlyname": "Board Game Rank",
+                "@value": "98",
+                "@bayesaverage": "7.41836"
+              },
+              {
+                "@type": "family",
+                "@id": "5497",
+                "@name": "strategygames",
+                "@friendlyname": "Strategy Game Rank",
+                "@value": "69",
+                "@bayesaverage": "7.44769"
+              }
+            ]
+          },
+          "stddev": "1.7024",
+          "median": "0",
+          "owned": "15007",
+          "trading": "249",
+          "wanting": "271",
+          "wishing": "1348",
+          "numcomments": "2836",
+          "numweights": "842",
+          "averageweight": "2.3515"
+        }
+      },
       "boardgamemechanic": [
         {
           "@objectid": "2014",
@@ -22765,6 +26519,43 @@
         "@inbound": "true",
         "#text": "Ticket to Ride"
       },
+      "statistics": {
+        "@page": "1",
+        "ratings": {
+          "usersrated": "7741",
+          "average": "7.66777",
+          "bayesaverage": "7.41819",
+          "ranks": {
+            "rank": [
+              {
+                "@type": "subtype",
+                "@id": "1",
+                "@name": "boardgame",
+                "@friendlyname": "Board Game Rank",
+                "@value": "99",
+                "@bayesaverage": "7.41819"
+              },
+              {
+                "@type": "family",
+                "@id": "5499",
+                "@name": "familygames",
+                "@friendlyname": "Family Game Rank",
+                "@value": "6",
+                "@bayesaverage": "7.49271"
+              }
+            ]
+          },
+          "stddev": "1.24123",
+          "median": "0",
+          "owned": "10771",
+          "trading": "87",
+          "wanting": "680",
+          "wishing": "2310",
+          "numcomments": "1644",
+          "numweights": "482",
+          "averageweight": "1.9959"
+        }
+      },
       "boardgamemechanic": [
         {
           "@objectid": "2041",
@@ -22846,6 +26637,43 @@
       "boardgameartist": {
         "@objectid": "12282",
         "#text": "Alexandre Roche"
+      },
+      "statistics": {
+        "@page": "1",
+        "ratings": {
+          "usersrated": "17059",
+          "average": "7.54075",
+          "bayesaverage": "7.41682",
+          "ranks": {
+            "rank": [
+              {
+                "@type": "subtype",
+                "@id": "1",
+                "@name": "boardgame",
+                "@friendlyname": "Board Game Rank",
+                "@value": "101",
+                "@bayesaverage": "7.41682"
+              },
+              {
+                "@type": "family",
+                "@id": "5499",
+                "@name": "familygames",
+                "@friendlyname": "Family Game Rank",
+                "@value": "9",
+                "@bayesaverage": "7.44284"
+              }
+            ]
+          },
+          "stddev": "1.08592",
+          "median": "0",
+          "owned": "23286",
+          "trading": "194",
+          "wanting": "871",
+          "wishing": "3709",
+          "numcomments": "3307",
+          "numweights": "912",
+          "averageweight": "1.5384"
+        }
       },
       "boardgamemechanic": [
         {

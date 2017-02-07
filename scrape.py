@@ -34,7 +34,7 @@ for line in gameList:
         continue
     gameId = line.split(",")[-1]
     print(line.split(",")[1])
-    page = requests.get(API_URL + str(gameId))
+    page = requests.get(API_URL + str(gameId) + '?stats=1')
     # poop = json.dumps(xmltodict.parse(page.text), indent=2, separators=(',', ': '))
     butt = xmltodict.parse(page.text)
 
