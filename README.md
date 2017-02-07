@@ -54,30 +54,35 @@ OTHER FEATURES TO COME
 		- better UI than bgg
 		- link to forum for that game
 
+	collect emails
+
+	articles network
+
 	user profile pages
 		- collection
 		- ratings
 		- later on: what games they "learned more" about
 
-	subscriptions to game news, forum posts, game families
-
-	raffles/contests
+	forums
 
 	deals
 
-	forums
+  send mail to users to notify them of deals, games they might like (based on their collection and liked games), articles, events, local game stores
+
+	video presence -- game reviews, game playthroughs, dethrone Tabletop; events coverage
+		- videos need to be short; explain the overview, key mechanics, turn walkthrough, high LEVEL
+		- clips of game in action, people having fun, interesting nuances
 
 	marketplace
 
 	kickstarter/designers hub
 
-	articles network
+	subscriptions to game news, forum posts, game families
 
 	authorities you can follow, what they are playing / posting about
 
-  send mail to users to notify them of deals, games they might like (based on their collection and liked games), articles, events, local game stores
+	raffles/contests
 
-	video presence -- game reviews, game playthroughs, dethrone Tabletop; events coverage
 
 
 
