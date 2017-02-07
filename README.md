@@ -2,8 +2,9 @@
 Board Game Recommender, and successor to BGG
 
 ## P1 FIX NOW
-- [ ] bgg scrape doesn't have 'statistics' tag, which is vital
+- [X] bgg scrape doesn't have 'statistics' tag, which is vital
 - [ ] server has some error: `events.js:161    throw er; // Unhandled 'error' event`
+- [ ] learn how to get react into koa
 
 ## MVP MVP
 - [ ] site name
@@ -16,6 +17,7 @@ Board Game Recommender, and successor to BGG
 
 ## MVP
 - [ ] JS vs db for data storage
+- [ ] calvin wants AWS
 - [ ] webpack
 - [ ] mailchimp
 - [ ] user accounts
