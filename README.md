@@ -1,8 +1,30 @@
 # boardgames
 Board Game Recommender, and successor to BGG
 
+## P1 FIX NOW
+	[] bgg scrape doesn't have 'statistics' tag, which is vital
+	[] server has some error:
+	events.js:161
+		throw er; // Unhandled 'error' event
 
-bgg
+## MVP MVP MVP
+	[] site name
+	[] grab domain, set up hosting
+	[] learn seo, pump out articles
+	[] scrape up to 1000 games
+	[] set up app to take a query that is a game name, and return the data for it
+		[] landing page, with query input
+		[]
+	[] game entry page; create and add into routes
+
+## MVP MVP
+	[] JS vs db for data storage
+	[] mailchimp
+	[] user accounts
+	[] users can rate games
+	[] figure out some tracking software / site to replace this
+
+# MVP
 
 1st steps
 	seo
