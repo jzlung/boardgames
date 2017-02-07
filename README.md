@@ -3,8 +3,7 @@ Board Game Recommender, and successor to BGG
 
 ## P1 FIX NOW
 - [ ] bgg scrape doesn't have 'statistics' tag, which is vital
-- [ ] server has some error:
-    events.js:161    throw er; // Unhandled 'error' event
+- [ ] server has some error: `events.js:161    throw er; // Unhandled 'error' event`
 
 ## MVP MVP
 - [ ] site name
