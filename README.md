@@ -4,16 +4,20 @@ Board Game Recommender, and successor to BGG
 ## P1 FIX NOW
 - [X] bgg scrape doesn't have 'statistics' tag, which is vital
 - [ ] server has some error: `events.js:161    throw er; // Unhandled 'error' event`
-- [ ] learn how to get react into koa
+- [ ] learn how to website architecture / infrastructure
+- [ ] how to get blog into site; research other niche sites; medium embed (can't), others?
 
-## MVP MVP
-- [ ] site name
-- [ ] grab domain, set up hosting
+## MVP MVP MVP
+- [X] site name -> **bigboardofgames.com**
+- [ ] set up hosting -- digitalocean credits, calvin aws?
 - [ ] learn seo, pump out articles
 - [ ] scrape up to 1000 games
+
+### MVP MVP
 - [ ] set up app to take a query that is a game name, and return the data for it
 - [ ] landing page, with query input
 - [ ] game entry page; create and add into routes
+- [ ] learn how to get react into koa
 
 ## MVP
 - [ ] JS vs db for data storage
@@ -26,14 +30,9 @@ Board Game Recommender, and successor to BGG
 
 ## FEATURES TO COME
 * game entry pages
-  - better UI than bgg
-	- link to forum for that game
 * collect emails
 * articles network
 * user profile pages
-	- collection
-	- ratings
-	- later on: what games they "learned more" about
 * forums
 * deals
 * send mail to users to notify them of deals, games they might like (based on their collection and liked games), articles, events, local game stores
@@ -68,10 +67,20 @@ Board Game Recommender, and successor to BGG
 	- basically enough information to get people to learn more
 	- search criteria for why this game is similar to the entered one
 
-### Other data needed
-- game entry
-  * picture
-  * amazon affiliate link
+### Website names
+    themeta.games 12, boardgamer.space 2, metagames.io 30, metagame.io 30 metagame.space 2 metagame.world 2 boardgame.zone 3 metagaming.org 8 gamersend boardgames.tips 20 boardgames.guide 20 win condition themetagame metagame metagames gamerspace roll play victory point board game meta, gamemeter gamemeter analysis paralysis gamemaster(s) endgame gamespace gamr meeple.me game point action point sandbox ludology ludogames ludologists game mechanics dudes on a map kingmaker board game magnate board game Legacy overpowered games volksgame gamersgame
+
+    take two board game jargons and put them together like hipster style (tasty n sons, pig and pestle, board & game)
+
+    winning criterion: get a .com, which requires us to think bigger
+
+### Game Entry
+facebook style picture masthead, useful attributes and statistics in good UI, then user reviews a la yelp, amazon, rottentomatoes, metacritic, etc
+- link to forums for those games, useful forum links (bgg, reddit), rules additions / clarifications
+- other blogs pay us to link to their articles
+- how to play / review videos
+- user pictures
+- amazon affiliate link
 
 ### User profile
 - name
@@ -79,12 +88,27 @@ Board Game Recommender, and successor to BGG
 - display name
 - geographic location
 - collections
+- ratings
+- what games they "learned more" about
+- what games they click the amazon affiliate link for / ended up buying (added to collection)
+- their plays
+- **their comments / ratings => these will be used for other users, when they see this user's reviews/ratings, they can see what kind of player this user is, what games they own / play most often, what category is their strongest, etc**
+
+## TODO // TOREAD
+https://affiliate-program.amazon.com/
+https://moz.com/beginners-guide-to-seo/how-search-engines-operate
+https://www.reddit.com/r/boardgames/comments/5ppzlu/i_am_kelly_north_adams_a_female_board_game/
+https://www.reddit.com/r/IAmA/comments/5st45a/iama_29yearold_married_guy_who_quit_his_job_to/
+https://www.reddit.com/r/boardgames/comments/5pzb3b/my_pirate_game_tortuga_1667_raised_125k_in_its/
+http://www.namemesh.com/domain-name-search/meta%20gaming?show=1
+https://www.smashingmagazine.com/2009/05/the-effective-strategy-for-choosing-right-domain-names/
+
+
 
 ## REFERENCES
 http://stackoverflow.com/questions/31126596/saving-response-from-requests-to-file
 https://pythonadventures.wordpress.com/2014/12/29/xml-to-dict-xml-to-json/
 https://github.com/ThaWeatherman/scrapers/blob/master/boardgamegeek/get_game_info.py
-
 
 ## COMPETITORS
 Use https://www.similarweb.com/ to test their numbers.
@@ -100,3 +124,5 @@ https://www.boardgamegeek.com/xmlapi
 https://www.boardgamegeek.com/thread/99401/boardgamegeek-xml-api
 https://boardgamegeek.com/wiki/page/Data_Mining
 https://boardgamegeek.com/wiki/page/game_entry#
+https://www.reddit.com/r/boardgames/comments/2no1ko/i_dont_get_boardgamegeekcom/
+https://www.reddit.com/r/boardgames/comments/1tht4h/my_personal_guide_to_boardgamegeek_how_i_make_the/
