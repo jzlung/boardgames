@@ -5,7 +5,8 @@ Board Game Recommender, and successor to BGG
 - [X] bgg scrape doesn't have 'statistics' tag, which is vital
 - [ ] server has some error: `events.js:161    throw er; // Unhandled 'error' event`
 - [ ] learn how to website architecture / infrastructure
-- [ ] how to get blog into site; research other niche sites; medium embed (can't), others?
+- [ ] how to get blog into site; research other niche sites; medium embed (can't), others? jekyll?
+- [ ] simplify data format
 
 ## MVP MVP MVP
 - [X] site name -> **bigboardofgames.com**
@@ -48,7 +49,7 @@ Board Game Recommender, and successor to BGG
 
 ## DOCUMENTS
 
-### Articles for seo
+### Articles
 - dominion strategy principles
 - one night ultimate werewolf strategy
 - personal top games lists
@@ -82,6 +83,10 @@ facebook style picture masthead, useful attributes and statistics in good UI, th
 - how to play / review videos
 - user pictures
 - amazon affiliate link
+
+### Articles UI
+- mtg/wizards
+- medium
 
 ### User profile
 - name

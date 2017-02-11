@@ -18,9 +18,11 @@ gameIds = [
     2651, # Power Grid
 ]
 
-file = open("full_out.json", "w")
+# file = open("full_out.json", "w")
+file = open("test.json", "w")
 objectToJson = {}
 objectToJson["gameList"] = []
+# Modify this limit to your liking
 limit = 100
 count = 0
 
@@ -37,9 +39,10 @@ for line in gameList:
     page = requests.get(API_URL + str(gameId) + '?stats=1')
     # poop = json.dumps(xmltodict.parse(page.text), indent=2, separators=(',', ': '))
     butt = xmltodict.parse(page.text)
-
-    # preprocess
     pee = butt['boardgames']['boardgame']
+
+
+    # preprocess: remove unneeded info
     pee.pop('boardgamepodcastepisode', None)
     pee.pop('boardgameversion', None)
     pee.pop('rpgpodcastepisode', None)
@@ -51,6 +54,35 @@ for line in gameList:
                 break
     elif type(pee['name']) is collections.OrderedDict:
         pee['name'] = pee['name']['#text']
+
+    # Process boardgamesubdomain into categories, and then sanitize by removing unnecessary qualifiers
+    pee['categories'] = pee.pop('boardgamesubdomain')
+    # boardgamecategory is actually themes, which is not useful imho
+    pee.pop('boardgamecategory')
+    if isinstance(pee['categories'], list):
+        for category in pee['categories']:
+            # TODO: maybe have to extend this to " Game", " games", etc
+            if category['#text'].endswith(' Games'):
+                category['#text'] = category['#text'][:-len(' Games')]
+        pee['categories'][:] = [category for category in pee['categories'] if not category['#text'] == "Thematic"]
+    else:
+        if pee['categories']['#text'].endswith(' Games'):
+            category['#text'] = category['#text'][:-len(' Games')]
+
+    # TODO: hack
+    if pee['name'] == "Pandemic Legacy: Season 1":
+        cooperative = {};
+        cooperative["@objectid"] = "999992";
+        cooperative["#text"] = "Cooperative"
+        legacy = {};
+        legacy["@objectid"] = "999991";
+        legacy["#text"] = "Legacy";
+        pee['categories'].append(cooperative);
+        pee['categories'].append(legacy);
+
+    # TODO: download the image and change image url to new local image url
+    pee['image'] = "pandemiclegacy.png"
+
     ## The following methods move the fields around so the JSON is better readable;
     ## Slight error right now using python 2.7.13: AttributeError: 'OrderedDict' object has no attribute 'move_to_end'
     pee.move_to_end('name',last=False)
