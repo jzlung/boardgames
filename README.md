@@ -17,7 +17,7 @@ Board Game Recommender, and successor to BGG
 - [ ] set up app to take a query that is a game name, and return the data for it
 - [ ] landing page, with query input
 - [ ] game entry page; create and add into routes
-- [ ] learn how to get react into koa
+- [ ] google analytics
 
 ## MVP
 - [ ] JS vs db for data storage
@@ -44,6 +44,7 @@ Board Game Recommender, and successor to BGG
 * subscriptions to game news, forum posts, game families
 * authorities you can follow, what they are playing / posting about
 * raffles/contests
+* invest in own lab to fund designers, spur innovation in the field
 
 ## DOCUMENTS
 
@@ -109,6 +110,8 @@ https://www.smashingmagazine.com/2009/05/the-effective-strategy-for-choosing-rig
 http://stackoverflow.com/questions/31126596/saving-response-from-requests-to-file
 https://pythonadventures.wordpress.com/2014/12/29/xml-to-dict-xml-to-json/
 https://github.com/ThaWeatherman/scrapers/blob/master/boardgamegeek/get_game_info.py
+http://blog.joanboixados.com/building-a-boilerplate-for-a-koa-redux-react-application-including-webpack-mocha-and-sass/
+
 
 ## COMPETITORS
 Use https://www.similarweb.com/ to test their numbers.
