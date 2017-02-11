@@ -1,48 +1,154 @@
+
 <!DOCTYPE html>
-<head>
-  <link href="https://fonts.googleapis.com/css?family=Bahiana|Roboto+Slab|Lato" rel="stylesheet">
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="../../favicon.ico">
 
-  <style>
-    
-    h1 {
-      font-family: 'Bahiana', cursive;
-      font-size: 84px;
-    }
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/babel-core/5.8.23/browser.min.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Bahiana|Roboto+Slab|Lato" rel="stylesheet">
 
-    p,
-    a
-    {
-      font-size: 22px;
-      font-family: 'Roboto Slab', 'Lato', sans-serif
-    }
+    <title>Cover Template for Bootstrap</title>
 
-    a {
-      font-size: 26px;
-    }
+    <!-- Bootstrap core CSS -->
+    <link href="static/css/bootstrap.min.css" rel="stylesheet">
 
-    .crate {
-      margin: auto;
-      width: 80%;
-      text-align: center;
-    }
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <link href="../../assets/css/ie10-viewport-bug-workaround.css" rel="stylesheet">
 
-  </style>
+    <!-- Custom styles for this template -->
+    <link href="static/css/cover.css" rel="stylesheet">
 
-</head>
+    <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
+    <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
+    <script src="../../assets/js/ie-emulation-modes-warning.js"></script>
 
-<body>
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
 
-  <div class="crate">
+    <style>
 
-    <h1>
-      THE BIG BOARD OF GAMES
-    </h1>
+      h1 {
+        font-family: 'Bahiana', cursive;
+        font-size: 100px;
+      }
 
-    <p>Coming soon, the new online resource and community for board games.</p>
-    <a href="http://www.bigboardofgames.com">www.bigboardofgames.com</a>
+      h1.cover-heading {
+        margin-bottom: 44px;
+        margin-top: 44px;
+      }
 
-  </div>
+      p,
+      a
+      {
+        font-size: 22px;
+        font-family: 'Roboto Slab', 'Lato', sans-serif
+      }
 
-</body>
+      a {
+        font-size: 26px;
+      }
+
+      .crate {
+        margin: auto;
+        width: 80%;
+        text-align: center;
+      }
+
+      .title-link {
+        font-size: 36px;
+        padding: 10px;
+        margin: 10px;
+      }
+
+      .lead.secondary {
+        margin: 20px;
+      }
+
+      .btn img.clippy {
+        width: 28px;
+      }
+
+    </style>
+
+  </head>
+
+  <body>
+
+    <div class="site-wrapper">
+
+      <div class="site-wrapper-inner">
+
+        <div class="cover-container">
+
+          <!-- <div class="masthead clearfix">
+            <div class="inner">
+              <h3 class="masthead-brand">Cover</h3>
+              <nav>
+                <ul class="nav masthead-nav">
+                  <li class="active"><a href="#">Home</a></li>
+                  <li><a href="#">Features</a></li>
+                  <li><a href="#">Contact</a></li>
+                </ul>
+              </nav>
+            </div>
+          </div> -->
+
+          <div class="inner cover">
+            <h1 class="cover-heading">THE BIG BOARD OF GAMES</h1>
+            <p class="lead">Coming soon, the new online resource and community for board games:</p>
+            <a class="title-link" href="http://www.bigboardofgames.com">www.bigboardofgames.com</a>
+            <p class="lead secondary">Learn more about our launch by sending us a quick message at <b>info@bigboardofgames.com</b></p>
+            <p class="lead">
+              <a class="btn btn-lg btn-default"
+                  href="mailto:info@bigboardofgames.com&subject=Subscribe!&body=I%20would%20like%20to%20learn%20more%20about%20The%20Big%20Board%20of%20Games!">
+                Join our mailing list
+              </a>
+            </p>
+          </div>
+
+          <!-- <div class="mastfoot">
+            <div class="inner">
+              <p>Cover template for <a href="http://getbootstrap.com">Bootstrap</a>, by <a href="https://twitter.com/mdo">@mdo</a>.</p>
+            </div>
+          </div> -->
+
+        </div>
+
+      </div>
+
+    </div>
+
+    <script type="text/babel">
+      document.querySelector('.btn.clipboard').addEventListener('click', event => {
+        debugger;
+        document.querySelector('.email').select();
+        try {
+          var successful = document.execCommand('copy');
+          var msg = successful ? 'successful' : 'unsuccessful';
+          console.log('Copying text command was ' + msg);
+        }
+        catch (err) {
+          alert("Oops, unable to copy. Here's our email (Ctrl + C on Windows; Cmd + C on Mac):\n\ninfo@bigboardofgames.com");
+        }
+      });
+    </script>
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery.min.js"><\/script>')</script>
+    <script src="../../dist/js/bootstrap.min.js"></script>
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <script src="../../assets/js/ie10-viewport-bug-workaround.js"></script>
+  </body>
 </html>
-
