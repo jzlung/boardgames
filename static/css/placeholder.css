@@ -1,0 +1,256 @@
+/* CSS for THE BIG BOARD OF GAMES <www.bigboardofgames.com> */
+
+/**************************** BASE ********************************/
+
+html,
+body{
+  height:100%;
+  font-family: Helvetica;
+}
+
+body {
+  text-align: center;
+  background-image: url("../../masthead_2.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.overlay {
+    z-index: -1;
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    overflow: auto;
+    top: 0px;
+    left: 0px;
+    background: rgba(0, 0, 0, 0.5); /*can be anything, of course*/
+}
+
+.cover {
+	height: 100%;
+	width: 100%;
+}
+
+.content {
+	height: 100%;
+	width: 100%;
+  	display: table;
+}
+
+/********************************************************************************
+ ************** MAIN *******************
+ ********************************************************************************/
+
+/* TODO: Add min-height; */
+.main {
+  height:100%;
+  width: 50%;
+  margin-right: auto;
+  margin-left: auto;
+  transition: all 0.5s ease-in-out;
+}
+
+.container {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.cover-heading,
+.lead
+{
+  text-shadow: 0 1px 3px rgba(0,0,0,.5);
+  color: white;
+}
+
+.cover-heading {
+	font-family: 'Bahiana', cursive;
+	font-size: 100px;
+	margin: 3%;
+}
+
+.lead {
+  font-family: 'Roboto Slab', 'Lato', sans-serif;
+}
+
+.lead.title-link {
+  font-size: 20px;
+}
+
+.circles img {
+  width:200px;
+  height:200px;
+  border-radius:200px;
+  -webkit-border-radius:200px;
+  -moz-border-radius:200px;
+  background:url(resources/kubrick.jpg) no-repeat;
+}
+
+.btn-get-resume {
+	margin-bottom: 0;
+}
+
+.mastfoot {
+	text-decoration: none;
+}
+
+.links {
+	padding:0;
+	margin:0;
+	white-space: nowrap;
+	list-style-type: none;
+	font-family: Entypo-Social;
+}
+
+.links li {
+	display:inline;
+	opacity: 0.2;
+}
+
+.links li:hover {
+	opacity: 1;
+}
+
+.links li img {
+	width: 75px;
+}
+
+.links li a {
+	font-size: 75px;
+	text-decoration: none;
+	height: 12px;
+}
+
+
+/********************************************************************************
+ ************** PROJECTS *******************
+ ********************************************************************************/
+
+.projects {
+	/*background-color: #458B00;*/
+  transition: all 0.5s ease-in-out;
+}
+
+.container-projects {
+	font-family: Hectic-Regular;
+	font-size: 50px;
+}
+
+.project {
+	width: 80%;
+	padding: 50px;
+	display: table;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.project-image, .project-text {
+	display: table-cell;
+	width: 50%;
+}
+
+.project-text {
+	vertical-align: middle;
+	font-size: 20px;
+}
+
+.project-text h1 {
+	font-size: 40px;
+}
+
+.project-image img {
+	width: 80%;
+	border: 3px solid black;
+  	/*border-radius: 4px;*/
+}
+
+.github {
+	text-align: center;
+	vertical-align: middle;
+	font-size: 40px;
+}
+
+
+/********************************************************************************
+ ************** CONTACT *******************
+ ********************************************************************************/
+
+.form-contact {
+	background-color: #333;
+	width: 40%;
+	height: 60%;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+
+
+/******************************************
+ ************** STYLES *******************
+ ******************************************/
+
+/* Does I need? */
+.visible {
+  visibility: visible;
+  opacity: 1;
+  transition: opacity 2s linear;
+}
+
+.invisible {
+	visibility: hidden;
+	opacity: 0;
+	transition: visibility 0s 2s, opacity 2s linear;
+}
+
+
+/******************************************
+ ********* BUTTONS, LINKS *****************
+ ******************************************/
+
+ a {
+ 	text-decoration: none;
+ }
+
+.btn {
+  display: inline-block;
+  padding: 6px 12px;
+  margin-bottom: 0;
+  font-size: 14px;
+  font-weight: normal;
+  line-height: 1.42857143;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  cursor: pointer;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+  background-image: none;
+  border: 1px solid transparent;
+  border-radius: 4px;
+  text-decoration: none;
+}
+
+.btn:hover,
+.btn:focus {
+  color: #333;
+  text-decoration: none;
+}
+
+.btn-default {
+  color: #333;
+  background-color: #fff;
+  border-color: #ccc;
+}
+
+.btn-default:hover,
+.btn-default:focus,
+.btn-default:active,
+.btn-default.active,
+.open > .dropdown-toggle.btn-default {
+  color: #333;
+  background-color: #e6e6e6;
+  border-color: #adadad;
+}
+
+/**********************************************/
