@@ -20,6 +20,7 @@
 
       .game-entry {
         font-family: Lato, Helvetica Neue;
+        display: inline-block;
       }
 
       .title {
@@ -450,36 +451,36 @@
         // Comment all this out for local development
         // -----------------------------------------
 
-        const API_URL = "http://localhost:3000"
-        var xhr = new XMLHttpRequest();
-        xhr.open('GET', API_URL + '/id/161936', true);
-        xhr.withCredentials = true;
-        xhr.responseType = 'json';
-
-        xhr.onreadystatechange = function() {
-          if (xhr.readyState == XMLHttpRequest.DONE && xhr.status == 200) {
-            console.log(xhr.response);
-            ReactDOM.render(
-              <GameEntry game={xhr.response} />,
-              document.querySelector('.crate'));
-          }
-        }
-
-        xhr.onerror = function(err) {
-          console.log("XHR ERROR:");
-          console.log(xhr);
-        };
-
-        xhr.send();
-
-      }
-      start();
+      //   const API_URL = "http://localhost:3000"
+      //   var xhr = new XMLHttpRequest();
+      //   xhr.open('GET', API_URL + '/id/161936', true);
+      //   xhr.withCredentials = true;
+      //   xhr.responseType = 'json';
+      //
+      //   xhr.onreadystatechange = function() {
+      //     if (xhr.readyState == XMLHttpRequest.DONE && xhr.status == 200) {
+      //       console.log(xhr.response);
+      //       ReactDOM.render(
+      //         <GameEntry game={xhr.response} />,
+      //         document.querySelector('.crate'));
+      //     }
+      //   }
+      //
+      //   xhr.onerror = function(err) {
+      //     console.log("XHR ERROR:");
+      //     console.log(xhr);
+      //   };
+      //
+      //   xhr.send();
+      //
+      // }
+      // start();
 
       // ------------------------------------------------------
 
-      // ReactDOM.render(
-      //   <GameEntry game={pandemicLegacy} />,
-      //   document.querySelector('.crate'));
+      ReactDOM.render(
+        <GameEntry game={pandemicLegacy} />,
+        document.querySelector('.crate'));
 
     </script>
   </body>
