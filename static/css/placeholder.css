@@ -76,6 +76,10 @@ body {
   font-size: 20px;
 }
 
+.lead .btn.btn-lg.btn-default {
+  margin: 8px;
+}
+
 .circles img {
   width:200px;
   height:200px;
