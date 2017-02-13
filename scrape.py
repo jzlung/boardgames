@@ -18,8 +18,7 @@ gameIds = [
     2651, # Power Grid
 ]
 
-# file = open("full_out.json", "w")
-file = open("test.json", "w")
+file = open("full_out.json", "w")
 objectToJson = {}
 objectToJson["gameList"] = []
 # Modify this limit to your liking
@@ -59,15 +58,15 @@ for line in gameList:
     pee['categories'] = pee.pop('boardgamesubdomain')
     # boardgamecategory is actually themes, which is not useful imho
     pee.pop('boardgamecategory')
-    if isinstance(pee['categories'], list):
-        for category in pee['categories']:
-            # TODO: maybe have to extend this to " Game", " games", etc
-            if category['#text'].endswith(' Games'):
-                category['#text'] = category['#text'][:-len(' Games')]
-        pee['categories'][:] = [category for category in pee['categories'] if not category['#text'] == "Thematic"]
-    else:
-        if pee['categories']['#text'].endswith(' Games'):
+    if not isinstance(pee['categories'], list):
+        phlegm = pee.pop('categories')
+        pee['categories'] = []
+        pee['categories'].append(phlegm)
+    for category in pee['categories']:
+        # TODO: maybe have to extend this to " Game", " games", etc
+        if category['#text'].endswith(' Games'):
             category['#text'] = category['#text'][:-len(' Games')]
+    pee['categories'][:] = [category for category in pee['categories'] if not category['#text'] == "Thematic"]
 
     # TODO: hack
     if pee['name'] == "Pandemic Legacy: Season 1":
