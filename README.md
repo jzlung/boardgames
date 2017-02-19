@@ -2,32 +2,29 @@
 Board Game Recommender, and successor to BGG
 
 ## P1 FIX NOW
-- [X] bgg scrape doesn't have 'statistics' tag, which is vital
-- [ ] server has some error: `events.js:161    throw er; // Unhandled 'error' event`
-- [ ] learn how to website architecture / infrastructure
-- [ ] how to get blog into site; research other niche sites; medium embed (can't), others? jekyll?
-- [ ] simplify data format
+- [ ] Data format
+	- [ ] scraper needs to download the pictures into the assets archive
+	- [ ] simplify the data formats, the '@objectid' and '#text' keys
 
 ## MVP MVP MVP
-- [X] site name -> **bigboardofgames.com**
-- [ ] set up hosting -- digitalocean credits, calvin aws?
 - [ ] learn seo, pump out articles
+= [ ] design UIs: home page, game entry page, articles home page, article page layout
 - [ ] scrape up to 1000 games
 
 ### MVP MVP
-- [ ] set up app to take a query that is a game name, and return the data for it
-- [ ] landing page, with query input
-- [ ] game entry page; create and add into routes
-- [ ] google analytics
+- [ ] set up landing page, with query input to return the game entry page for it
+- [ ] basic recommendation app
+- [ ] link to games in the article
+- [ ] google analytics?
 
 ## MVP
 - [ ] JS vs db for data storage
-- [ ] calvin wants AWS
 - [ ] webpack
 - [ ] mailchimp
 - [ ] user accounts
 - [ ] users can rate games
-- [ ] figure out some tracking software / site to replace this
+- [ ] forum or discussion or comments in game entry page
+- [ ] figure out some bug tracking software / site to replace this
 
 ## FEATURES TO COME
 * game entry pages
@@ -84,6 +81,17 @@ facebook style picture masthead, useful attributes and statistics in good UI, th
 - user pictures
 - amazon affiliate link
 
+What's most important to someone looking at a game profile?
+	* What's this game about?
+		* Type of game, length, complexity
+		* # players
+		* Theme
+	* Am I going to like this?
+		* Do others like it?
+		* Similar games
+
+
+
 ### Articles UI
 - mtg/wizards
 - medium
@@ -99,6 +107,7 @@ facebook style picture masthead, useful attributes and statistics in good UI, th
 - what games they click the amazon affiliate link for / ended up buying (added to collection)
 - their plays
 - **their comments / ratings => these will be used for other users, when they see this user's reviews/ratings, they can see what kind of player this user is, what games they own / play most often, what category is their strongest, etc**
+
 
 ## TODO // TOREAD
 https://affiliate-program.amazon.com/
@@ -135,3 +144,12 @@ https://boardgamegeek.com/wiki/page/Data_Mining
 https://boardgamegeek.com/wiki/page/game_entry#
 https://www.reddit.com/r/boardgames/comments/2no1ko/i_dont_get_boardgamegeekcom/
 https://www.reddit.com/r/boardgames/comments/1tht4h/my_personal_guide_to_boardgamegeek_how_i_make_the/
+
+
+### Done tasks:
+- [X] bgg scrape doesn't have 'statistics' tag, which is vital
+- [ ] server has some error: `events.js:161    throw er; // Unhandled 'error' event`
+- [X] learn how to website architecture / infrastructure
+- [X] how to get blog into site; research other niche sites; medium embed (can't), others? jekyll?
+- [X] site name -> **bigboardofgames.com**
+- [X] set up hosting -- digitalocean credits, calvin aws?

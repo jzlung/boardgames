@@ -6,7 +6,6 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/react/0.14.1/react-dom.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/babel-core/5.8.23/browser.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
-    <link href="https://fonts.googleapis.com/css?family=Bahiana|Lora|Roboto+Slab|Lato" rel="stylesheet">
 
     <style>
 
@@ -22,38 +21,24 @@
       }
 
       .game-entry {
-        font-family: Lora, Helvetica Neue;
+        font-family: Lato, Helvetica Neue;
         display: inline-block;
-        padding: 20px;
-      }
-
-      .image.primary {
-        width: 300px;
-        border: 2px solid rgb(204, 204, 204);
-        /*margin-bottom: 15px;*/
-        padding: 2px;
       }
 
       .title {
-        margin: 10px auto;
-        font-family: Bahiana;
-        font-size: 56px;
+        margin-bottom: 0;
       }
 
       .top-section {
-        /*display: flex;*/
+        display: flex;
         align-items: center;
         justify-content: space-between;
-        display: inline-block;
       }
 
       .quick-info {
-        margin: auto;
-        display: inline-block;
-        /*align-self: flex-start;*/
-        display: flex;
-        align-items: center;
         margin: 10px;
+        display: inline-block;
+        align-self: flex-start;
       }
 
       .rating {
@@ -71,27 +56,11 @@
 
       .categories {
         margin: 5px 10px;
-        overflow: hidden;
-        /*display: flex;
-        justify-content: space-between;
-        flex-direction: row;*/
-        display: inline-block;
-
       }
 
       .category {
         margin: 0 3px;
         text-decoration: none;
-        flex-grow: 1;
-        flex-basis: auto;
-        margin: .25em 0;
-        padding: 0 1em;
-        text-align: center;
-        border-right: 1px solid #ccc;
-      }
-
-      .category:last-child {
-        border-right: none;
       }
 
       .btn.rate-me {
@@ -102,25 +71,21 @@
       }
 
       .primary-stats {
-        /*border: 2px black solid;*/
-        text-align: left;
-        display: table;
-        margin: 10px;
-      }
-
-      .card {
-        box-shadow: 0px 3px 4px -1px rgba(0,0,0,0.5);
+        border: 2px black solid;
         padding: 10px;
+        display: inline-block;
       }
 
-      .entry {
-        -webkit-flex: 1;
-        flex: 1;
+      .primary-stats .image {
+        width: 300px;
+        display: block;
+        border: 2px solid rgb(204, 204, 204);
+        margin-bottom: 15px;
       }
 
       .entry .icon {
-        width: 16px;
-        height: 16px;
+        width: 14px;
+        height: 14px;
         margin-left: 10px;
         margin-right: 10px;
       }
@@ -150,18 +115,8 @@
 
   </head>
   <body>
-
     <div class="crate"></div>
-
     <script type='text/babel'>
-
-    /*
-    <button className="btn rate-me" onClick={rate}>Rate this game!</button>
-
-    <span className="num-reviews">
-      {game.statistics.ratings.usersrated} reviews
-    </span>
-    */
 
       const GameEntry = (props) => {
         const game = props.game;
@@ -171,27 +126,26 @@
 
         return (
           <div className="game-entry">
-
-            <img className="image primary" src={game.image} />
-
-
             <h1 className="title">{game.name}</h1>
             <div className="top-section">
               <div className="quick-info">
                 <div className="rating">{Math.round(parseFloat(game.statistics.ratings.average) * 100) / 100}</div>
-
+                <span className="num-reviews">
+                  {game.statistics.ratings.usersrated} reviews
+                </span>
                 <div className="categories">
                   {game.categories.map(category => {
-                    return (
-                      <a href="#" className="category" >{category['#text']}</a>
-                    );
+                      return (
+                        <a href="#" className="category" >{category['#text']}</a>
+                      );
                   })}
                 </div>
               </div>
+              <button className="btn rate-me" onClick={rate}>Rate this game!</button>
             </div>
 
-            <div className="primary-stats card">
-
+            <div className="primary-stats">
+              <img className="image" src={game.image} />
               <div className="entry rank">
                 <img className="icon trophy" src="trophy.png"/>
                 <div className="label">
@@ -216,7 +170,6 @@
                   Complexity: {Math.round(game.statistics.ratings.averageweight * 100) / 100}
                 </div>
               </div>
-
             </div>
 
             <div className="showcase">
