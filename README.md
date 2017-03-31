@@ -153,3 +153,10 @@ https://www.reddit.com/r/boardgames/comments/1tht4h/my_personal_guide_to_boardga
 - [X] how to get blog into site; research other niche sites; medium embed (can't), others? jekyll?
 - [X] site name -> **bigboardofgames.com**
 - [X] set up hosting -- digitalocean credits, calvin aws?
+
+
+
+User Flows
+1. Fang
+	- rating/rank + year, then genre, then playing time + # players + images, then description, the at the bottom is comments, then price
+	- cares more about not buying duplicate games

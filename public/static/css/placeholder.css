@@ -79,6 +79,8 @@ body {
 .lead .btn.btn-lg.btn-default {
   margin: 8px;
   text-shadow: none;
+  font-family: 'Roboto Slab', 'Lato', sans-serif;
+  font-weight: bold;
 }
 
 /******************************************
