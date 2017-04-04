@@ -155,6 +155,9 @@ https://www.reddit.com/r/boardgames/comments/1tht4h/my_personal_guide_to_boardga
 - [X] set up hosting -- digitalocean credits, calvin aws?
 
 
+incubator
+kickstarters for marketing / awareness only, all proceeds go to charity and backers get extras
+
 
 User Flows
 1. Fang

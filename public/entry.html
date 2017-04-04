@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Game Entry</title>
+    <link rel="stylesheet" href="static/css/entry.css">
+    <link href="https://fonts.googleapis.com/css?family=Bahiana|Lora|Roboto+Slab|Lato" rel="stylesheet">
+  </head>
+  <body onload="resize()">
+
+    <div class="crate">
+      <div class="game-entry">
+
+        <div class="masthead">
+          <img class="image primary" src="assets/pandemiclegacy.png" />
+          <img class="image secondary" src="assets/masthead_1.jpg" />
+          <img class="image secondary" src="assets/masthead_3.jpg" />
+        </div>
+
+
+        <div class="container">
+
+          <h1 class="title">Pandemic Legacy</h1>
+          <!-- <div class="rating">8.66</div> -->
+
+          <div class="top-section">
+            <!-- <div class="quick-info"> -->
+
+              <div class="rating">
+                <div class="rating-number">
+                  4.7
+                </div>
+                <div class="stars">
+                  <img class="star gold" src="assets/Gold_Star.png" />
+                  <img class="star gold" src="assets/Gold_Star.png" />
+                  <img class="star gold" src="assets/Gold_Star.png" />
+                  <img class="star gold" src="assets/Gold_Star.png" />
+                  <img class="star white" src="assets/White_Star.png" />
+                </div>
+                <div class="rank">
+                  Overall #1
+                </div>
+              </div>
+
+              <div class="categories">
+                <a href="#" class="category">Strategy</a>
+                <a href="#" class="category">Cooperative</a>
+                <a href="#" class="category">Legacy</a>
+              </div>
+
+            <!-- </div> -->
+          </div>
+
+          <div class="main">
+
+            <div class="primary-stats section">
+              <div class="primary-stats-row">
+                <div class="entry rank">
+                  <div class="entry-icon-wrapper">
+                    <img class="icon trophy" src="assets/trophy.png"/>
+                  </div>
+                  <div class="entry-icon-wrapper">
+                    <div class="label">
+                      Overall Rank #1
+                    </div>
+                  </div>
+                </div>
+                <div class="entry num-players">
+                  <div class="entry-icon-wrapper">
+                    <img class="icon meeple" src="assets/meeple.jpg"/>
+                  </div>
+                  <div class="entry-icon-wrapper">
+                    <div class="label">
+                      2~4 players
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="primary-stats-row">
+                <div class="entry playing-time">
+                  <div class="entry-icon-wrapper">
+                    <img class="icon hourglass" src="assets/hourglass.png"/>
+                  </div>
+                  <div class="entry-icon-wrapper">
+                    <div class="label">
+                      60 minutes
+                    </div>
+                  </div>
+                </div>
+                <div class="entry difficulty">
+                  <div class="entry-icon-wrapper">
+                    <img class="icon brain" src="assets/brain.png"/>
+                  </div>
+                  <div class="entry-icon-wrapper">
+                    <div class="label">
+                      Difficulty: Medium
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+            </div>
+
+            <div class="description section">
+              <p>
+                Pandemic Legacy is a co-operative campaign game, with an overarching
+                 story-arc played through 12-24 sessions. Like basic Pandemic, your team of disease-fighting specialists
+                 races against the clock to travel around the world, treating disease
+                  hotspots while researching cures for the four plagues before
+                  they get out of hand.
+              </p>
+            </div>
+
+
+
+            <!-- <div class="accolades card">
+              <p>Accolades</p>
+              <ul class="accolades-list">
+                <li class="accolade">
+                  2016 Game of the Year
+                </li>
+                <li class="accolade">
+                  2016 Spiel de Jahres
+                </li>
+                <li class="accolade">
+                  2016 BBEG Best New Game
+                </li>
+              </ul>
+            </div> -->
+
+            <!-- TODO: Awards, user reviews, designer/publisher/year, -->
+
+          </div>
+
+
+        </div>
+
+
+
+      </div>
+    </div>
+
+    <script>
+
+      function throttle(cb, threshold) {
+        let last = null;
+        return function () {
+          let now = new Date();
+          if (last && now < last + threshold) {
+            setTimeout(function() {
+              cb();
+              last = new Date();
+            }, last + threshold - now);
+          }
+          else {
+            cb();
+            last = new Date();
+          }
+        };
+      }
+
+      window.onresize = throttle(resize, 100);
+
+      function resize() {
+        const masthead = document.querySelector('.masthead');
+        const primaryImage = document.querySelector('.image.primary');
+        const secondaryImages = document.querySelectorAll('.image.secondary');
+        const mastBox = masthead.getBoundingClientRect();
+
+        const pictureWidth = mastBox.width / 2 - 0.5 + "px";
+        primaryImage.style.width = pictureWidth;
+        const mastheadHeight = primaryImage.getBoundingClientRect().height;
+        Array.from(secondaryImages).forEach(d => {
+          d.style.width = pictureWidth;
+          d.style.height = mastheadHeight / 2 - 0.5 + "px";
+        });
+
+        const container = document.querySelector('.container');
+        container.style.width = mastBox.width + "px";
+
+        const containerBox = container.getBoundingClientRect();
+      }
+
+
+    </script>
+
+  </body>
+
+</html>

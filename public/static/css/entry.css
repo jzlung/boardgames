@@ -11,16 +11,19 @@ body {
 
 .game-entry {
   font-family: Lora, Helvetica Neue;
-  display: inline-block;
   padding: 20px;
+  border: 1px solid black;
+  width: 80%;
+  margin: 0px auto;
+  background: #ECECEC;
 }
 
 .masthead {
-  width: 523px;
-  height: 192.5px;  /* Set this in JS after getting height of primary picture or figure this out in CSS */
+  width: 90%;
   margin: 10px auto;
   overflow: hidden; /* ehhh */
   cursor: pointer;
+  position: relative;
 }
 
 .masthead .image {
@@ -28,24 +31,28 @@ body {
 }
 
 .image.primary {
-  /*border: 2px solid rgb(204, 204, 204);*/
-  /*padding: 2px;*/
   float: left;
-  height: 192.5px;
   padding-right: 0.5px;
 }
 
 .image.secondary {
   height: 96px;
-  float: right;
+  position: absolute;
+  right: 0px;
 }
 
+/* The first secondary image is the 2nd child of the div */
 .masthead .image.secondary:nth-child(2) {
-  padding-bottom: 0.5px;
+  top: 0px;
+}
+
+.masthead .image.secondary:nth-child(3) {
+  bottom: 0px
 }
 
 .container {
-    margin-left: 20px;
+    margin: 10px auto;
+    padding: 0px 30px;
 }
 
 .title {
@@ -55,28 +62,14 @@ body {
   font-size: 36px;
 }
 
-/*.rating {
-  margin: 50px 20px;
-  display: inline-block;
-  background: red;
-  border-radius: 40px;
-  padding: 20px;
-  margin: 0 10px;
-  font-weight: bold;
-  float: right;
-}*/
-
 .top-section {
-  /*display: flex;*/
   align-items: center;
   justify-content: space-between;
-  /*display: inline-block;*/
 }
 
 .quick-info {
   margin: auto;
   display: inline-block;
-  /*align-self: flex-start;*/
   display: flex;
   align-items: center;
 }
@@ -108,9 +101,6 @@ body {
 .categories {
   margin: 10px 10px;
   overflow: hidden;
-  /*display: flex;
-  justify-content: space-between;
-  flex-direction: row;*/
   display: inline-block;
   font-size: 14px;
 }
@@ -142,15 +132,53 @@ body {
   display: inline-block;
 }
 
-.primary-stats {
-  /*border: 2px black solid;*/
-  text-align: left;
-  display: table;
-  /*margin: 10px;*/
+.main {
+  position: relative;
+  margin-top: 20px;
 }
 
-.description.card {
-  left: 380px;
+.main .section {
+  border-top: 1px solid lightgray;
+  padding: 15px 0px;
+}
+
+.primary-stats {
+  display: table;
+  margin: 0 auto;
+  width: 100%;
+}
+
+.primary-stats-row {
+  display: table-row;
+  line-height: 32px;
+}
+
+.entry {
+  display: table-cell;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.entry-icon-wrapper {
+  vertical-align: middle;
+  display: table-cell;
+}
+
+.entry .icon {
+  width: 25px;
+  height: 25px;
+  margin-left: 10px;
+  margin-right: 10px;
+  vertical-align: middle;
+  display: table-cell;
+}
+
+.description p {
+  margin: 0px;
+}
+
+.entry .label {
+  display: inline-block;
 }
 
 .card {
@@ -158,22 +186,18 @@ body {
   padding: 10px;
   width: 220px;
   position: absolute;
+  background: #F5F5F5;
+  border-radius: 4px;
 }
 
-.entry {
-  -webkit-flex: 1;
-  flex: 1;
+.accolades p {
+  font-weight: bold;
+  margin: 0px;
 }
 
-.entry .icon {
-  width: 16px;
-  height: 16px;
-  margin-left: 10px;
-  margin-right: 10px;
-}
-
-.entry .label {
-  display: inline-block;
+.accolades ul {
+  margin: 5px 0;
+  padding-left: 20px;
 }
 
 .critics {
