@@ -10,7 +10,8 @@ body {
 }
 
 .game-entry {
-  font-family: Lora, Helvetica Neue;
+  /* Lora,  */
+  font-family: Palanquin Dark, Helvetica Neue;
   padding: 20px;
   border: 1px solid black;
   width: 80%;
@@ -58,8 +59,9 @@ body {
 .title {
   display: inline-block;
   margin: 10px 0px;
-  /*font-family: Bahiana;*/
   font-size: 36px;
+  font-weight: normal;
+  font-family: Alfa Slab One, Helvetica Neue;
 }
 
 .top-section {
@@ -146,6 +148,7 @@ body {
   display: table;
   margin: 0 auto;
   width: 100%;
+  font-family: Palanquin Dark, Suez One, Alfa Slab One, Helvetica Neue;
 }
 
 .primary-stats-row {
@@ -155,7 +158,7 @@ body {
 
 .entry {
   display: table-cell;
-  font-weight: bold;
+  /*font-weight: bold;*/
   font-size: 16px;
 }
 
@@ -171,6 +174,54 @@ body {
   margin-right: 10px;
   vertical-align: middle;
   display: table-cell;
+}
+
+.similar-games p {
+  font-weight: bold;
+}
+
+.filmstrip {
+  background: rgba(0,0,0, 0.60);
+  padding: 10px;
+  display: inline-block;
+  text-align: center;
+}
+
+.similar-games .carousel-right .labeled-item.vertical {
+  display: inline-block;
+  margin: 0 16px;
+  vertical-align: middle;
+  cursor: pointer;
+}
+
+.similar-games .carousel-right .labeled-item.vertical:first-child {
+  margin-left: 0;
+}
+
+.similar-games .carousel-right .labeled-item.vertical:last-child {
+  margin-right: 0;
+}
+
+.similar-games .carousel-right .arrow-right {
+  display: inline-block;
+  vertical-align: middle;
+  cursor: pointer;
+}
+
+.similar-games .carousel-right .arrow-right img {
+  width: 15px;
+  display: inline-block;
+}
+
+.similar-games .carousel-right .labeled-item.vertical .labeled-item-content img {
+  width: 100px;
+  height: 100px;
+}
+
+.similar-games .carousel-right .labeled-item.vertical .labeled-item-label {
+  text-align: center;
+  /*font-weight: bold;*/
+  color: white;
 }
 
 .description p {
@@ -191,7 +242,7 @@ body {
 }
 
 .accolades p {
-  font-weight: bold;
+  /*font-weight: bold;*/
   margin: 0px;
 }
 
@@ -215,4 +266,8 @@ body {
 
 .critic-review {
   margin: 0 20px;
+}
+
+.credits.section .label {
+  /*font-weight: bold;*/
 }

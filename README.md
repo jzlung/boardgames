@@ -2,9 +2,16 @@
 Board Game Recommender, and successor to BGG
 
 ## P1 FIX NOW
-- [ ] Data format
+Jerry
+- [ ] Finalize Data format & Scrape
 	- [ ] scraper needs to download the pictures into the assets archive
 	- [ ] simplify the data formats, the '@objectid' and '#text' keys
+- [ ] Finish Game entry UI page
+- [ ] Populate DB & game entry makes ajax request
+- [ ] Design home page
+
+Calvin
+- [ ] Figure out engineering stack
 
 ## MVP MVP MVP
 - [ ] learn seo, pump out articles
