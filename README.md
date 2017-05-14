@@ -6,6 +6,7 @@ Jerry
 - [ ] Finalize Data format & Scrape
 	- [ ] scraper needs to download the pictures into the assets archive
 	- [ ] simplify the data formats, the '@objectid' and '#text' keys
+	- [ ] Firebase s3-like service for image storage
 - [ ] Finish Game entry UI page
 - [ ] Populate DB & game entry makes ajax request
 - [ ] Design home page
@@ -45,7 +46,7 @@ Calvin
 	- videos need to be short; explain the overview, key mechanics, turn walkthrough, high LEVEL
 	- clips of game in action, people having fun, interesting nuances
 * marketplace
-* kickstarter/designers hub
+* kickstarter/designers hub/ks weekly roundup
 * subscriptions to game news, forum posts, game families
 * authorities you can follow, what they are playing / posting about
 * raffles/contests
@@ -165,8 +166,27 @@ https://www.reddit.com/r/boardgames/comments/1tht4h/my_personal_guide_to_boardga
 incubator
 kickstarters for marketing / awareness only, all proceeds go to charity and backers get extras
 
+http://blog.gainlo.co/index.php/2016/05/24/design-a-recommendation-system/
+https://www.adminium.io/resources/articles
+
 
 User Flows
 1. Fang
 	- rating/rank + year, then genre, then playing time + # players + images, then description, the at the bottom is comments, then price
 	- cares more about not buying duplicate games
+
+
+2. Charlie
+see if people like the game
+
+ranking
+how long to play -- number of players -- mechanics
+pictures -- reviews (aggregation first, then skim)
+
+description fits with first category but is generally weak
+
+number of pieces
+	-> pictures
+balance (from reviews)
+	ex. picking a race that's stronger than others
+randomness

@@ -1,22 +1,25 @@
 body {
-  background: #f5f5f5;
+  /*background: #f5f5f5;*/
 }
 
 .crate {
   width: 80%;
   margin: auto;
-  border: 1px dotted black;
+  /*border: 1px dotted black;*/
   height: 1000px; /* HACK */
 }
 
 .game-entry {
-  /* Lora,  */
-  font-family: Palanquin Dark, Helvetica Neue;
+  font-family: Cabin, Lato; /* Cabin Sketch */
   padding: 20px;
   border: 1px solid black;
   width: 80%;
   margin: 0px auto;
   background: #ECECEC;
+}
+
+.label {
+  font-weight: bold;
 }
 
 .masthead {
@@ -60,11 +63,12 @@ body {
   display: inline-block;
   margin: 10px 0px;
   font-size: 36px;
-  font-weight: normal;
+  font-weight: 200;
   font-family: Alfa Slab One, Helvetica Neue;
 }
 
 .top-section {
+  /*background: #0A7D8F;*/
   align-items: center;
   justify-content: space-between;
 }
@@ -78,6 +82,7 @@ body {
 
 .rating {
   margin: 0px 5px;
+  display: inline-block;
 }
 
 .rating .stars,
@@ -105,6 +110,7 @@ body {
   overflow: hidden;
   display: inline-block;
   font-size: 14px;
+  display: inline-block;
 }
 
 .category {
@@ -139,9 +145,13 @@ body {
   margin-top: 20px;
 }
 
+.section {
+padding: 15px 0px;
+
+}
+
 .main .section {
   border-top: 1px solid lightgray;
-  padding: 15px 0px;
 }
 
 .primary-stats {
@@ -168,8 +178,8 @@ body {
 }
 
 .entry .icon {
-  width: 25px;
-  height: 25px;
+  width: 30px;
+  height: 30px;
   margin-left: 10px;
   margin-right: 10px;
   vertical-align: middle;
@@ -226,6 +236,8 @@ body {
 
 .description p {
   margin: 0px;
+  font-family: Cabin; /* Lato */
+  opacity: 0.6;
 }
 
 .entry .label {
@@ -246,9 +258,11 @@ body {
   margin: 0px;
 }
 
-.accolades ul {
-  margin: 5px 0;
-  padding-left: 20px;
+.accolades {
+  text-align: center;
+  font-weight: bold;
+  font-family: Cabin Sketch;
+  font-size: 20px;
 }
 
 .critics {
