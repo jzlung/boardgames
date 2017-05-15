@@ -103,6 +103,8 @@
 }
 
 .article-feed {
+  border: 1px black solid;
+  border-radius: 4px;
 }
 
 .article-feed a.article-wrapper {
@@ -113,17 +115,20 @@
 .article.labeled-item-horizontal {
   margin: 0 15px;
   padding: 5px;
-  border: 1px black solid;
   display: flex;
-
+  border-bottom: 1px solid black;
   height: 200px;
   font-size: 26px;
+}
+
+.article-feed > a:last-child > .article.labeled-item-horizontal {
+  border-bottom: none;
 }
 
 .article.labeled-item-horizontal > .labeled-item-content {
   display: block;
   overflow: hidden;
-  margin-right: 15px;
+  margin: 0 15px;
   height: 150px;
   width: 150px;
 
@@ -149,7 +154,6 @@
 
   .article.labeled-item-horizontal > .labeled-item-content {
     max-width: 25%;
-    margin-right: 15px;
     height: 100px;
     width: 100px;
 
