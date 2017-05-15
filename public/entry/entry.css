@@ -1,0 +1,287 @@
+body {
+  /*background: #f5f5f5;*/
+}
+
+.crate {
+  width: 80%;
+  margin: auto;
+  /*border: 1px dotted black;*/
+  height: 1000px; /* HACK */
+}
+
+.game-entry {
+  font-family: Cabin, Lato; /* Cabin Sketch */
+  padding: 20px;
+  border: 1px solid black;
+  width: 80%;
+  margin: 0px auto;
+  background: #ECECEC;
+}
+
+.label {
+  font-weight: bold;
+}
+
+.masthead {
+  width: 90%;
+  margin: 10px auto;
+  overflow: hidden; /* ehhh */
+  cursor: pointer;
+  position: relative;
+}
+
+.masthead .image {
+  width: 261px;
+}
+
+.image.primary {
+  float: left;
+  padding-right: 0.5px;
+}
+
+.image.secondary {
+  height: 96px;
+  position: absolute;
+  right: 0px;
+}
+
+/* The first secondary image is the 2nd child of the div */
+.masthead .image.secondary:nth-child(2) {
+  top: 0px;
+}
+
+.masthead .image.secondary:nth-child(3) {
+  bottom: 0px
+}
+
+.container {
+    margin: 10px auto;
+    padding: 0px 30px;
+}
+
+.title {
+  display: inline-block;
+  margin: 10px 0px;
+  font-size: 36px;
+  font-weight: 200;
+  font-family: Alfa Slab One, Helvetica Neue;
+}
+
+.top-section {
+  /*background: #0A7D8F;*/
+  align-items: center;
+  justify-content: space-between;
+}
+
+.quick-info {
+  margin: auto;
+  display: inline-block;
+  display: flex;
+  align-items: center;
+}
+
+.rating {
+  margin: 0px 5px;
+  display: inline-block;
+}
+
+.rating .stars,
+.rating .rating-number,
+.rating .rank {
+  display: inline-block;
+  padding: 0px 5px;
+}
+
+.rating .rating-number {
+  font-weight: bold;
+}
+
+.rating .star {
+  height: 15px;
+  width: 15px;
+}
+
+.num-reviews {
+  font-size: 14px;
+}
+
+.categories {
+  margin: 10px 10px;
+  overflow: hidden;
+  display: inline-block;
+  font-size: 14px;
+  display: inline-block;
+}
+
+.category {
+  margin: 0 3px;
+  text-decoration: none;
+  flex-grow: 1;
+  flex-basis: auto;
+  margin: .25em 0;
+  padding: 0 14px;
+  text-align: center;
+  border-right: 1px solid #ccc;
+  color: gray;
+}
+
+.category:first-child {
+  padding-left: 0px;
+}
+
+.category:last-child {
+  border-right: none;
+}
+
+.btn.rate-me {
+  background: red;
+  border-radius: 5px;
+  padding: 10px;
+  display: inline-block;
+}
+
+.main {
+  position: relative;
+  margin-top: 20px;
+}
+
+.section {
+padding: 15px 0px;
+
+}
+
+.main .section {
+  border-top: 1px solid lightgray;
+}
+
+.primary-stats {
+  display: table;
+  margin: 0 auto;
+  width: 100%;
+  font-family: Palanquin Dark, Suez One, Alfa Slab One, Helvetica Neue;
+}
+
+.primary-stats-row {
+  display: table-row;
+  line-height: 32px;
+}
+
+.entry {
+  display: table-cell;
+  /*font-weight: bold;*/
+  font-size: 16px;
+}
+
+.entry-icon-wrapper {
+  vertical-align: middle;
+  display: table-cell;
+}
+
+.entry .icon {
+  width: 30px;
+  height: 30px;
+  margin-left: 10px;
+  margin-right: 10px;
+  vertical-align: middle;
+  display: table-cell;
+}
+
+.similar-games p {
+  font-weight: bold;
+}
+
+.filmstrip {
+  background: rgba(0,0,0, 0.60);
+  padding: 10px;
+  display: inline-block;
+  text-align: center;
+}
+
+.similar-games .carousel-right .labeled-item.vertical {
+  display: inline-block;
+  margin: 0 16px;
+  vertical-align: middle;
+  cursor: pointer;
+}
+
+.similar-games .carousel-right .labeled-item.vertical:first-child {
+  margin-left: 0;
+}
+
+.similar-games .carousel-right .labeled-item.vertical:last-child {
+  margin-right: 0;
+}
+
+.similar-games .carousel-right .arrow-right {
+  display: inline-block;
+  vertical-align: middle;
+  cursor: pointer;
+}
+
+.similar-games .carousel-right .arrow-right img {
+  width: 15px;
+  display: inline-block;
+}
+
+.similar-games .carousel-right .labeled-item.vertical .labeled-item-content img {
+  width: 100px;
+  height: 100px;
+}
+
+.similar-games .carousel-right .labeled-item.vertical .labeled-item-label {
+  text-align: center;
+  /*font-weight: bold;*/
+  color: white;
+}
+
+.description p {
+  margin: 0px;
+  font-family: Cabin; /* Lato */
+  opacity: 0.6;
+}
+
+.entry .label {
+  display: inline-block;
+}
+
+.card {
+  box-shadow: 0px 3px 4px -1px rgba(0,0,0,0.5);
+  padding: 10px;
+  width: 220px;
+  position: absolute;
+  background: #F5F5F5;
+  border-radius: 4px;
+}
+
+.accolades p {
+  /*font-weight: bold;*/
+  margin: 0px;
+}
+
+.accolades {
+  text-align: center;
+  font-weight: bold;
+  font-family: Cabin Sketch;
+  font-size: 20px;
+}
+
+.critics {
+  margin: 20px;
+}
+
+.critic {
+  display: flex;
+  align-items: center;
+}
+
+.critic-photo {
+  width: 100px;
+}
+
+.critic-review {
+  margin: 0 20px;
+}
+
+.credits.section .label {
+  /*font-weight: bold;*/
+}
