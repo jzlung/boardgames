@@ -134,6 +134,7 @@ https://pythonadventures.wordpress.com/2014/12/29/xml-to-dict-xml-to-json/
 https://github.com/ThaWeatherman/scrapers/blob/master/boardgamegeek/get_game_info.py
 http://blog.joanboixados.com/building-a-boilerplate-for-a-koa-redux-react-application-including-webpack-mocha-and-sass/
 http://www.industrydive.com/news/post/how-to-make-html-email-buttons-that-rock/#outlook
+https://www.reddit.com/r/boardgames/comments/6bqtei/what_is_something_you_wished_youd_known_earlier/
 
 
 ## COMPETITORS

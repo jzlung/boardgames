@@ -3,19 +3,14 @@ body {
 }
 
 .crate {
-  width: 80%;
+  width: 100%;
   margin: auto;
-  /*border: 1px dotted black;*/
-  height: 1000px; /* HACK */
 }
 
 .game-entry {
   font-family: Cabin, Lato; /* Cabin Sketch */
-  padding: 20px;
-  border: 1px solid black;
-  width: 80%;
-  margin: 0px auto;
-  background: #ECECEC;
+  width: 100%;
+  margin: 20px auto;
 }
 
 .label {
@@ -59,37 +54,29 @@ body {
     padding: 0px 30px;
 }
 
-.title {
-  display: inline-block;
-  margin: 10px 0px;
-  font-size: 36px;
-  font-weight: 200;
-  font-family: Alfa Slab One, Helvetica Neue;
-}
-
 .top-section {
   /*background: #0A7D8F;*/
   align-items: center;
   justify-content: space-between;
 }
 
-.quick-info {
-  margin: auto;
-  display: inline-block;
-  display: flex;
-  align-items: center;
+.title {
+  margin: 20px 10px;
+  font-size: 60px;
+  font-weight: 200;
+  font-family: Alfa Slab One, Helvetica Neue;
 }
 
 .rating {
-  margin: 0px 5px;
-  display: inline-block;
+  margin: 0px 20px;
+  font-size: 28px;
+  display: flex;
 }
 
 .rating .stars,
 .rating .rating-number,
 .rating .rank {
-  display: inline-block;
-  padding: 0px 5px;
+  padding: 0px 10px;
 }
 
 .rating .rating-number {
@@ -106,21 +93,16 @@ body {
 }
 
 .categories {
-  margin: 10px 10px;
-  overflow: hidden;
-  display: inline-block;
-  font-size: 14px;
-  display: inline-block;
+  margin: 10px 20px;
+  font-size: 24px;
+  display: flex;
 }
 
 .category {
   margin: 0 3px;
   text-decoration: none;
-  flex-grow: 1;
-  flex-basis: auto;
   margin: .25em 0;
   padding: 0 14px;
-  text-align: center;
   border-right: 1px solid #ccc;
   color: gray;
 }
@@ -155,26 +137,25 @@ padding: 15px 0px;
 }
 
 .primary-stats {
-  display: table;
+  display: grid;
   margin: 0 auto;
   width: 100%;
   font-family: Palanquin Dark, Suez One, Alfa Slab One, Helvetica Neue;
-}
-
-.primary-stats-row {
-  display: table-row;
-  line-height: 32px;
+  grid-template-columns: 1fr 1fr;
 }
 
 .entry {
-  display: table-cell;
-  /*font-weight: bold;*/
-  font-size: 16px;
+  display: flex;
+  font-size: 30px;
+}
+
+.entry-wrapper {
+  display: flex;
+  margin: 0 auto;
 }
 
 .entry-icon-wrapper {
   vertical-align: middle;
-  display: table-cell;
 }
 
 .entry .icon {
@@ -183,18 +164,17 @@ padding: 15px 0px;
   margin-left: 10px;
   margin-right: 10px;
   vertical-align: middle;
-  display: table-cell;
 }
 
-.similar-games p {
-  font-weight: bold;
+h2.section-title {
+  font-family: Helvetica Neue;
 }
 
 .filmstrip {
-  background: rgba(0,0,0, 0.60);
+  background: #D2E0E3;
   padding: 10px;
-  display: inline-block;
   text-align: center;
+  color: #095C6E;
 }
 
 .similar-games .carousel-right .labeled-item.vertical {
@@ -224,45 +204,27 @@ padding: 15px 0px;
 }
 
 .similar-games .carousel-right .labeled-item.vertical .labeled-item-content img {
-  width: 100px;
-  height: 100px;
+  width: 200px;
+  height: 200px;
 }
 
 .similar-games .carousel-right .labeled-item.vertical .labeled-item-label {
   text-align: center;
-  /*font-weight: bold;*/
-  color: white;
+  font-size: 32px;
+  font-family: Lato;
+  font-weight: bold;
 }
 
-.description p {
-  margin: 0px;
-  font-family: Cabin; /* Lato */
+.description .description-text {
   opacity: 0.6;
+  font-size: 12px;
 }
 
-.entry .label {
-  display: inline-block;
-}
-
-.card {
-  box-shadow: 0px 3px 4px -1px rgba(0,0,0,0.5);
-  padding: 10px;
-  width: 220px;
-  position: absolute;
-  background: #F5F5F5;
-  border-radius: 4px;
-}
-
-.accolades p {
-  /*font-weight: bold;*/
-  margin: 0px;
-}
-
-.accolades {
+.accolades .accolade {
   text-align: center;
   font-weight: bold;
   font-family: Cabin Sketch;
-  font-size: 20px;
+  font-size: 14px;
 }
 
 .critics {
@@ -280,6 +242,10 @@ padding: 15px 0px;
 
 .critic-review {
   margin: 0 20px;
+}
+
+.credits *:not(h2) {
+  font-size: 12px;
 }
 
 .credits.section .label {
