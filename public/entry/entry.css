@@ -244,10 +244,64 @@ h2.section-title {
   margin: 0 20px;
 }
 
-.credits *:not(h2) {
+.credits div {
   font-size: 12px;
 }
 
 .credits.section .label {
   /*font-weight: bold;*/
+}
+
+
+
+
+
+@media only screen and (min-device-width : 480px) {
+
+  .game-entry {
+    width: 80%;
+    max-width: 630px;
+  }
+
+  .game-entry * {
+    font-size: 16px;
+  }
+
+  .title {
+    font-size: 36px;
+  }
+
+  .rating {
+    font-size: 16px;
+  }
+
+  .categories {
+    font-size: 14px;
+  }
+
+  .primary-stats .entry {
+    font-size: 16px;
+  }
+
+  .similar-games .carousel-right .labeled-item.vertical .labeled-item-content img {
+    width: 100px;
+    height: 100px;
+  }
+
+  .similar-games .carousel-right .labeled-item.vertical .labeled-item-label {
+    font-size: 16px;
+  }
+
+  .description .description-text {
+    font-size: 16px;
+  }
+
+  .accolades .accolade {
+    font-size: 18px;
+  }
+
+  .credits div {
+    font-size: 16px;
+  }
+
 }
