@@ -8,9 +8,11 @@ Jerry
 	- [ ] simplify the data formats, the '@objectid' and '#text' keys
 	- [ ] Firebase s3-like service for image storage
 - [ ] Finish Game entry UI page
-- [ ] Populate DB & game entry makes ajax request
+- [ X ] Populate DB & game entry makes ajax request
 - [ ] Design home page
 - [ ] consider not having images in the git repo (slows down commits	)
+- [ ] social media
+- [ ] write content
 
 Calvin
 - [ ] Figure out engineering stack
