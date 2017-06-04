@@ -13,6 +13,7 @@ Jerry
 - [ ] consider not having images in the git repo (slows down commits	)
 - [ ] social media
 - [ ] write content
+- [ ] take lots of pictures of games
 
 Calvin
 - [ ] Figure out engineering stack
