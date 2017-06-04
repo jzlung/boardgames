@@ -4,233 +4,46 @@
     <title>Game Entry</title>
     <link rel="stylesheet" href="entry.css">
     <link href="https://fonts.googleapis.com/css?family=Bahiana|Lora|Slabo+27px|Roboto+Slab|Lato|Baloo+Chettan|Alfa+Slab+One|Walter+Turncoat|Cabin+Sketch|Skranji|Wendy+One|Suez+One|Patrick+Hand+SC|Palanquin+Dark|Cabin" rel="stylesheet">
+
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/babel-core/6.1.19/browser.js"></script> -->
+    <script src="https://unpkg.com/react@15/dist/react.js"></script>
+    <script src="https://unpkg.com/react-dom@15/dist/react-dom.js"></script>
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/react/0.14.1/react.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/react/0.14.1/react-dom.js"></script> -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/babel-core/5.8.23/browser.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <script src="https://unpkg.com/prop-types/prop-types.js"></script>
   </head>
-  <body onload="resize()">
+  <body>
 
     <div class="crate">
-      <div class="game-entry">
 
-        <div class="masthead">
-          <img class="image primary" src="../assets/pandemiclegacy.png" />
-          <img class="image secondary" src="../assets/masthead_1.jpg" />
-          <img class="image secondary" src="../assets/masthead_3.jpg" />
-        </div>
-
-
-        <div class="container">
-
-          <div class="top-section">
-              <h1 class="title">Pandemic Legacy</h1>
-
-              <div class="rating">
-                <div class="rating-number">
-                  4.7
-                </div>
-                <div class="stars">
-                  <img class="star gold" src="../assets/Gold_Star.png" />
-                  <img class="star gold" src="../assets/Gold_Star.png" />
-                  <img class="star gold" src="../assets/Gold_Star.png" />
-                  <img class="star gold" src="../assets/Gold_Star.png" />
-                  <img class="star white" src="../assets/White_Star.png" />
-                </div>
-                <div class="rank">
-                  2193 Reviews
-                </div>
-              </div>
-
-              <div class="categories">
-                <a href="#" class="category">Strategy</a>
-                <a href="#" class="category">Cooperative</a>
-                <a href="#" class="category">Legacy</a>
-              </div>
-
-          </div>
-
-          <div class="main">
-
-            <div class="primary-stats section">
-
-              <div class="entry rank">
-                <div class="entry-wrapper">
-                  <div class="entry-icon-wrapper">
-                    <img class="icon trophy" src="../assets/trophy.png"/>
-                  </div>
-                  <div class="entry-icon-wrapper">
-                    <div class="label">
-                      Overall Rank #1
-                    </div>
-                  </div>
-                </div>
-              </div>
-
-              <div class="entry num-players">
-                <div class="entry-wrapper">
-                  <div class="entry-icon-wrapper">
-                    <img class="icon meeple" src="../assets/meeple.jpg"/>
-                  </div>
-                  <div class="entry-icon-wrapper">
-                    <div class="label">
-                      2~4 players
-                    </div>
-                  </div>
-                </div>
-              </div>
-
-              <div class="entry playing-time">
-                <div class="entry-wrapper">
-                  <div class="entry-icon-wrapper">
-                    <img class="icon hourglass" src="../assets/hourglass.png"/>
-                  </div>
-                  <div class="entry-icon-wrapper">
-                    <div class="label">
-                      60 minutes
-                    </div>
-                  </div>
-                </div>
-              </div>
-
-              <div class="entry difficulty">
-                <div class="entry-wrapper">
-                  <div class="entry-icon-wrapper">
-                    <img class="icon brain" src="../assets/brain.png"/>
-                  </div>
-                  <div class="entry-icon-wrapper">
-                    <div class="label">
-                      Difficulty: Medium
-                    </div>
-                  </div>
-                </div>
-              </div>
-
-            </div>
-
-
-            <div class="similar-games section">
-              <h2 class="section-title">
-                Similar Games
-              </h2>
-              <div class="carousel-right">
-                <div class="filmstrip">
-
-                  <div class="labeled-item vertical">
-                    <div class="labeled-item-content">
-                      <img src="../assets/pandemic.jpg">
-                    </div>
-                    <div class="labeled-item-label">
-                      Pandemic
-                    </div>
-                  </div>
-
-
-                  <div class="labeled-item vertical">
-                    <div class="labeled-item-content">
-                        <img src="../assets/seafall.jpg">
-                    </div>
-                    <div class="labeled-item-label">
-                      Seafall
-                    </div>
-                  </div>
-
-
-                  <div class="labeled-item vertical">
-                    <div class="labeled-item-content">
-                      <img src="../assets/time_stories.png">
-                    </div>
-                    <div class="labeled-item-label">
-                      T.I.M.E. Stories
-                    </div>
-                  </div>
-
-                  <div class="arrow-right">
-                    <img src="../assets/arrow-right.svg">
-                  </div>
-
-                </div>
-              </div>
-            </div>
-
-            <div class="description section">
-              <h2 class="section-title">
-                Description
-              </h2>
-              <p class="description-text">
-                Pandemic Legacy is a co-operative campaign game, with an overarching
-                 story-arc played through 12-24 sessions. Like basic Pandemic, your team of disease-fighting specialists
-                 races against the clock to travel around the world, treating disease
-                  hotspots while researching cures for the four plagues before
-                  they get out of hand.
-              </p>
-            </div>
-
-            <div class="accolades section">
-              <h2 class="section-title">
-                Accolades
-              </h2>
-              <div class="accolade">
-                2016 SXSW Tabletop Game of the Year Winner
-              </div>
-
-              <div class="accolade">
-                2016 International Gamers Award - General Strategy: Multi-player Nominee
-              </div>
-
-              <div class="accolade">
-                2016 Kennerspiel des Jahres Nominee
-              </div>
-            </div>
-
-            <div class="reviews section">
-
-            </div>
-
-            <div class="credits section">
-              <h2 class="section-title">
-                Credits
-              </h2>
-              <div class="year">
-                <span class="label">Year:</span> 2016
-              </div>
-              <div class="designer">
-                <span class="label">Designer:</span> Rob Daviau, Matt Leacock
-              </div>
-              <div class="artist">
-                <span class="label">Artist:</span> Arty Art
-              </div>
-              <div class="publisher">
-                <span class="label">Publisher:</span> Asmodee Games
-              </div>
-            </div>
-
-
-
-            <!-- <div class="accolades card">
-              <p>Accolades</p>
-              <ul class="accolades-list">
-                <li class="accolade">
-                  2016 Game of the Year
-                </li>
-                <li class="accolade">
-                  2016 Spiel de Jahres
-                </li>
-                <li class="accolade">
-                  2016 BBEG Best New Game
-                </li>
-              </ul>
-            </div> -->
-
-            <!-- TODO: Awards, user reviews, designer/publisher/year, -->
-
-          </div>
-
-
-        </div>
-
-
-
-      </div>
     </div>
 
-    <script>
+    <script src="https://www.gstatic.com/firebasejs/4.1.1/firebase.js"></script>
+    <script type="text/babel">
+      // Initialize Firebase
+      const config = {
+        apiKey: "AIzaSyCNUH1zemKbal21lWGjsAEeENPQwDclmHU",
+        authDomain: "bigboardofgames-8b5a8.firebaseapp.com",
+        databaseURL: "https://bigboardofgames-8b5a8.firebaseio.com",
+        projectId: "bigboardofgames-8b5a8",
+        storageBucket: "bigboardofgames-8b5a8.appspot.com",
+        messagingSenderId: "597118708311"
+      };
+      firebase.initializeApp(config);
+
+      // Get a reference to the database service
+      const database = firebase.database();
+
+      firebase.database().ref('gameList').once('value').then(function(snapshot) {
+        // 0 is Pan Legs
+        const gameData = snapshot.val()[0];
+        ReactDOM.render(
+          <GameEntry data={gameData} /> ,
+          document.querySelector('.crate')
+        );
+      });
 
       function throttle(cb, threshold) {
         let last = null;
@@ -249,8 +62,6 @@
         };
       }
 
-      window.onresize = throttle(resize, 100);
-
       function resize() {
         const masthead = document.querySelector('.masthead');
         const primaryImage = document.querySelector('.image.primary');
@@ -258,7 +69,8 @@
         const mastBox = masthead.getBoundingClientRect();
 
         const pictureWidth = mastBox.width / 2 - 0.5 + "px";
-        primaryImage.style.width = pictureWidth;
+        // jlung 6/2/17 there was a gap, so commented this out
+        // primaryImage.style.width = pictureWidth;
         const mastheadHeight = primaryImage.getBoundingClientRect().height;
         Array.from(secondaryImages).forEach(d => {
           d.style.width = pictureWidth;
@@ -271,6 +83,358 @@
         const containerBox = container.getBoundingClientRect();
       }
 
+      const throttledResize = throttle(resize, 100);
+
+
+      // TODO: image path resolution
+      class Masthead extends React.Component {
+
+        componentDidMount() {
+          window.addEventListener('resize', throttledResize);
+          throttledResize();
+        }
+
+        componentWillUnmount() {
+          window.removeEventListener('resize', throttledResize)
+        }
+
+        render() {
+          return (
+            <div className="masthead">
+              <img className="image primary" src={this.props.primaryImageSrc} />
+              <img className="image secondary" src={this.props.imageSrcs[0]} />
+              <img className="image secondary" src={this.props.imageSrcs[1]} />
+            </div>
+          );
+        }
+      }
+
+      function Title({title}) {
+        return <h1 className="title">{title}</h1>;
+      }
+
+      /**
+       * title: string
+       */
+      function SectionTitle(props) {
+        return <h2 className="section-title">{props.title}</h2>;
+      }
+
+      function RatingStars({rating}) {
+        // TODO: some calculation
+        return (
+          <div className="stars">
+            <img className="star gold" src="../assets/Gold_Star.png" />
+            <img className="star gold" src="../assets/Gold_Star.png" />
+            <img className="star gold" src="../assets/Gold_Star.png" />
+            <img className="star gold" src="../assets/Gold_Star.png" />
+            <img className="star white" src="../assets/White_Star.png" />
+          </div>
+        );
+      }
+
+      // # Reviews {reviews.length}
+      function Rating({ rating, reviews }) {
+        return (
+          <div className="rating">
+            <div className="rating-number">
+              {Math.round(parseFloat(rating) / 2 * 100) / 100}
+            </div>
+            <RatingStars rating={rating} />
+            <div className="rank">
+              2849 Reviews
+            </div>
+          </div>
+        );
+      }
+
+      function Categories({categories}) {
+        // TODO: href part
+        return (
+          <div className="categories">
+            {categories.map((category) => {
+              return <a href="#" className="category" key={category}>{category}</a>;
+            })}
+          </div>
+        );
+      }
+
+      function HorizontalLabeledItem(props) {
+        const className = "horizontal-labeled-item entry " + props.name;
+        return (
+          <div className={className}>
+            <div className="entry-icon-wrapper">
+              <img className="labeled-item-icon" src={props.imageSrc}/>
+            </div>
+            <div className="entry-label-wrapper">
+              <div className="labeled-item-label">
+                {props.label}
+              </div>
+            </div>
+          </div>
+        );
+      }
+
+      HorizontalLabeledItem.propTypes = {
+        name: PropTypes.string.isRequired,
+        imageSrc: PropTypes.string.isRequired,
+        label: PropTypes.string.isRequired
+      };
+
+      const complexityChart = (value) => {
+        const rounded = Math.round(value);
+        switch (rounded) {
+          case 0, 1:
+            return "Easy";
+          case 2, 3:
+            return "Medium";
+          case 4, 5:
+            return "Hard";
+          default:
+            return "Not enough data";
+        }
+      };
+
+      function PrimaryStats(props) {
+        return (
+          <div className="primary-stats section">
+
+            <HorizontalLabeledItem
+              name="rank"
+              imageSrc="../assets/trophy.png"
+              // TODO
+              label={`Overall Rank #${props.rank}`}
+            />
+
+            <HorizontalLabeledItem
+              name="num-players"
+              imageSrc="../assets/meeple.jpg"
+              // TODO
+              label={`${props.minplayers}~${props.maxplayers} Players`}
+            />
+
+            <HorizontalLabeledItem
+              name="playing-time"
+              imageSrc="../assets/hourglass.png"
+              label={`${props.playingtime} minutes`}
+            />
+
+            <HorizontalLabeledItem
+              name="difficulty"
+              imageSrc="../assets/brain.png"
+              label={`Difficulty: ${complexityChart(parseFloat(props.difficulty))}`}
+            />
+
+          </div>
+        );
+      }
+
+      function Description({description}) {
+        // TODO: Read More
+        const parts = description.split(/<br\/>/).filter(Boolean);
+        return (
+          <div className="description section">
+            <SectionTitle title="Description" />
+            {parts.map((part, index) => {
+              return (
+                <p className="description-text" key={`description-part-${index}`}>
+                  {part}
+                </p>
+              );
+            })}
+          </div>
+        );
+      }
+
+      /**
+       * wrapperClassName: string
+       * text: [string]
+       */
+      function WrappedText({ wrapperClassName, text }) {
+        return (
+          <div className={wrapperClassName}>
+            {text}
+          </div>
+        );
+      };
+
+      function Awards({awards}) {
+        return (
+          <div className="awards section">
+            <SectionTitle title="Awards" />
+            {awards.map((award) => {
+              return (
+                <WrappedText
+                  wrapperClassName="award"
+                  text={award}
+                  key={award.toLowerCase().replace(' ', '-')} />
+              );
+            })}
+          </div>
+        );
+      };
+
+      /**
+       * label: string
+       * value: string
+       */
+      const LabeledSpanTexts = (props) => {
+        return (
+          <div className={props.label.toLowerCase().replace(' ', '-')}>
+            <span className="label">{props.label}: </span><span className="value">{props.value}</span>
+          </div>
+        );
+      };
+
+      /**
+       * credits: { label: value }
+       * year, designer, artist
+       */
+      function Credits(props) {
+        const results = [];
+        if (props.hasOwnProperty("year")) {
+          results.push(
+            <LabeledSpanTexts
+              label={"Year Published"}
+              value={props.year}
+              key="year" />
+          );
+        }
+        if (props.hasOwnProperty("designers")) {
+          results.push(
+            <LabeledSpanTexts
+              label={"Designed by"}
+              value={props.designers.join(', ')}
+              key="designers" />
+          );
+        }
+        if (props.hasOwnProperty("artists")) {
+          results.push(
+            <LabeledSpanTexts
+              label={"Art by"}
+              value={props.artists.join(', ')}
+              key="artists" />
+          );
+        }
+        return (
+          <div className="credits section">
+            <SectionTitle title={"Credits"} />
+            {results}
+          </div>
+        );
+      }
+
+      /**
+       * wrapperClassName: string,
+       * linkedTextClassName: string,
+       * text: [string]
+       */
+      const WrappedLinkedText = (props) => {
+        return (
+          <div className={props.wrapperClassName}>
+            <a className={props.linkedTextClassName}>{props.text}</a>
+          </div>
+        );
+      };
+
+      /**
+       * publishers: [...]
+       */
+      const Publishers = (props) => {
+        return (
+          <div className="publishers section">
+            <SectionTitle title={"Publishers"} />
+            {props.publishers.map((publisher) => {
+              return (
+                <WrappedLinkedText
+                  wrapperClassName={"publisher-wrapper"}
+                  linkedTextClassName={"publisher"}
+                  text={publisher}
+                  key={publisher} />
+              );
+            })}
+          </div>
+        );
+      };
+
+      Publishers.propTypes = {
+        publishers: PropTypes.array
+      };
+
+      const IMAGES_URL = "../../images/";
+
+
+      function GameEntry({data}) {
+        const name_sanitized = data.name.replace(/[:!?,`"\'&/ ]/g, '');
+        // TODO: ternary operators on all React elements
+        return (
+          <div className="game-entry">
+
+            <Masthead
+              primaryImageSrc={IMAGES_URL + name_sanitized + ".png"}
+              imageSrcs={[
+                "../assets/masthead_1.jpg",
+                "../assets/masthead_3.jpg"
+              ]}
+            />
+
+            <div className="container">
+              <div className="top-section">
+
+                <Title title={data.name} />
+
+                <Rating
+                  rating={data.statistics.ratings.average}
+                  reviews={[]}
+                />
+
+                <Categories
+                  categories={data.categories}
+                />
+
+              </div>
+
+              <div className="main">
+
+                <PrimaryStats
+                  rank={data.statistics.ratings.ranks.rank[0]['@value']}
+                  minplayers={data.minplayers}
+                  maxplayers={data.maxplayers}
+                  playingtime={data.playingtime}
+                  difficulty={data.statistics.ratings.averageweight}
+                />
+
+                <Awards
+                  awards={data.awards}
+                />
+
+                <Description
+                  description={data.description}
+                />
+
+                <Credits
+                  year={data.yearpublished}
+                  designers={data.designers}
+                  artists={data.artists}
+                />
+
+                <Publishers
+                  publishers={data.publishers}
+                />
+
+              </div>
+
+
+            </div>
+
+          </div>
+        );
+      }
+
+
+    </script>
+
+    <script>
 
     </script>
 

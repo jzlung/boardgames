@@ -132,25 +132,25 @@ for line in gameList:
     #     pee['categories'].append(cooperative);
     #     pee['categories'].append(legacy);
 
-    # Download the images to file
-    image_url = pee['image']
-    file_ext = image_url.split('.')[-1]
-    image_filename = name_sanitized + '.' + file_ext
-    image_response = requests.get(image_url, stream=True)
-    with open(DIR_IMAGES + image_filename, 'wb') as out_file:
-        shutil.copyfileobj(image_response.raw, out_file)
-    del image_response
-    pee['image'] = image_filename
-
-    # Thumbnails; do the same as images
-    thumb_url = pee['thumbnail']
-    file_ext = thumb_url.split('.')[-1]
-    thumb_filename = name_sanitized + '-thumbnail.' + file_ext
-    thumb_response = requests.get(thumb_url, stream=True)
-    with open(DIR_THUMBS + thumb_filename, 'wb') as out_file:
-        shutil.copyfileobj(thumb_response.raw, out_file)
-    del thumb_response
-    pee['thumbnail'] = thumb_filename
+    # # Download the images to file
+    # image_url = pee['image']
+    # file_ext = image_url.split('.')[-1]
+    # image_filename = name_sanitized + '.' + file_ext
+    # image_response = requests.get(image_url, stream=True)
+    # with open(DIR_IMAGES + image_filename, 'wb') as out_file:
+    #     shutil.copyfileobj(image_response.raw, out_file)
+    # del image_response
+    # pee['image'] = image_filename
+    #
+    # # Thumbnails; do the same as images
+    # thumb_url = pee['thumbnail']
+    # file_ext = thumb_url.split('.')[-1]
+    # thumb_filename = name_sanitized + '-thumbnail.' + file_ext
+    # thumb_response = requests.get(thumb_url, stream=True)
+    # with open(DIR_THUMBS + thumb_filename, 'wb') as out_file:
+    #     shutil.copyfileobj(thumb_response.raw, out_file)
+    # del thumb_response
+    # pee['thumbnail'] = thumb_filename
 
     # The following methods move the fields around so the JSON is better readable;
     pee.move_to_end('name',last=False)

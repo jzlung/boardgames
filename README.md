@@ -10,6 +10,7 @@ Jerry
 - [ ] Finish Game entry UI page
 - [ ] Populate DB & game entry makes ajax request
 - [ ] Design home page
+- [ ] consider not having images in the git repo (slows down commits	)
 
 Calvin
 - [ ] Figure out engineering stack
@@ -21,6 +22,8 @@ Calvin
 
 ### MVP MVP
 - [ ] set up landing page, with query input to return the game entry page for it
+- [ ] images page
+- [ ] similar games api
 - [ ] basic recommendation app
 - [ ] link to games in the article
 - [ ] google analytics?
@@ -191,3 +194,11 @@ number of pieces
 balance (from reviews)
 	ex. picking a race that's stronger than others
 randomness
+
+
+
+POST SCRAPE Processing
+- rename @objectid to id
+- rename #text to name
+- rename (unix function) all image ext to png
+- all description sections change <br/><br/> to newline
