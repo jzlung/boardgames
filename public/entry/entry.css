@@ -90,7 +90,7 @@ a {
 
 .title {
   margin: 20px 10px;
-  font-size: 60px;
+  font-size: 50px;
   font-weight: 200;
   font-family: Alfa Slab One, Helvetica Neue;
 }
@@ -292,7 +292,7 @@ h2.section-title {
   }
 
   .title {
-    font-size: 36px;
+    font-size: 30px;
   }
 
   .rating {
