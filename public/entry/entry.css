@@ -22,10 +22,9 @@ a {
   font-weight: bold;
 }
 
-.masthead {
+/*.masthead {
   width: 90%;
   margin: 10px auto;
-  overflow: hidden; /* ehhh */
   cursor: pointer;
   position: relative;
 }
@@ -45,13 +44,37 @@ a {
   right: 0px;
 }
 
-/* The first secondary image is the 2nd child of the div */
 .masthead .image.secondary:nth-child(2) {
   top: 0px;
 }
 
 .masthead .image.secondary:nth-child(3) {
   bottom: 0px
+}*/
+
+.masthead {
+  display: flex;
+  width: 90%;
+  overflow: hidden;
+  margin: 0 auto;
+}
+
+.mast-sect {
+  width: 50%;
+}
+
+.image.primary {
+  height: 100%;
+  width 100%;
+}
+
+.masthead .mast-secondary-wrapper {
+  height: 50%;
+  width: 100%
+}
+
+.image.secondary {
+  width: 100%;
 }
 
 .container {

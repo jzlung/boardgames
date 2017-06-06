@@ -63,24 +63,9 @@
       }
 
       function resize() {
+        // 0.4 of 90%
         const masthead = document.querySelector('.masthead');
-        const primaryImage = document.querySelector('.image.primary');
-        const secondaryImages = document.querySelectorAll('.image.secondary');
-        const mastBox = masthead.getBoundingClientRect();
-
-        const pictureWidth = mastBox.width / 2 - 0.5 + "px";
-        // jlung 6/2/17 there was a gap, so commented this out
-        // primaryImage.style.width = pictureWidth;
-        const mastheadHeight = primaryImage.getBoundingClientRect().height;
-        Array.from(secondaryImages).forEach(d => {
-          d.style.width = pictureWidth;
-          d.style.height = mastheadHeight / 2 - 0.5 + "px";
-        });
-
-        const container = document.querySelector('.container');
-        container.style.width = mastBox.width + "px";
-
-        const containerBox = container.getBoundingClientRect();
+        masthead.style.height = masthead.getBoundingClientRect().width * 0.4 + "px";
       }
 
       const throttledResize = throttle(resize, 100);
@@ -101,9 +86,17 @@
         render() {
           return (
             <div className="masthead">
-              <img className="image primary" src={this.props.primaryImageSrc} />
-              <img className="image secondary" src={this.props.imageSrcs[0]} />
-              <img className="image secondary" src={this.props.imageSrcs[1]} />
+              <div className="mast-sect left">
+                <img className="image primary" src={this.props.primaryImageSrc} />
+              </div>
+              <div className="mast-sect right">
+                <div className="mast-secondary-wrapper">
+                  <img className="image secondary" src={this.props.imageSrcs[0]} />
+                </div>
+                <div className="mast-secondary-wrapper">
+                  <img className="image secondary" src={this.props.imageSrcs[1]} />
+                </div>
+              </div>
             </div>
           );
         }
