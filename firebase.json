@@ -4,10 +4,5 @@
   },
   "hosting": {
     "public": "public",
-    "redirects": [ {
-      "source": "/game/:*",
-      "destination": "https://www.bigboardofgames.com/entry?id=:*",
-      "type": 301
-     } ]
   }
 }
