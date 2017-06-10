@@ -204,6 +204,16 @@ a {
   grid-template-columns: 1fr 1fr;
 }
 
+.primary-stats .rank,
+.primary-stats .playing-time {
+  grid-column: 1;
+}
+
+.primary-stats .num-players,
+.primary-stats .difficulty {
+  grid-column: 2;
+}
+
 .entry {
   display: flex;
   font-size: 46px;
