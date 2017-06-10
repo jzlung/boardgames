@@ -13,7 +13,7 @@ a {
 }
 
 .game-entry {
-  font-family: Cabin, Lato; /* Cabin Sketch */
+  font-family: Roboto, Lato; /* Cabin Sketch */
   width: 100%;
   margin: 20px auto;
 }
@@ -59,8 +59,12 @@ a {
   margin: 0 auto;
 }
 
-.mast-sect {
-  width: 50%;
+.mast-sect.left {
+  width: 60%;
+}
+
+.mast-sect.right {
+  width: 40%;
 }
 
 .image.primary {
@@ -89,15 +93,15 @@ a {
 }
 
 .title {
-  margin: 20px 10px;
-  font-size: 50px;
+  margin: 30px 10px 20px 10px;
+  font-size: 52px;  /* 44 */
   font-weight: 200;
   font-family: Alfa Slab One, Helvetica Neue;
 }
 
 .rating {
   margin: 0px 20px;
-  font-size: 28px;
+  font-size: 40px;
   display: flex;
 }
 
@@ -112,17 +116,46 @@ a {
 }
 
 .rating .star {
-  height: 15px;
-  width: 15px;
+  height: 30px;
+  width: 30px;
 }
 
 .num-reviews {
   font-size: 14px;
 }
 
+/* Start AB test: centering top section ================================= */
+
+/*.top-section {
+  align-items: center;
+  justify-content: space-between;
+  text-align: center;
+}
+
+.title {
+  margin: 30px 10px 20px 10px;
+  font-size: 52px;
+  font-weight: 200;
+  font-family: Alfa Slab One, Helvetica Neue;
+}
+
+.rating {
+  margin: 0px 20px;
+  font-size: 36px;
+  display: inline-flex;
+}
+
 .categories {
   margin: 10px 20px;
-  font-size: 24px;
+  font-size: 34px;
+  display: inline-flex;
+}*/
+
+/* End AB test ================================= */
+
+.categories {
+  margin: 10px 20px;
+  font-size: 36px;
   display: flex;
 }
 
@@ -156,8 +189,7 @@ a {
 }
 
 .section {
-padding: 15px 0px;
-
+  padding: 15px 0px;
 }
 
 .main .section {
@@ -174,8 +206,8 @@ padding: 15px 0px;
 
 .entry {
   display: flex;
-  font-size: 30px;
-  margin: 0 auto;
+  font-size: 46px;
+  margin: 5px auto;
 }
 
 .entry-icon-wrapper {
@@ -239,16 +271,39 @@ h2.section-title {
   font-weight: bold;
 }
 
-.description .description-text {
-  opacity: 0.6;
-  font-size: 12px;
+.description.expandable.section .section-title {
+  margin-bottom: 0;
 }
 
-.awards .award {
+.expandable-wrapper {
+  height: 200px;
+  overflow: hidden;
+  position: relative;
+}
+
+.description .expandable-text {
+  opacity: 0.6;
+  font-size: 46px;
+}
+
+.more-btn {
+  width: 100px;
+  height: 40px;
+  position: absolute;
+  bottom: 0px;
+  left: 50%;
+  font-size: 36px;
+  border: 2px solid black;
+  border-radius: 3px;
+  line-height: 36px;
+}
+
+.awards .expandable-text {
   text-align: center;
   font-weight: bold;
   font-family: Cabin Sketch;
-  font-size: 14px;
+  font-size: 36px;
+  margin: 20px;
 }
 
 .critics {
@@ -268,7 +323,8 @@ h2.section-title {
   margin: 0 20px;
 }
 
-.credits div {
+.credits,
+.publishers {
   font-size: 12px;
 }
 
@@ -276,8 +332,9 @@ h2.section-title {
   /*font-weight: bold;*/
 }
 
-
-
+.credits.section .labeled-span-texts .value {
+  cursor: pointer;
+}
 
 
 @media only screen and (min-device-width : 480px) {
@@ -297,6 +354,11 @@ h2.section-title {
 
   .rating {
     font-size: 16px;
+  }
+
+  .rating .star {
+    height: 20px;
+    width: 20px;
   }
 
   .categories {

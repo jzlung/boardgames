@@ -3,7 +3,7 @@
   <head>
     <title>Game Entry</title>
     <link rel="stylesheet" href="entry.css">
-    <link href="https://fonts.googleapis.com/css?family=Bahiana|Lora|Slabo+27px|Roboto+Slab|Lato|Baloo+Chettan|Alfa+Slab+One|Walter+Turncoat|Cabin+Sketch|Skranji|Wendy+One|Suez+One|Patrick+Hand+SC|Palanquin+Dark|Cabin" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Bahiana|Lora|Slabo+27px|Roboto|Roboto+Slab|Lato|Baloo+Chettan|Alfa+Slab+One|Walter+Turncoat|Cabin+Sketch|Skranji|Wendy+One|Suez+One|Patrick+Hand+SC|Palanquin+Dark|Cabin" rel="stylesheet">
 
     <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/babel-core/6.1.19/browser.js"></script> -->
     <script src="https://unpkg.com/react@15/dist/react.js"></script>
@@ -37,12 +37,21 @@
       const database = firebase.database();
 
       firebase.database().ref('gameList').once('value').then(function(snapshot) {
-        // 0 is Pan Legs
-        const gameData = snapshot.val()[0];
+        let count = 0;
+        let gameData = snapshot.val()[count];
         ReactDOM.render(
           <GameEntry data={gameData} /> ,
           document.querySelector('.crate')
         );
+
+        // setInterval(() => {
+        //   gameData = snapshot.val()[count++];
+        //   console.log(gameData.name);
+        //   ReactDOM.render(
+        //     <GameEntry data={gameData} /> ,
+        //     document.querySelector('.crate')
+        //   );
+        // }, 2000)
       });
 
       function throttle(cb, threshold) {
@@ -83,20 +92,28 @@
           window.removeEventListener('resize', throttledResize)
         }
 
+        // <img className="image primary" src={this.props.primaryImageSrc} />
         render() {
+          const primaryImageStyle = {
+            backgroundImage: "url(" + this.props.primaryImageSrc +")",
+            backgroundRepeat: "no-repeat",
+            backgroundSize: "cover"
+          };
+          const secondaryImageStyle = {
+            backgroundImage: "url(" + this.props.imageSrcs[0] +")",
+            backgroundRepeat: "no-repeat",
+            backgroundSize: "cover"
+          };
           return (
             <div className="masthead">
-              <div className="mast-sect left">
-                <img className="image primary" src={this.props.primaryImageSrc} />
+              <div className="mast-sect left" style={primaryImageStyle} >
+
               </div>
-              <div className="mast-sect right">
-                <div className="mast-secondary-wrapper">
-                  <img className="image secondary" src={this.props.imageSrcs[0]} />
-                </div>
-                <div className="mast-secondary-wrapper">
-                  <img className="image secondary" src={this.props.imageSrcs[1]} />
-                </div>
+
+              <div className="mast-sect right" style={secondaryImageStyle}>
+
               </div>
+
             </div>
           );
         }
@@ -199,12 +216,20 @@
               label={`Overall Rank #${props.rank}`}
             />
 
-            <HorizontalLabeledItem
-              name="num-players"
-              imageSrc="../assets/meeple.jpg"
-              // TODO
-              label={`${props.minplayers}~${props.maxplayers} Players`}
-            />
+            {props.minplayers === props.maxplayers
+              ? <HorizontalLabeledItem
+                  name="num-players"
+                  imageSrc="../assets/meeple.jpg"
+                  // TODO
+                  label={`${props.minplayers} Players`}
+                />
+              : <HorizontalLabeledItem
+                  name="num-players"
+                  imageSrc="../assets/meeple.jpg"
+                  // TODO
+                  label={`${props.minplayers}~${props.maxplayers} Players`}
+                />
+            }
 
             <HorizontalLabeledItem
               name="playing-time"
@@ -222,22 +247,65 @@
         );
       }
 
-      function Description({description}) {
-        // TODO: Read More
-        const parts = description.split(/<br\/>/).filter(Boolean);
-        return (
-          <div className="description section">
-            <SectionTitle title="Description" />
-            {parts.map((part, index) => {
-              return (
-                <p className="description-text" key={`description-part-${index}`}>
-                  {part}
-                </p>
-              );
-            })}
-          </div>
-        );
+      // https://jsfiddle.net/tvarqzby/4/
+      // Heading and renders chunks of text into paragraphs
+      class ExpandableTexts extends React.Component {
+        constructor(props) {
+          super(props);
+          this.state = {
+            expanded: false
+          }
+          this.toggleExpand = this.toggleExpand.bind(this);
+        }
+
+        toggleExpand() {
+          const section = ReactDOM.findDOMNode(this);
+          const wrapper = section.querySelector('.expandable-wrapper');
+          const button = section.querySelector('.more-btn');
+
+          if (!this.state.expanded) {
+            wrapper.style.height = "100%";
+            button.innerHTML = "Less";
+          }
+          else {
+          	wrapper.style.height = "100px";
+            button.innerHTML = "More";
+          }
+
+          this.setState((prevState, prevProps) => {
+            return {
+              expanded: !prevState.expanded
+            }
+          });
+        }
+
+        render() {
+          const className = this.props.heading.toLowerCase().replace(/[ ^&*()!@#$%]/, '-');
+          return (
+            <div className={`${className} expandable section`}>
+              <SectionTitle title={this.props.heading} />
+              <div className="expandable-wrapper">
+                <div className="expandable">
+                  {this.props.texts.map((text, index) => {
+                    return (
+                      <p className="expandable-text" key={`expandable-text-${index}`}>
+                        {text}
+                      </p>
+                    );
+                  })}
+                </div>
+                <button className="more-btn" onClick={this.toggleExpand}>More</button>
+              </div>
+            </div>
+          );
+        }
       }
+
+      ExpandableTexts.propTypes = {
+        heading: React.PropTypes.string,
+        // Of strings
+        texts: React.PropTypes.array
+      };
 
       /**
        * wrapperClassName: string
@@ -273,7 +341,7 @@
        */
       const LabeledSpanTexts = (props) => {
         return (
-          <div className={props.label.toLowerCase().replace(' ', '-')}>
+          <div className={"labeled-span-texts " + props.label.toLowerCase().replace(' ', '-')}>
             <span className="label">{props.label}: </span><span className="value">{props.value}</span>
           </div>
         );
@@ -281,11 +349,13 @@
 
       /**
        * credits: { label: value }
-       * year, designer, artist
+       * year, designer, artist, publishers
+
+       FIXME: everything in the credits section will have to be links
        */
       function Credits(props) {
         const results = [];
-        if (props.hasOwnProperty("year")) {
+        if (props.hasOwnProperty("year") && props["year"]) {
           results.push(
             <LabeledSpanTexts
               label={"Year Published"}
@@ -293,7 +363,7 @@
               key="year" />
           );
         }
-        if (props.hasOwnProperty("designers")) {
+        if (props.hasOwnProperty("designers") && props["designers"]) {
           results.push(
             <LabeledSpanTexts
               label={"Designed by"}
@@ -301,12 +371,34 @@
               key="designers" />
           );
         }
-        if (props.hasOwnProperty("artists")) {
+        if (props.hasOwnProperty("artists") && props["artists"]) {
           results.push(
             <LabeledSpanTexts
               label={"Art by"}
               value={props.artists.join(', ')}
               key="artists" />
+          );
+        }
+        /*
+        <div className="publishers section">
+          <SectionTitle title={"Publishers"} />
+          {props.publishers.map((publisher) => {
+            return (
+              <WrappedLinkedText
+                wrapperClassName={"publisher-wrapper"}
+                linkedTextClassName={"publisher"}
+                text={publisher}
+                key={publisher} />
+            );
+          })}
+        </div>
+        */
+        if (props.hasOwnProperty("publishers") && props["publishers"]) {
+          results.push(
+            <LabeledSpanTexts
+              label={"Published by"}
+              value={props.publishers.join(', ')}
+              key="publishers" />
           );
         }
         return (
@@ -322,36 +414,12 @@
        * linkedTextClassName: string,
        * text: [string]
        */
-      const WrappedLinkedText = (props) => {
+      const InlineLinkedText = (props) => {
         return (
-          <div className={props.wrapperClassName}>
+          <span className={props.wrapperClassName}>
             <a className={props.linkedTextClassName}>{props.text}</a>
-          </div>
+          </span>
         );
-      };
-
-      /**
-       * publishers: [...]
-       */
-      const Publishers = (props) => {
-        return (
-          <div className="publishers section">
-            <SectionTitle title={"Publishers"} />
-            {props.publishers.map((publisher) => {
-              return (
-                <WrappedLinkedText
-                  wrapperClassName={"publisher-wrapper"}
-                  linkedTextClassName={"publisher"}
-                  text={publisher}
-                  key={publisher} />
-              );
-            })}
-          </div>
-        );
-      };
-
-      Publishers.propTypes = {
-        publishers: PropTypes.array
       };
 
       const IMAGES_URL = "../assets/images/";
@@ -397,21 +465,20 @@
                   difficulty={data.statistics.ratings.averageweight}
                 />
 
-                <Awards
-                  awards={data.awards}
-                />
+                {data.awards && <ExpandableTexts
+                  heading="Awards"
+                  texts={data.awards}
+                />}
 
-                <Description
-                  description={data.description}
-                />
+                {data.description && <ExpandableTexts
+                  heading="Description"
+                  texts={data.description.split(/<br\/>/).filter(Boolean)}
+                />}
 
                 <Credits
                   year={data.yearpublished}
                   designers={data.designers}
                   artists={data.artists}
-                />
-
-                <Publishers
                   publishers={data.publishers}
                 />
 
