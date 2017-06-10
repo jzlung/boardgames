@@ -35,6 +35,7 @@
 
       // Get a reference to the database service
       const database = firebase.database();
+      const storage = firebase.storage();
 
       firebase.database().ref('gameList').once('value').then(function(snapshot) {
         let count = 0;
@@ -73,8 +74,9 @@
 
       function resize() {
         // 0.4 of 90%
+        // 0.56 is 9/16
         const masthead = document.querySelector('.masthead');
-        masthead.style.height = masthead.getBoundingClientRect().width * 0.4 + "px";
+        masthead.style.height = masthead.getBoundingClientRect().width * 0.56 + "px";
       }
 
       const throttledResize = throttle(resize, 100);
@@ -86,6 +88,21 @@
         componentDidMount() {
           window.addEventListener('resize', throttledResize);
           throttledResize();
+
+          const storageRef = storage.ref();
+          // TODO: helper function
+          storageRef.child(this.props.primaryImageSrc).getDownloadURL().then(function(url) {
+            document.querySelector('.mast-sect.left').style.backgroundImage = `url("${url}")`;
+          }).catch(function(error) {
+            console.log(error);
+          });
+
+          storageRef.child(this.props.imageSrcs[0]).getDownloadURL().then(function(url) {
+            document.querySelector('.mast-sect.right').style.backgroundImage = `url("${url}")`;
+          }).catch(function(error) {
+            console.log(error);
+          });
+
         }
 
         componentWillUnmount() {
@@ -95,12 +112,11 @@
         // <img className="image primary" src={this.props.primaryImageSrc} />
         render() {
           const primaryImageStyle = {
-            backgroundImage: "url(" + this.props.primaryImageSrc +")",
             backgroundRepeat: "no-repeat",
             backgroundSize: "cover"
           };
           const secondaryImageStyle = {
-            backgroundImage: "url(" + this.props.imageSrcs[0] +")",
+            // backgroundImage: "url(" + this.props.imageSrcs[0] +")",
             backgroundRepeat: "no-repeat",
             backgroundSize: "cover"
           };
@@ -302,9 +318,9 @@
       }
 
       ExpandableTexts.propTypes = {
-        heading: React.PropTypes.string,
+        heading: PropTypes.string,
         // Of strings
-        texts: React.PropTypes.array
+        texts: PropTypes.array
       };
 
       /**
@@ -422,7 +438,8 @@
         );
       };
 
-      const IMAGES_URL = "../assets/images/";
+      // ../assets/
+      const IMAGES_URL = "gameImages/";
 
 
       function GameEntry({data}) {
@@ -434,8 +451,8 @@
             <Masthead
               primaryImageSrc={IMAGES_URL + name_sanitized + ".png"}
               imageSrcs={[
-                "../assets/masthead_1.jpg",
-                "../assets/masthead_3.jpg"
+                "masthead_1.jpg",
+                "masthead_3.jpg"
               ]}
             />
 
@@ -465,14 +482,14 @@
                   difficulty={data.statistics.ratings.averageweight}
                 />
 
-                {data.awards && <ExpandableTexts
-                  heading="Awards"
-                  texts={data.awards}
-                />}
-
                 {data.description && <ExpandableTexts
                   heading="Description"
                   texts={data.description.split(/<br\/>/).filter(Boolean)}
+                />}
+
+                {data.awards && <ExpandableTexts
+                  heading="Awards"
+                  texts={data.awards}
                 />}
 
                 <Credits
