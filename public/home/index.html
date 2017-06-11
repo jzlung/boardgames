@@ -15,8 +15,10 @@
         </div>
         <div class="navbar-second">
           <div class="navbar-element search">
-            <input type="text" class="search-input" />
-            <img class="search-icon" src="assets/search.png" onclick="submit()" />
+            <form action="javascript:submit()">
+              <input type="text" class="search-input" />
+              <input type="image" class="search-icon" src="assets/search.png" onclick="submit()" />
+            </form>
           </div>
           <div class="navbar-element more">
             <img class="search-icon" src="assets/hamburger.svg" />

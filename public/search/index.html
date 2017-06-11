@@ -57,15 +57,34 @@
         //     document.querySelector('.crate')
         //   );
         // }, 2000)
-      });
+      })
+      .catch(function(error) {
+        console.log(error);
+        ReactDOM.render(
+          <SimpleError msg="Something went wrong; try again with a shorter query?" />,
+          document.querySelector('.crate')
+        );
+      });;
 
       // TODO: take in Entry component
       function SearchResults({results}) {
+        console.log(results);
         return (
           <div className="search-results">
-            {results.map((result) => {
-              return <GameSearchEntry data={result} key={result.name} />;
-            })}
+            { results.length
+              ? results.map((result) => {
+                  return <GameSearchEntry data={result} key={result.name} />;
+                })
+              : <SimpleError msg="No results found; try a shorter query." />
+            }
+          </div>
+        );
+      }
+
+      function SimpleError({msg}) {
+        return (
+          <div className="error-msg">
+            {msg}
           </div>
         );
       }
@@ -75,8 +94,7 @@
 
         componentDidMount() {
           // TODO: helper function
-          const name_sanitized = this.props.data.name.replace(/[:!?,`"\'&/ ]/g, '');
-          debugger;
+          const name_sanitized = this.props.data.name.replace(/[:!?,`"\'&/ ]/g, '').replace('é', 'e');
           storageRef.child(IMAGES_URL + name_sanitized + '.png').getDownloadURL().then((url) => {
             ReactDOM.findDOMNode(this).querySelector('.image-preview').src = url;
           }).catch(function(error) {
@@ -85,6 +103,7 @@
         }
 
         render() {
+          console.log(this.props.data.name);
           return (
             <a href={`../entry/index.html?gameId=${this.props.data.id}`} className="search-entry-wrapper">
               <div className="search-entry labeled-item-horizontal">
@@ -99,7 +118,7 @@
                     {this.props.data.statistics.ratings.average}
                   </div>
                   <div className="synopsis">
-                    {this.props.data.categories.join(', ')}
+                    {this.props.data.categories && this.props.data.categories.join(', ')}
                   </div>
                 </div>
               </div>

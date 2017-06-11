@@ -74,6 +74,8 @@ for line in gameList:
         pee['name'] = pee['name']['#text']
     name = pee['name']
     name_sanitized = re.sub(r'[:!?,`"\'&/ ]', '', name)
+    # TODO: do for all Unicode shit
+    name_sanitized = name_sanitized.replace('é', 'e');
 
     # boardgamecategory is actually themes, which is not useful imho; use subdomain instead
     if 'boardgamecategory' in pee:

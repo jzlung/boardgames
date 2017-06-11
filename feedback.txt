@@ -1,0 +1,27 @@
+categories
+- around dixit odyssey it got fucked up / dungeon lords
+- generally too many
+- too many + individual ones too long vertically stretches
+
+ratings font got too big around dungoneon lords secrion
+stars not big enough on mobile
+
+primary stats looks closer to right side
+problem still on my phone that the css grid goes into one column
+
+
+masthead looks too busy
+
+<div className="mast-sect right">
+  <div className="mast-secondary-wrapper">
+    <img className="image secondary" src={this.props.imageSrcs[0]} />
+  </div>
+  <div className="mast-secondary-wrapper">
+    <img className="image secondary" src={this.props.imageSrcs[1]} />
+  </div>
+</div>
+
+expand primary information to initial viewport
+
+
+http://getbootstrap.com/javascript/#collapse

@@ -19,6 +19,7 @@
   border-bottom: 1px solid black;
   height: 200px;
   font-size: 26px;
+  overflow: hidden;
 }
 
 .search-results-feed  a:last-child > .search-results.labeled-item-horizontal {
