@@ -1,44 +1,48 @@
 # boardgames
 Board Game Recommender, and successor to BGG
 
-## P1 FIX NOW
+## P1 FIX NOW - End of June
 Jerry
+[ ] Scrape data for up to 1000 games
+	[ ] Think of image storage (for each movie, there should be many images)
+	[ ] Database points to images refs easier
+[ ] Design home page
+[ ] Design logo
+[ ] set up social media
+[ ] write content
+[ ] article UI
+[ ] take lots of pictures of games
+
+Calvin
+- [ ] Figure out engineering stack
+
+### MVP MVP - End of July
+[ ] learn seo, pump out articles
+[ ] images page
+[ ] similar games api
+[ ] basic recommendation app
+[ ] link to games in the article
+[ ] google analytics?
+
+## MVP - Mid August
+[ ] mailchimp
+[ ] user accounts
+[ ] users can rate games
+[ ] forum or discussion or comments in game entry page
+[ ] figure out some bug tracking software / site to replace this
+
+
+## DONE
 - [ ] Finalize Data format & Scrape
 	- [ ] scraper needs to download the pictures into the assets archive
 	- [ ] simplify the data formats, the '@objectid' and '#text' keys
 	- [ ] Firebase s3-like service for image storage
 - [ ] Finish Game entry UI page
 - [ X ] Populate DB & game entry makes ajax request
-- [ ] Design home page
-- [ ] consider not having images in the git repo (slows down commits	)
-- [ ] social media
-- [ ] write content
-- [ ] take lots of pictures of games
-
-Calvin
-- [ ] Figure out engineering stack
-
-## MVP MVP MVP
-- [ ] learn seo, pump out articles
-= [ ] design UIs: home page, game entry page, articles home page, article page layout
-- [ ] scrape up to 1000 games
-
-### MVP MVP
+[ ] consider not having images in the git repo (slows down commits	)
 - [ ] set up landing page, with query input to return the game entry page for it
-- [ ] images page
-- [ ] similar games api
-- [ ] basic recommendation app
-- [ ] link to games in the article
-- [ ] google analytics?
-
-## MVP
 - [ ] JS vs db for data storage
-- [ ] webpack
-- [ ] mailchimp
-- [ ] user accounts
-- [ ] users can rate games
-- [ ] forum or discussion or comments in game entry page
-- [ ] figure out some bug tracking software / site to replace this
+
 
 ## FEATURES TO COME
 * game entry pages
