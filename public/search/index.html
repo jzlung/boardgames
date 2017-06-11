@@ -37,7 +37,7 @@
       const database = firebase.database();
       const storage = firebase.storage();
       // TODO: do more like take out special chars
-      const param = window.location.href.split('=')[1].replace('%20', ' ');
+      const param = window.location.href.split('=')[1].toLowerCase().replace('%20', ' ');
       const storageRef = storage.ref();
       const IMAGES_URL = "gameImages/";
 
