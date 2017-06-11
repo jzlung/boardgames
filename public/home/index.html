@@ -15,7 +15,8 @@
         </div>
         <div class="navbar-second">
           <div class="navbar-element search">
-            <img class="search-icon" src="assets/search.png" />
+            <input type="text" class="search-input" />
+            <img class="search-icon" src="assets/search.png" onclick="submit()" />
           </div>
           <div class="navbar-element more">
             <img class="search-icon" src="assets/hamburger.svg" />
@@ -176,6 +177,11 @@
 
 
     <script>
+
+      function submit() {
+        let query = document.querySelector('.search-input').value;
+        window.location.href = `../search/index.html?query=${query}`;
+      }
 
     </script>
 
