@@ -36,10 +36,14 @@
       // Get a reference to the database service
       const database = firebase.database();
       const storage = firebase.storage();
+      // ../assets/
+      const IMAGES_URL = "gameImages/";
 
       firebase.database().ref('gameList').once('value').then(function(snapshot) {
         let count = 0;
-        let gameData = snapshot.val()[count];
+        const param = window.location.href.split('=')[1].replace('%20', ' ');
+        const gameData = snapshot.val()
+          .find((d) => d.id === param);
         ReactDOM.render(
           <GameEntry data={gameData} /> ,
           document.querySelector('.crate')
@@ -217,7 +221,7 @@
           case 4, 5:
             return "Hard";
           default:
-            return "Not enough data";
+            return "N/A";
         }
       };
 
@@ -438,11 +442,10 @@
         );
       };
 
-      // ../assets/
-      const IMAGES_URL = "gameImages/";
 
 
       function GameEntry({data}) {
+        // TODO: modularize
         const name_sanitized = data.name.replace(/[:!?,`"\'&/ ]/g, '');
         // TODO: ternary operators on all React elements
         return (
@@ -508,10 +511,6 @@
         );
       }
 
-
-    </script>
-
-    <script>
 
     </script>
 

@@ -1,0 +1,66 @@
+
+.search-results {
+  border: 2px solid black;
+  border-radius: 2px;
+}
+
+
+
+.labeled-item-horizontal .labeled-item-content,
+.labeled-item-horizontal .labeled-item-label {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.search-entry.labeled-item-horizontal {
+  margin: 0 15px;
+  padding: 5px;
+  display: flex;
+  border-bottom: 1px solid black;
+  height: 200px;
+  font-size: 26px;
+}
+
+.search-results-feed  a:last-child > .search-results.labeled-item-horizontal {
+  border-bottom: none;
+}
+
+.search-entry.labeled-item-horizontal > .labeled-item-content {
+  display: block;
+  overflow: hidden;
+  margin: 0 15px;
+  height: 150px;
+  width: 150px;
+
+  min-width: 150px;
+  position: relative;
+  top: 50%;
+  transform: translate(0, -50%);
+}
+
+.search-entry.labeled-item-horizontal > .labeled-item-content > * {
+  height: 100%;
+  width: 100%;
+}
+
+.search-entry.labeled-item-horizontal > .labeled-item-label {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.search-entry.labeled-item-horizontal > .labeled-item-label > .header {
+  font-weight: bold;
+}
+
+.search-entry.labeled-item-horizontal:hover > .labeled-item-label > .header {
+  /*color: #d84c20;*/
+  color: #4199A9;
+}
+
+.search-entry.labeled-item-horizontal > .labeled-item-label > .author {
+  color: gray;
+}
+
+.search-entry.labeled-item-horizontal > .labeled-item-label > .synopsis {
+}

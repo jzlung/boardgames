@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Search</title>
+    <link rel="stylesheet" href="search.css">
+    <link href="https://fonts.googleapis.com/css?family=Bahiana|Lora|Slabo+27px|Roboto|Roboto+Slab|Lato|Baloo+Chettan|Alfa+Slab+One|Walter+Turncoat|Cabin+Sketch|Skranji|Wendy+One|Suez+One|Patrick+Hand+SC|Palanquin+Dark|Cabin" rel="stylesheet">
+
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/babel-core/6.1.19/browser.js"></script> -->
+    <script src="https://unpkg.com/react@15/dist/react.js"></script>
+    <script src="https://unpkg.com/react-dom@15/dist/react-dom.js"></script>
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/react/0.14.1/react.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/react/0.14.1/react-dom.js"></script> -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/babel-core/5.8.23/browser.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <script src="https://unpkg.com/prop-types/prop-types.js"></script>
+  </head>
+  <body>
+
+    <div class="crate">
+
+    </div>
+
+    <script src="https://www.gstatic.com/firebasejs/4.1.1/firebase.js"></script>
+    <script type="text/babel">
+      // Initialize Firebase
+      const config = {
+        apiKey: "AIzaSyCNUH1zemKbal21lWGjsAEeENPQwDclmHU",
+        authDomain: "bigboardofgames-8b5a8.firebaseapp.com",
+        databaseURL: "https://bigboardofgames-8b5a8.firebaseio.com",
+        projectId: "bigboardofgames-8b5a8",
+        storageBucket: "bigboardofgames-8b5a8.appspot.com",
+        messagingSenderId: "597118708311"
+      };
+      firebase.initializeApp(config);
+
+      // Get a reference to the database service
+      const database = firebase.database();
+      const storage = firebase.storage();
+      // TODO: do more like take out special chars
+      const param = window.location.href.split('=')[1].replace('%20', ' ');
+      const storageRef = storage.ref();
+      const IMAGES_URL = "gameImages/";
+
+      firebase.database().ref('gameList').once('value').then((snapshot) => {
+        const gameData = snapshot.val()
+          .filter((d) => d.name.toLowerCase().indexOf(param) > -1);
+        ReactDOM.render(
+          <SearchResults results={gameData} />,
+          document.querySelector('.crate')
+        );
+
+        // setInterval(() => {
+        //   gameData = snapshot.val()[count++];
+        //   console.log(gameData.name);
+        //   ReactDOM.render(
+        //     <GameEntry data={gameData} /> ,
+        //     document.querySelector('.crate')
+        //   );
+        // }, 2000)
+      });
+
+      // TODO: take in Entry component
+      function SearchResults({results}) {
+        return (
+          <div className="search-results">
+            {results.map((result) => {
+              return <GameSearchEntry data={result} key={result.name} />;
+            })}
+          </div>
+        );
+      }
+
+      // TODO: generalize
+      class GameSearchEntry extends React.Component {
+
+        componentDidMount() {
+          // TODO: helper function
+          const name_sanitized = this.props.data.name.replace(/[:!?,`"\'&/ ]/g, '');
+          debugger;
+          storageRef.child(IMAGES_URL + name_sanitized + '.png').getDownloadURL().then((url) => {
+            ReactDOM.findDOMNode(this).querySelector('.image-preview').src = url;
+          }).catch(function(error) {
+            console.log(error);
+          });
+        }
+
+        render() {
+          return (
+            <a href={`../entry/index.html?gameId=${this.props.data.id}`} className="search-entry-wrapper">
+              <div className="search-entry labeled-item-horizontal">
+                <div className="labeled-item-content">
+                  <img className="image-preview" />
+                </div>
+                <div className="labeled-item-label">
+                  <div className="header">
+                    {this.props.data.name}
+                  </div>
+                  <div className="author">
+                    {this.props.data.statistics.ratings.average}
+                  </div>
+                  <div className="synopsis">
+                    {this.props.data.categories.join(', ')}
+                  </div>
+                </div>
+              </div>
+            </a>
+          );
+        }
+      }
+
+    </script>
+
+  </body>
+
+</html>
