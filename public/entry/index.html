@@ -41,7 +41,7 @@
 
       firebase.database().ref('gameList').once('value').then(function(snapshot) {
         let count = 0;
-        const param = window.location.href.split('=')[1].replace('%20', ' ');
+        const param = (window.location.href.split('=')[1] || '161936').replace('%20', ' ');
         const gameData = snapshot.val()
           .find((d) => d.id === param);
         ReactDOM.render(
