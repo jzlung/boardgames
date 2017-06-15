@@ -388,11 +388,11 @@ h2.section-title {
     font-size: 16px;
   }
 
-  .description .description-text {
+  .description .expandable-text {
     font-size: 16px;
   }
 
-  .awards .award {
+  .awards .expandable-text {
     font-size: 18px;
   }
 
