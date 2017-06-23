@@ -30,7 +30,7 @@
   font-family: Cabin Sketch;
   color: white;
   background: #4199A9;
-  font-size: 47px;
+  font-size: 42px;
 
   width: 228px;
 }
@@ -72,6 +72,29 @@
 .body {
   width: 100%;
   display: flex;
+}
+
+.section-main .carousel .carousel-inner {
+  height: 400px;
+  background-image: 
+    linear-gradient(
+      rgba(0, 0, 0, 0.5),       
+      rgba(0, 0, 0, 0.5)     
+    ), 
+    url('../assets/masthead_2.jpg');
+}
+
+.section-main .carousel .carousel-inner .item {
+  height: 100%;
+}
+
+.section-main .carousel .carousel-inner .carousel-caption {
+  top: 20%;
+  font-size: 22px;
+}
+
+.section-main .carousel .carousel-inner .carousel-caption-title {
+  font-size: 42px;
 }
 
 .section-left {
