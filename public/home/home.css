@@ -11,7 +11,7 @@
   border-radius: 5px;
   display: flex;
   /*height: 100px;*/
-  margin: 30px 0;
+  margin: 10px 0px 20px 0px;
   justify-content: space-between;
 }
 
@@ -46,8 +46,7 @@
   vertical-align: middle;
 }
 
-.search-icon,
-.hamburger-icon {
+.navbar-icon {
   width: 75px;
   height: 75px;
   display: inline-block;
@@ -75,7 +74,7 @@
 }
 
 .section-main .carousel .carousel-inner {
-  height: 400px;
+  height: 350px;
   background-image: 
     linear-gradient(
       rgba(0, 0, 0, 0.5),       
@@ -89,7 +88,6 @@
 }
 
 .section-main .carousel .carousel-inner .carousel-caption {
-  top: 20%;
   font-size: 22px;
 }
 
@@ -182,6 +180,21 @@
 
   .navbar-element.responsive {
     display: block;
+  }
+
+  .navbar-element.logo {
+    font-size: 24px;
+    width: 254px;
+    margin: 0;
+  }
+
+  .navbar-second .navbar-element.search form .search-input {
+    font-size: 12px;
+  }
+
+  .navbar-second .navbar-element .navbar-icon {
+    width: 30px;
+    height: 30px;
   }
 
   .article.labeled-item-horizontal {
