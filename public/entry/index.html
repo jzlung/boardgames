@@ -225,6 +225,23 @@
         }
       };
 
+      function PrimaryStat(props) {
+        const className = "primary-stat " + props.name;
+        return (
+          <div className={className}>
+            <div className="entry-icon-wrapper">
+              ${props.rank}
+            </div>
+            <HorizontalLabeledItem
+              name="rank"
+              imageSrc="../assets/trophy.png"
+              // TODO
+              label={`Overall Rank`}
+            />
+          </div>
+        );
+      }
+
       function PrimaryStats(props) {
         return (
           <div className="primary-stats section">
